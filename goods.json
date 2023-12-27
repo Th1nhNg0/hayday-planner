@@ -967,7 +967,7 @@
     "Name": "Fish fillet",
     "Level": "27",
     "Max. price": "54",
-    "Time": 0,
+    "Time": 72000,
     "XP": "4-20",
     "Needs": [
       {
