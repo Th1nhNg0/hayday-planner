@@ -1,0 +1,7288 @@
+[
+  {
+    "image": "images/wheat.png",
+    "Name": "Wheat",
+    "Level": "1",
+    "Max. price": "3",
+    "Time": 120,
+    "XP": "1",
+    "Needs": [
+      {
+        "Wheat": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "50-101"
+  },
+  {
+    "image": "images/egg.png",
+    "Name": "Egg",
+    "Level": "1",
+    "Max. price": "18",
+    "Time": 1200,
+    "XP": "2",
+    "Needs": [
+      {
+        "Chicken feed": 1
+      }
+    ],
+    "Source": "Chicken",
+    "Per boat crate": "15-24"
+  },
+  {
+    "image": "images/corn.png",
+    "Name": "Corn",
+    "Level": "2",
+    "Max. price": "7",
+    "Time": 300,
+    "XP": "1",
+    "Needs": [
+      {
+        "Corn": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "50-87"
+  },
+  {
+    "image": "images/bread.png",
+    "Name": "Bread",
+    "Level": "2",
+    "Max. price": "21",
+    "Time": 300,
+    "XP": "3",
+    "Needs": [
+      {
+        "Wheat": 3
+      }
+    ],
+    "Source": "Bakery",
+    "Per boat crate": "14-26"
+  },
+  {
+    "image": "images/chicken-feed.png",
+    "Name": "Chicken feed",
+    "Level": "3",
+    "Max. price": "7",
+    "Time": 300,
+    "XP": "1",
+    "Needs": [
+      {
+        "Corn": 1
+      },
+      {
+        "Wheat": 2
+      }
+    ],
+    "Source": "Feed Mill",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/soybean.png",
+    "Name": "Soybean",
+    "Level": "5",
+    "Max. price": "10",
+    "Time": 1200,
+    "XP": "2",
+    "Needs": [
+      {
+        "Soybean": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "24-48"
+  },
+  {
+    "image": "images/cow-feed.png",
+    "Name": "Cow feed",
+    "Level": "6",
+    "Max. price": "14",
+    "Time": 600,
+    "XP": "2",
+    "Needs": [
+      {
+        "Corn": 1
+      },
+      {
+        "Soybean": 2
+      }
+    ],
+    "Source": "Feed Mill",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/milk.png",
+    "Name": "Milk",
+    "Level": "6",
+    "Max. price": "32",
+    "Time": 3600,
+    "XP": "3",
+    "Needs": [
+      {
+        "Cow feed": 1
+      }
+    ],
+    "Source": "Cow",
+    "Per boat crate": "8-16"
+  },
+  {
+    "image": "images/cream.png",
+    "Name": "Cream",
+    "Level": "6",
+    "Max. price": "50",
+    "Time": 1200,
+    "XP": "6",
+    "Needs": [
+      {
+        "Milk": 1
+      }
+    ],
+    "Source": "Dairy",
+    "Per boat crate": "8-12"
+  },
+  {
+    "image": "images/sugarcane.png",
+    "Name": "Sugarcane",
+    "Level": "7",
+    "Max. price": "14",
+    "Time": 1800,
+    "XP": "3",
+    "Needs": [
+      {
+        "Sugarcane": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "14-31"
+  },
+  {
+    "image": "images/corn-bread.png",
+    "Name": "Corn bread",
+    "Level": "7",
+    "Max. price": "72",
+    "Time": 1800,
+    "XP": "8",
+    "Needs": [
+      {
+        "Corn": 2
+      },
+      {
+        "Egg": 2
+      }
+    ],
+    "Source": "Bakery",
+    "Per boat crate": "4-8"
+  },
+  {
+    "image": "images/brown-sugar.png",
+    "Name": "Brown sugar",
+    "Level": "7",
+    "Max. price": "32",
+    "Time": 1200,
+    "XP": "4",
+    "Needs": [
+      {
+        "Sugarcane": 1
+      }
+    ],
+    "Source": "Sugar Mill",
+    "Per boat crate": "8-13"
+  },
+  {
+    "image": "images/popcorn.png",
+    "Name": "Popcorn",
+    "Level": "8",
+    "Max. price": "32",
+    "Time": 1800,
+    "XP": "4",
+    "Needs": [
+      {
+        "Corn": 2
+      }
+    ],
+    "Source": "Popcorn Pot",
+    "Per boat crate": "10-19"
+  },
+  {
+    "image": "images/carrot.png",
+    "Name": "Carrot",
+    "Level": "9",
+    "Max. price": "7",
+    "Time": 600,
+    "XP": "2",
+    "Needs": [
+      {
+        "Carrot": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "30-49"
+  },
+  {
+    "image": "images/butter.png",
+    "Name": "Butter",
+    "Level": "9",
+    "Max. price": "82",
+    "Time": 1800,
+    "XP": "10",
+    "Needs": [
+      {
+        "Milk": 2
+      }
+    ],
+    "Source": "Dairy",
+    "Per boat crate": "4-7"
+  },
+  {
+    "image": "images/pancake.png",
+    "Name": "Pancake",
+    "Level": "9",
+    "Max. price": "108",
+    "Time": 1800,
+    "XP": "13",
+    "Needs": [
+      {
+        "Brown sugar": 1
+      },
+      {
+        "Egg": 3
+      }
+    ],
+    "Source": "BBQ Grill",
+    "Per boat crate": "3-4"
+  },
+  {
+    "image": "images/pig-feed.png",
+    "Name": "Pig feed",
+    "Level": "10",
+    "Max. price": "14",
+    "Time": 1200,
+    "XP": "2",
+    "Needs": [
+      {
+        "Carrot": 2
+      },
+      {
+        "Soybean": 1
+      }
+    ],
+    "Source": "Feed Mill",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/bacon.png",
+    "Name": "Bacon",
+    "Level": "10",
+    "Max. price": "50",
+    "Time": 14400,
+    "XP": "5",
+    "Needs": [
+      {
+        "Pig feed": 1
+      }
+    ],
+    "Source": "Pig",
+    "Per boat crate": "4-9"
+  },
+  {
+    "image": "images/cookie.png",
+    "Name": "Cookie",
+    "Level": "10",
+    "Max. price": "104",
+    "Time": 3600,
+    "XP": "13",
+    "Needs": [
+      {
+        "Brown sugar": 1
+      },
+      {
+        "Egg": 2
+      },
+      {
+        "Wheat": 2
+      }
+    ],
+    "Source": "Bakery",
+    "Per boat crate": "2-5"
+  },
+  {
+    "image": "images/bacon-and-eggs.png",
+    "Name": "Bacon and eggs",
+    "Level": "11",
+    "Max. price": "201",
+    "Time": 3600,
+    "XP": "24",
+    "Needs": [
+      {
+        "Bacon": 2
+      },
+      {
+        "Egg": 4
+      }
+    ],
+    "Source": "BBQ Grill",
+    "Per boat crate": "2-4"
+  },
+  {
+    "image": "images/cheese.png",
+    "Name": "Cheese",
+    "Level": "12",
+    "Max. price": "122",
+    "Time": 3600,
+    "XP": "15",
+    "Needs": [
+      {
+        "Milk": 3
+      }
+    ],
+    "Source": "Dairy",
+    "Per boat crate": "3-5"
+  },
+  {
+    "image": "images/indigo.png",
+    "Name": "Indigo",
+    "Level": "13",
+    "Max. price": "25",
+    "Time": 7200,
+    "XP": "5",
+    "Needs": [
+      {
+        "Indigo": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "8-19"
+  },
+  {
+    "image": "images/white-sugar.png",
+    "Name": "White sugar",
+    "Level": "13",
+    "Max. price": "50",
+    "Time": 2400,
+    "XP": "6",
+    "Needs": [
+      {
+        "Sugarcane": 2
+      }
+    ],
+    "Source": "Sugar Mill",
+    "Per boat crate": "4-13"
+  },
+  {
+    "image": "images/carrot-pie.png",
+    "Name": "Carrot pie",
+    "Level": "14",
+    "Max. price": "82",
+    "Time": 3600,
+    "XP": "10",
+    "Needs": [
+      {
+        "Carrot": 3
+      },
+      {
+        "Egg": 1
+      },
+      {
+        "Wheat": 2
+      }
+    ],
+    "Source": "Pie Oven",
+    "Per boat crate": "4-7"
+  },
+  {
+    "image": "images/pumpkin.png",
+    "Name": "Pumpkin",
+    "Level": "15",
+    "Max. price": "32",
+    "Time": 10800,
+    "XP": "6",
+    "Needs": [
+      {
+        "Pumpkin": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "9-16"
+  },
+  {
+    "image": "images/pumpkin-pie.png",
+    "Name": "Pumpkin pie",
+    "Level": "15",
+    "Max. price": "158",
+    "Time": 7200,
+    "XP": "19",
+    "Needs": [
+      {
+        "Egg": 1
+      },
+      {
+        "Pumpkin": 3
+      },
+      {
+        "Wheat": 2
+      }
+    ],
+    "Source": "Pie Oven",
+    "Per boat crate": "3-4"
+  },
+  {
+    "image": "images/apple.png",
+    "Name": "Apple",
+    "Level": "15",
+    "Max. price": "39",
+    "Time": 57600,
+    "XP": "7",
+    "Needs": [],
+    "Source": "Apple tree",
+    "Per boat crate": "8-14"
+  },
+  {
+    "image": "images/sheep-feed.png",
+    "Name": "Sheep feed",
+    "Level": "16",
+    "Max. price": "14",
+    "Time": 1800,
+    "XP": "3",
+    "Needs": [
+      {
+        "Soybean": 1
+      },
+      {
+        "Wheat": 3
+      }
+    ],
+    "Source": "Feed Mill",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/wool.png",
+    "Name": "Wool",
+    "Level": "16",
+    "Max. price": "54",
+    "Time": 21600,
+    "XP": "5",
+    "Needs": [
+      {
+        "Sheep feed": 1
+      }
+    ],
+    "Source": "Sheep",
+    "Per boat crate": "5-9"
+  },
+  {
+    "image": "images/buttered-popcorn.png",
+    "Name": "Buttered popcorn",
+    "Level": "16",
+    "Max. price": "126",
+    "Time": 3600,
+    "XP": "15",
+    "Needs": [
+      {
+        "Butter": 1
+      },
+      {
+        "Corn": 2
+      }
+    ],
+    "Source": "Popcorn Pot",
+    "Per boat crate": "2-5"
+  },
+  {
+    "image": "images/sweater.png",
+    "Name": "Sweater",
+    "Level": "17",
+    "Max. price": "151",
+    "Time": 7200,
+    "XP": "18",
+    "Needs": [
+      {
+        "Wool": 2
+      }
+    ],
+    "Source": "Loom",
+    "Per boat crate": "3-4"
+  },
+  {
+    "image": "images/cotton.png",
+    "Name": "Cotton",
+    "Level": "18",
+    "Max. price": "28",
+    "Time": 9000,
+    "XP": "6",
+    "Needs": [
+      {
+        "Cotton": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "10-16"
+  },
+  {
+    "image": "images/bacon-pie.png",
+    "Name": "Bacon pie",
+    "Level": "18",
+    "Max. price": "219",
+    "Time": 10800,
+    "XP": "26",
+    "Needs": [
+      {
+        "Bacon": 3
+      },
+      {
+        "Egg": 1
+      },
+      {
+        "Wheat": 2
+      }
+    ],
+    "Source": "Pie Oven",
+    "Per boat crate": "1-3"
+  },
+  {
+    "image": "images/syrup.png",
+    "Name": "Syrup",
+    "Level": "18",
+    "Max. price": "90",
+    "Time": 5400,
+    "XP": "11",
+    "Needs": [
+      {
+        "Sugarcane": 4
+      }
+    ],
+    "Source": "Sugar Mill",
+    "Per boat crate": "2-4"
+  },
+  {
+    "image": "images/cotton-fabric.png",
+    "Name": "Cotton fabric",
+    "Level": "18",
+    "Max. price": "108",
+    "Time": 1800,
+    "XP": "13",
+    "Needs": [
+      {
+        "Cotton": 3
+      }
+    ],
+    "Source": "Loom",
+    "Per boat crate": "3-5"
+  },
+  {
+    "image": "images/hamburger.png",
+    "Name": "Hamburger",
+    "Level": "18",
+    "Max. price": "180",
+    "Time": 7200,
+    "XP": "22",
+    "Needs": [
+      {
+        "Bacon": 2
+      },
+      {
+        "Bread": 2
+      }
+    ],
+    "Source": "BBQ Grill",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/raspberry.png",
+    "Name": "Raspberry",
+    "Level": "19",
+    "Max. price": "46",
+    "Time": 64800,
+    "XP": "9",
+    "Needs": [],
+    "Source": "Raspberry bush",
+    "Per boat crate": "6-11"
+  },
+  {
+    "image": "images/raspberry-muffin.png",
+    "Name": "Raspberry muffin",
+    "Level": "19",
+    "Max. price": "140",
+    "Time": 2700,
+    "XP": "17",
+    "Needs": [
+      {
+        "Egg": 1
+      },
+      {
+        "Raspberry": 2
+      },
+      {
+        "Wheat": 2
+      }
+    ],
+    "Source": "Bakery",
+    "Per boat crate": "2-4"
+  },
+  {
+    "image": "images/blue-woolly-hat.png",
+    "Name": "Blue woolly hat",
+    "Level": "19",
+    "Max. price": "111",
+    "Time": 3600,
+    "XP": "13",
+    "Needs": [
+      {
+        "Indigo": 1
+      },
+      {
+        "Wool": 1
+      }
+    ],
+    "Source": "Loom",
+    "Per boat crate": "3-5"
+  },
+  {
+    "image": "images/cotton-shirt.png",
+    "Name": "Cotton shirt",
+    "Level": "19",
+    "Max. price": "241",
+    "Time": 2700,
+    "XP": "29",
+    "Needs": [
+      {
+        "Cotton fabric": 2
+      }
+    ],
+    "Source": "Sewing Machine",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/blue-sweater.png",
+    "Name": "Blue sweater",
+    "Level": "20",
+    "Max. price": "208",
+    "Time": 10800,
+    "XP": "25",
+    "Needs": [
+      {
+        "Indigo": 2
+      },
+      {
+        "Wool": 2
+      }
+    ],
+    "Source": "Loom",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/carrot-cake.png",
+    "Name": "Carrot cake",
+    "Level": "21",
+    "Max. price": "165",
+    "Time": 5400,
+    "XP": "20",
+    "Needs": [
+      {
+        "Brown sugar": 1
+      },
+      {
+        "Butter": 1
+      },
+      {
+        "Carrot": 2
+      }
+    ],
+    "Source": "Cake Oven",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/wooly-chaps.png",
+    "Name": "Wooly chaps",
+    "Level": "21",
+    "Max. price": "309",
+    "Time": 5400,
+    "XP": "37",
+    "Needs": [
+      {
+        "Cotton fabric": 1
+      },
+      {
+        "Wool": 3
+      }
+    ],
+    "Source": "Sewing Machine",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/cherry.png",
+    "Name": "Cherry",
+    "Level": "22",
+    "Max. price": "68",
+    "Time": 97200,
+    "XP": "13",
+    "Needs": [],
+    "Source": "Cherry tree",
+    "Per boat crate": "4-7"
+  },
+  {
+    "image": "images/cream-cake.png",
+    "Name": "Cream cake",
+    "Level": "23",
+    "Max. price": "219",
+    "Time": 10800,
+    "XP": "26",
+    "Needs": [
+      {
+        "Cream": 1
+      },
+      {
+        "White sugar": 1
+      },
+      {
+        "Wheat": 5
+      }
+    ],
+    "Source": "Cake Oven",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/red-berry-cake.png",
+    "Name": "Red berry cake",
+    "Level": "23",
+    "Max. price": "255",
+    "Time": 3600,
+    "XP": "31",
+    "Needs": [
+      {
+        "Cherry": 2
+      },
+      {
+        "Egg": 1
+      },
+      {
+        "Milk": 1
+      },
+      {
+        "Raspberry": 1
+      }
+    ],
+    "Source": "Cake Oven",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/cheesecake.png",
+    "Name": "Cheesecake",
+    "Level": "24",
+    "Max. price": "284",
+    "Time": 14400,
+    "XP": "34",
+    "Needs": [
+      {
+        "Cheese": 1
+      },
+      {
+        "Cookie": 1
+      }
+    ],
+    "Source": "Cake Oven",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/silver-ore.png",
+    "Name": "Silver ore",
+    "Level": "24",
+    "Max. price": "18",
+    "Time": 0,
+    "XP": "5",
+    "Needs": [],
+    "Source": "Mine",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/gold-ore.png",
+    "Name": "Gold ore",
+    "Level": "24",
+    "Max. price": "21",
+    "Time": 0,
+    "XP": "6",
+    "Needs": [],
+    "Source": "Mine",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/platinum-ore.png",
+    "Name": "Platinum ore",
+    "Level": "24",
+    "Max. price": "32",
+    "Time": 0,
+    "XP": "7",
+    "Needs": [],
+    "Source": "Mine",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/silver-bar.png",
+    "Name": "Silver bar",
+    "Level": "24",
+    "Max. price": "147",
+    "Time": 28800,
+    "XP": "18",
+    "Needs": [
+      {
+        "Silver ore": 3
+      }
+    ],
+    "Source": "Smelter",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/chili-pepper.png",
+    "Name": "Chili pepper",
+    "Level": "25",
+    "Max. price": "36",
+    "Time": 14400,
+    "XP": "7",
+    "Needs": [
+      {
+        "Chili pepper": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "3-5"
+  },
+  {
+    "image": "images/chili-popcorn.png",
+    "Name": "Chili popcorn",
+    "Level": "25",
+    "Max. price": "122",
+    "Time": 7200,
+    "XP": "15",
+    "Needs": [
+      {
+        "Chili pepper": 2
+      },
+      {
+        "Corn": 2
+      }
+    ],
+    "Source": "Popcorn Pot",
+    "Per boat crate": "3-5"
+  },
+  {
+    "image": "images/gold-bar.png",
+    "Name": "Gold bar",
+    "Level": "25",
+    "Max. price": "180",
+    "Time": 43200,
+    "XP": "21",
+    "Needs": [
+      {
+        "Gold ore": 3
+      }
+    ],
+    "Source": "Smelter",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/platinum-bar.png",
+    "Name": "Platinum bar",
+    "Level": "25",
+    "Max. price": "205",
+    "Time": 57600,
+    "XP": "24",
+    "Needs": [
+      {
+        "Platinum ore": 3
+      }
+    ],
+    "Source": "Smelter",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/violet-dress.png",
+    "Name": "Violet dress",
+    "Level": "25",
+    "Max. price": "327",
+    "Time": 8100,
+    "XP": "39",
+    "Needs": [
+      {
+        "Cotton fabric": 2
+      },
+      {
+        "Indigo": 1
+      },
+      {
+        "Raspberry": 1
+      }
+    ],
+    "Source": "Sewing Machine",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/blackberry.png",
+    "Name": "Blackberry",
+    "Level": "26",
+    "Max. price": "82",
+    "Time": 115200,
+    "XP": "16",
+    "Needs": [],
+    "Source": "Blackberry bush",
+    "Per boat crate": "4-6"
+  },
+  {
+    "image": "images/blackberry-muffin.png",
+    "Name": "Blackberry muffin",
+    "Level": "26",
+    "Max. price": "226",
+    "Time": 2700,
+    "XP": "27",
+    "Needs": [
+      {
+        "Blackberry": 2
+      },
+      {
+        "Egg": 2
+      },
+      {
+        "Wheat": 1
+      }
+    ],
+    "Source": "Bakery",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/carrot-juice.png",
+    "Name": "Carrot juice",
+    "Level": "26",
+    "Max. price": "46",
+    "Time": 1800,
+    "XP": "6",
+    "Needs": [
+      {
+        "Carrot": 3
+      }
+    ],
+    "Source": "Juice Press",
+    "Per boat crate": "6-11"
+  },
+
+  {
+    "image": "images/fish-fillet.png",
+    "Name": "Fish fillet",
+    "Level": "27",
+    "Max. price": "54",
+    "Time": 0,
+    "XP": "4-20",
+    "Needs": [
+      {
+        "Fishing net": 1
+      }
+    ],
+    "Source": "Fish",
+    "Per boat crate": "6-9"
+  },
+  {
+    "image": "images/fish-burger.png",
+    "Name": "Fish burger",
+    "Level": "27",
+    "Max. price": "226",
+    "Time": 7200,
+    "XP": "27",
+    "Needs": [
+      {
+        "Bread": 2
+      },
+      {
+        "Chili pepper": 1
+      },
+      {
+        "Fish fillet": 2
+      }
+    ],
+    "Source": "BBQ Grill",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/apple-pie.png",
+    "Name": "Apple pie",
+    "Level": "28",
+    "Max. price": "270",
+    "Time": 9000,
+    "XP": "32",
+    "Needs": [
+      {
+        "Apple": 3
+      },
+      {
+        "Egg": 1
+      },
+      {
+        "Syrup": 1
+      },
+      {
+        "Wheat": 2
+      }
+    ],
+    "Source": "Pie Oven",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/fish-pie.png",
+    "Name": "Fish pie",
+    "Level": "28",
+    "Max. price": "226",
+    "Time": 7200,
+    "XP": "27",
+    "Needs": [
+      {
+        "Egg": 1
+      },
+      {
+        "Fish fillet": 3
+      },
+      {
+        "Wheat": 2
+      }
+    ],
+    "Source": "Pie Oven",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/apple-juice.png",
+    "Name": "Apple juice",
+    "Level": "28",
+    "Max. price": "129",
+    "Time": 7200,
+    "XP": "15",
+    "Needs": [
+      {
+        "Apple": 2
+      }
+    ],
+    "Source": "Juice Press",
+    "Per boat crate": "3-7"
+  },
+  {
+    "image": "images/vanilla-ice-cream.png",
+    "Name": "Vanilla ice cream",
+    "Level": "29",
+    "Max. price": "172",
+    "Time": 7200,
+    "XP": "20",
+    "Needs": [
+      {
+        "Cream": 1
+      },
+      {
+        "Milk": 1
+      },
+      {
+        "White sugar": 1
+      }
+    ],
+    "Source": "Ice Cream Maker",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/tomato.png",
+    "Name": "Tomato",
+    "Level": "30",
+    "Max. price": "43",
+    "Time": 21600,
+    "XP": "8",
+    "Needs": [
+      {
+        "Tomato": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "6-12"
+  },
+  {
+    "image": "images/roasted-tomatoes.png",
+    "Name": "Roasted tomatoes",
+    "Level": "30",
+    "Max. price": "118",
+    "Time": 5400,
+    "XP": "14",
+    "Needs": [
+      {
+        "Tomato": 2
+      }
+    ],
+    "Source": "BBQ Grill",
+    "Per boat crate": "3-5"
+  },
+  {
+    "image": "images/cherry-juice.png",
+    "Name": "Cherry juice",
+    "Level": "30",
+    "Max. price": "216",
+    "Time": 9000,
+    "XP": "26",
+    "Needs": [
+      {
+        "Cherry": 2
+      }
+    ],
+    "Source": "Juice Press",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/fishing-net.png",
+    "Name": "Fishing net",
+    "Level": "30",
+    "Max. price": "0",
+    "Time": 14400,
+    "XP": "7",
+    "Needs": [],
+    "Source": "Net Maker",
+    "Per boat crate": "N/A"
+  },
+
+  {
+    "image": "images/tomato-juice.png",
+    "Name": "Tomato juice",
+    "Level": "31",
+    "Max. price": "162",
+    "Time": 5400,
+    "XP": "19",
+    "Needs": [
+      {
+        "Tomato": 3
+      }
+    ],
+    "Source": "Juice Press",
+    "Per boat crate": "2-4"
+  },
+  {
+    "image": "images/berry-juice.png",
+    "Name": "Berry juice",
+    "Level": "31",
+    "Max. price": "205",
+    "Time": 10800,
+    "XP": "24",
+    "Needs": [
+      {
+        "Blackberry": 1
+      },
+      {
+        "Raspberry": 1
+      }
+    ],
+    "Source": "Juice Press",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/goat-feed.png",
+    "Name": "Goat Feed",
+    "Level": "32",
+    "Max. price": "14",
+    "Time": 2400,
+    "XP": "3",
+    "Needs": [
+      {
+        "Carrot": 2
+      },
+      {
+        "Corn": 1
+      },
+      {
+        "Wheat": 1
+      }
+    ],
+    "Source": "Feed Mill",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/goat-milk.png",
+    "Name": "Goat milk",
+    "Level": "32",
+    "Max. price": "64",
+    "Time": 28800,
+    "XP": "6",
+    "Needs": [
+      {
+        "Goat Feed": 1
+      }
+    ],
+    "Source": "Goat",
+    "Per boat crate": "5-8"
+  },
+  {
+    "image": "images/goat-cheese.png",
+    "Name": "Goat cheese",
+    "Level": "33",
+    "Max. price": "162",
+    "Time": 5400,
+    "XP": "19",
+    "Needs": [
+      {
+        "Goat milk": 2
+      }
+    ],
+    "Source": "Dairy",
+    "Per boat crate": "2-5"
+  },
+  {
+    "image": "images/pizza.png",
+    "Name": "Pizza",
+    "Level": "33",
+    "Max. price": "190",
+    "Time": 900,
+    "XP": "23",
+    "Needs": [
+      {
+        "Cheese": 1
+      },
+      {
+        "Tomato": 1
+      },
+      {
+        "Wheat": 2
+      }
+    ],
+    "Source": "Bakery",
+    "Per boat crate": "2-4"
+  },
+  {
+    "image": "images/coal.png",
+    "Name": "Coal",
+    "Level": "33",
+    "Max. price": "10",
+    "Time": 0,
+    "XP": "3",
+    "Needs": [],
+    "Source": "Mine",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/refined-coal.png",
+    "Name": "Refined coal",
+    "Level": "33",
+    "Max. price": "108",
+    "Time": 21600,
+    "XP": "13",
+    "Needs": [
+      {
+        "Coal": 3
+      }
+    ],
+    "Source": "Smelter",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/cherry-popsicle.png",
+    "Name": "Cherry popsicle",
+    "Level": "33",
+    "Max. price": "352",
+    "Time": 10800,
+    "XP": "42",
+    "Needs": [
+      {
+        "Cherry juice": 1
+      },
+      {
+        "Syrup": 1
+      }
+    ],
+    "Source": "Ice Cream Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/strawberry.png",
+    "Name": "Strawberry",
+    "Level": "34",
+    "Max. price": "50",
+    "Time": 28800,
+    "XP": "10",
+    "Needs": [
+      {
+        "Strawberry": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "3-10"
+  },
+  {
+    "image": "images/feta-pie.png",
+    "Name": "Feta pie",
+    "Level": "34",
+    "Max. price": "223",
+    "Time": 5400,
+    "XP": "26",
+    "Needs": [
+      {
+        "Egg": 1
+      },
+      {
+        "Goat cheese": 1
+      },
+      {
+        "Wheat": 2
+      }
+    ],
+    "Source": "Pie Oven",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/iron-ore.png",
+    "Name": "Iron ore",
+    "Level": "34",
+    "Max. price": "14",
+    "Time": 0,
+    "XP": "4",
+    "Needs": [],
+    "Source": "Mine",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/iron-bar.png",
+    "Name": "Iron bar",
+    "Level": "34",
+    "Max. price": "129",
+    "Time": 25200,
+    "XP": "15",
+    "Needs": [
+      {
+        "Iron ore": 3
+      }
+    ],
+    "Source": "Smelter",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/strawberry-ice-cream.png",
+    "Name": "Strawberry ice cream",
+    "Level": "34",
+    "Max. price": "331",
+    "Time": 14400,
+    "XP": "40",
+    "Needs": [
+      {
+        "Cream": 1
+      },
+      {
+        "Milk": 1
+      },
+      {
+        "Strawberry": 3
+      },
+      {
+        "White sugar": 1
+      }
+    ],
+    "Source": "Ice Cream Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/wheat-bundle.png",
+    "Name": "Wheat bundle",
+    "Level": "34 (Rep. 3)",
+    "Max. price": "50",
+    "Time": 5400,
+    "XP": "10",
+    "Needs": [
+      {
+        "Wheat": 75
+      }
+    ],
+    "Source": "Feed Mill",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/meat-bucket.png",
+    "Name": "Meat bucket",
+    "Level": "34 (Rep. 3)",
+    "Max. price": "72",
+    "Time": 2700,
+    "XP": "15",
+    "Needs": [
+      {
+        "Fish Fillet": 3
+      },
+      {
+        "Carrot": 5
+      }
+    ],
+    "Source": "Feed Mill",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/potato.png",
+    "Name": "Potato",
+    "Level": "35",
+    "Max. price": "36",
+    "Time": 13200,
+    "XP": "7",
+    "Needs": [
+      {
+        "Potato": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "6-14"
+  },
+  {
+    "image": "images/strawberry-cake.png",
+    "Name": "Strawberry cake",
+    "Level": "35",
+    "Max. price": "316",
+    "Time": 10800,
+    "XP": "38",
+    "Needs": [
+      {
+        "Cream": 1
+      },
+      {
+        "Strawberry": 2
+      },
+      {
+        "Wheat": 3
+      },
+      {
+        "White sugar": 1
+      }
+    ],
+    "Source": "Cake Oven",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/baked-potato.png",
+    "Name": "Baked potato",
+    "Level": "35",
+    "Max. price": "298",
+    "Time": 2100,
+    "XP": "36",
+    "Needs": [
+      {
+        "Cheese": 1
+      },
+      {
+        "Chili pepper": 1
+      },
+      {
+        "Cream": 1
+      },
+      {
+        "Potato": 2
+      }
+    ],
+    "Source": "BBQ Grill",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/apple-jam.png",
+    "Name": "Apple jam",
+    "Level": "35",
+    "Max. price": "219",
+    "Time": 21600,
+    "XP": "26",
+    "Needs": [
+      {
+        "Apple": 3
+      }
+    ],
+    "Source": "Jam Maker",
+    "Per boat crate": "2-4"
+  },
+  {
+    "image": "images/chocolate-cake.png",
+    "Name": "Chocolate cake",
+    "Level": "36",
+    "Max. price": "320",
+    "Time": 7200,
+    "XP": "38",
+    "Needs": [
+      {
+        "Brown sugar": 1
+      },
+      {
+        "Butter": 1
+      },
+      {
+        "Cacao": 2
+      }
+    ],
+    "Source": "Cake Oven",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/casserole.png",
+    "Name": "Casserole",
+    "Level": "36",
+    "Max. price": "367",
+    "Time": 7200,
+    "XP": "44",
+    "Needs": [
+      {
+        "Bacon": 2
+      },
+      {
+        "Cheese": 1
+      },
+      {
+        "Egg": 2
+      },
+      {
+        "Potato": 2
+      }
+    ],
+    "Source": "Pie Oven",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/cacao.png",
+    "Name": "Cacao",
+    "Level": "36",
+    "Max. price": "86",
+    "Time": 122400,
+    "XP": "16",
+    "Needs": [],
+    "Source": "Cacao tree",
+    "Per boat crate": "4-6"
+  },
+  {
+    "image": "images/raspberry-jam.png",
+    "Name": "Raspberry jam",
+    "Level": "36",
+    "Max. price": "252",
+    "Time": 25200,
+    "XP": "30",
+    "Needs": [
+      {
+        "Raspberry": 3
+      }
+    ],
+    "Source": "Jam Maker",
+    "Per boat crate": "1-3"
+  },
+  {
+    "image": "images/spicy-pizza.png",
+    "Name": "Spicy pizza",
+    "Level": "37",
+    "Max. price": "226",
+    "Time": 900,
+    "XP": "27",
+    "Needs": [
+      {
+        "Cheese": 1
+      },
+      {
+        "Chili pepper": 1
+      },
+      {
+        "Tomato": 1
+      },
+      {
+        "Wheat": 2
+      }
+    ],
+    "Source": "Bakery",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/blackberry-jam.png",
+    "Name": "Blackberry jam",
+    "Level": "37",
+    "Max. price": "388",
+    "Time": 28800,
+    "XP": "46",
+    "Needs": [
+      {
+        "Blackberry": 3
+      }
+    ],
+    "Source": "Jam Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/potato-feta-cake.png",
+    "Name": "Potato feta cake",
+    "Level": "38",
+    "Max. price": "309",
+    "Time": 7200,
+    "XP": "37",
+    "Needs": [
+      {
+        "Egg": 4
+      },
+      {
+        "Goat cheese": 1
+      },
+      {
+        "Potato": 1
+      }
+    ],
+    "Source": "Cake Oven",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/cherry-jam.png",
+    "Name": "Cherry jam",
+    "Level": "38",
+    "Max. price": "334",
+    "Time": 25200,
+    "XP": "40",
+    "Needs": [
+      {
+        "Cherry": 3
+      }
+    ],
+    "Source": "Jam Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/bracelet.png",
+    "Name": "Bracelet",
+    "Level": "38",
+    "Max. price": "514",
+    "Time": 7200,
+    "XP": "61",
+    "Needs": [
+      {
+        "Gold bar": 1
+      },
+      {
+        "Silver bar": 2
+      }
+    ],
+    "Source": "Jeweler",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/potato-bread.png",
+    "Name": "Potato bread",
+    "Level": "39",
+    "Max. price": "284",
+    "Time": 2700,
+    "XP": "34",
+    "Needs": [
+      {
+        "Butter": 1
+      },
+      {
+        "Egg": 3
+      },
+      {
+        "Potato": 2
+      },
+      {
+        "White sugar": 1
+      }
+    ],
+    "Source": "Bakery",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/shepherd-s-pie.png",
+    "Name": "Shepherd's pie",
+    "Level": "39",
+    "Max. price": "280",
+    "Time": 6000,
+    "XP": "34",
+    "Needs": [
+      {
+        "Bacon": 2
+      },
+      {
+        "Carrot": 2
+      },
+      {
+        "Potato": 2
+      },
+      {
+        "Pumpkin": 2
+      }
+    ],
+    "Source": "Pie Oven",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/chocolate-ice-cream.png",
+    "Name": "Chocolate ice cream",
+    "Level": "39",
+    "Max. price": "342",
+    "Time": 9000,
+    "XP": "41",
+    "Needs": [
+      {
+        "Cream": 1
+      },
+      {
+        "Cacao": 2
+      },
+      {
+        "Milk": 1
+      },
+      {
+        "White sugar": 1
+      }
+    ],
+    "Source": "Ice Cream Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/honeycomb.png",
+    "Name": "Honeycomb",
+    "Level": "39",
+    "Max. price": "68",
+    "Time": 0,
+    "XP": "8",
+    "Needs": [],
+    "Source": "Beehive tree",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/necklace.png",
+    "Name": "Necklace",
+    "Level": "39",
+    "Max. price": "727",
+    "Time": 10800,
+    "XP": "87",
+    "Needs": [
+      {
+        "Gold bar": 1
+      },
+      {
+        "Platinum bar": 1
+      },
+      {
+        "Silver bar": 2
+      }
+    ],
+    "Source": "Jeweler",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/honey.png",
+    "Name": "Honey",
+    "Level": "39",
+    "Max. price": "154",
+    "Time": 1200,
+    "XP": "19",
+    "Needs": [
+      {
+        "Honeycomb": 2
+      }
+    ],
+    "Source": "Honey Extractor",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/honey-popcorn.png",
+    "Name": "Honey popcorn",
+    "Level": "40",
+    "Max. price": "360",
+    "Time": 5400,
+    "XP": "43",
+    "Needs": [
+      {
+        "Corn": 2
+      },
+      {
+        "Honey": 2
+      }
+    ],
+    "Source": "Popcorn Pot",
+    "Per boat crate": "3-5"
+  },
+  {
+    "image": "images/diamond-ring.png",
+    "Name": "Diamond ring",
+    "Level": "40",
+    "Max. price": "824",
+    "Time": 14400,
+    "XP": "98",
+    "Needs": [
+      {
+        "Diamond": 1
+      },
+      {
+        "Gold bar": 2
+      },
+      {
+        "Platinum bar": 2
+      }
+    ],
+    "Source": "Jeweler",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/fish-and-chips.png",
+    "Name": "Fish and chips",
+    "Level": "41",
+    "Max. price": "244",
+    "Time": 5400,
+    "XP": "29",
+    "Needs": [
+      {
+        "Fish fillet": 2
+      },
+      {
+        "Potato": 3
+      }
+    ],
+    "Source": "BBQ Grill",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/iron-bracelet.png",
+    "Name": "Iron bracelet",
+    "Level": "41",
+    "Max. price": "658",
+    "Time": 5400,
+    "XP": "79",
+    "Needs": [
+      {
+        "Iron bar": 2
+      },
+      {
+        "Refined coal": 2
+      },
+      {
+        "Silver bar": 1
+      }
+    ],
+    "Source": "Jeweler",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/coffee-bean.png",
+    "Name": "Coffee bean",
+    "Level": "42",
+    "Max. price": "64",
+    "Time": 90000,
+    "XP": "12",
+    "Needs": [],
+    "Source": "Coffee bush",
+    "Per boat crate": "4-8"
+  },
+  {
+    "image": "images/espresso.png",
+    "Name": "Espresso",
+    "Level": "42",
+    "Max. price": "248",
+    "Time": 300,
+    "XP": "29",
+    "Needs": [
+      {
+        "Coffee bean": 3
+      },
+      {
+        "White sugar": 1
+      }
+    ],
+    "Source": "Coffee Kiosk",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/honey-apple-cake.png",
+    "Name": "Honey apple cake",
+    "Level": "42",
+    "Max. price": "482",
+    "Time": 12000,
+    "XP": "57",
+    "Needs": [
+      {
+        "Apple": 2
+      },
+      {
+        "Egg": 2
+      },
+      {
+        "Honey": 2
+      },
+      {
+        "Wheat": 2
+      }
+    ],
+    "Source": "Cake Oven",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/caffe-latte.png",
+    "Name": "Caff\u00e8 latte",
+    "Level": "43",
+    "Max. price": "219",
+    "Time": 600,
+    "XP": "26",
+    "Needs": [
+      {
+        "Coffee bean": 2
+      },
+      {
+        "Milk": 1
+      },
+      {
+        "White sugar": 1
+      }
+    ],
+    "Source": "Coffee Kiosk",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/chocolate-popcorn.png",
+    "Name": "Chocolate popcorn",
+    "Level": "44",
+    "Max. price": "248",
+    "Time": 9000,
+    "XP": "29",
+    "Needs": [
+      {
+        "Cacao": 2
+      },
+      {
+        "Corn": 2
+      }
+    ],
+    "Source": "Popcorn Pot",
+    "Per boat crate": "2-4"
+  },
+  {
+    "image": "images/lobster-trap.png",
+    "Name": "Lobster trap",
+    "Level": "44",
+    "Max. price": "0",
+    "Time": 7200,
+    "XP": "5",
+    "Needs": [],
+    "Source": "Net Maker",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/lobster-tail.png",
+    "Name": "Lobster tail",
+    "Level": "44",
+    "Max. price": "201",
+    "Time": 21600,
+    "XP": "24",
+    "Needs": [],
+    "Source": "Lobster Pool",
+    "Per boat crate": "2-4"
+  },
+  {
+    "image": "images/frutti-di-mare-pizza.png",
+    "Name": "Frutti di Mare pizza",
+    "Level": "45",
+    "Max. price": "403",
+    "Time": 900,
+    "XP": "48",
+    "Needs": [
+      {
+        "Cheese": 1
+      },
+      {
+        "Fish fillet": 1
+      },
+      {
+        "Lobster tail": 1
+      },
+      {
+        "Wheat": 2
+      }
+    ],
+    "Source": "Bakery",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/caffe-mocha.png",
+    "Name": "Caff\u00e8 mocha",
+    "Level": "45",
+    "Max. price": "291",
+    "Time": 900,
+    "XP": "35",
+    "Needs": [
+      {
+        "Coffee bean": 1
+      },
+      {
+        "Cream": 1
+      },
+      {
+        "Cacao": 2
+      }
+    ],
+    "Source": "Coffee Kiosk",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/raspberry-mocha.png",
+    "Name": "Raspberry mocha",
+    "Level": "46",
+    "Max. price": "259",
+    "Time": 1800,
+    "XP": "31",
+    "Needs": [
+      {
+        "Cacao": 1
+      },
+      {
+        "Coffee bean": 1
+      },
+      {
+        "Cream": 1
+      },
+      {
+        "Raspberry": 1
+      }
+    ],
+    "Source": "Coffee Kiosk",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/lobster-soup.png",
+    "Name": "Lobster soup",
+    "Level": "46",
+    "Max. price": "612",
+    "Time": 9000,
+    "XP": "73",
+    "Needs": [
+      {
+        "Chili pepper": 2
+      },
+      {
+        "Cream": 1
+      },
+      {
+        "Lobster tail": 2
+      },
+      {
+        "Tomato": 1
+      }
+    ],
+    "Source": "Soup Kitchen",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/hot-chocolate.png",
+    "Name": "Hot chocolate",
+    "Level": "47",
+    "Max. price": "316",
+    "Time": 1500,
+    "XP": "38",
+    "Needs": [
+      {
+        "Cacao": 2
+      },
+      {
+        "Cream": 1
+      },
+      {
+        "Milk": 1
+      },
+      {
+        "White sugar": 1
+      }
+    ],
+    "Source": "Coffee Kiosk",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/tomato-soup.png",
+    "Name": "Tomato soup",
+    "Level": "47",
+    "Max. price": "478",
+    "Time": 5400,
+    "XP": "57",
+    "Needs": [
+      {
+        "Chili pepper": 1
+      },
+      {
+        "Goat cheese": 1
+      },
+      {
+        "Tomato juice": 1
+      },
+      {
+        "Tomato": 2
+      }
+    ],
+    "Source": "Soup Kitchen",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/red-scarf.png",
+    "Name": "Red scarf",
+    "Level": "48",
+    "Max. price": "288",
+    "Time": 9000,
+    "XP": "34",
+    "Needs": [
+      {
+        "Strawberry": 2
+      },
+      {
+        "Wool": 2
+      }
+    ],
+    "Source": "Loom",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/lobster-skewer.png",
+    "Name": "Lobster skewer",
+    "Level": "48",
+    "Max. price": "417",
+    "Time": 2400,
+    "XP": "50",
+    "Needs": [
+      {
+        "Chili pepper": 1
+      },
+      {
+        "Honey": 1
+      },
+      {
+        "Lobster tail": 1
+      }
+    ],
+    "Source": "BBQ Grill",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/beeswax.png",
+    "Name": "Beeswax",
+    "Level": "48",
+    "Max. price": "234",
+    "Time": 2700,
+    "XP": "28",
+    "Needs": [
+      {
+        "Honeycomb": 3
+      }
+    ],
+    "Source": "Honey Extractor",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/strawberry-candle.png",
+    "Name": "Strawberry candle",
+    "Level": "48",
+    "Max. price": "370",
+    "Time": 7200,
+    "XP": "44",
+    "Needs": [
+      {
+        "Beeswax": 1
+      },
+      {
+        "Strawberry": 2
+      }
+    ],
+    "Source": "Candle Maker",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/rustic-bouquet.png",
+    "Name": "Rustic bouquet",
+    "Level": "49",
+    "Max. price": "208",
+    "Time": 2700,
+    "XP": "25",
+    "Needs": [
+      {
+        "Wheat": 5
+      },
+      {
+        "Indigo": 3
+      },
+      {
+        "Cotton": 3
+      }
+    ],
+    "Source": "Flower Shop",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/pumpkin-soup.png",
+    "Name": "Pumpkin soup",
+    "Level": "49",
+    "Max. price": "392",
+    "Time": 7200,
+    "XP": "47",
+    "Needs": [
+      {
+        "Butter": 1
+      },
+      {
+        "Carrot": 2
+      },
+      {
+        "Honey": 1
+      },
+      {
+        "Pumpkin": 3
+      }
+    ],
+    "Source": "Soup Kitchen",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/asparagus.png",
+    "Name": "Asparagus",
+    "Level": "49",
+    "Max. price": "43",
+    "Time": 21600,
+    "XP": "8",
+    "Needs": [
+      {
+        "Asparagus": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "6-12"
+  },
+  {
+    "image": "images/asparagus-quiche.png",
+    "Name": "Asparagus quiche",
+    "Level": "49",
+    "Max. price": "302",
+    "Time": 7200,
+    "XP": "36",
+    "Needs": [
+      {
+        "Asparagus": 2
+      },
+      {
+        "Egg": 2
+      },
+      {
+        "Cheese": 1
+      },
+      {
+        "Wheat": 4
+      }
+    ],
+    "Source": "Pie Oven",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/strawberry-jam.png",
+    "Name": "Strawberry jam",
+    "Level": "50",
+    "Max. price": "270",
+    "Time": 27000,
+    "XP": "32",
+    "Needs": [
+      {
+        "Strawberry": 3
+      }
+    ],
+    "Source": "Jam Maker",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/duck-trap.png",
+    "Name": "Duck trap",
+    "Level": "50",
+    "Max. price": "0",
+    "Time": 3600,
+    "XP": "3",
+    "Needs": [],
+    "Source": "Net Maker",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/duck-feather.png",
+    "Name": "Duck feather",
+    "Level": "50",
+    "Max. price": "140",
+    "Time": 10800,
+    "XP": "17",
+    "Needs": [],
+    "Source": "Duck Salon",
+    "Per boat crate": "3-6"
+  },
+  {
+    "image": "images/sesame.png",
+    "Name": "Sesame",
+    "Level": "50",
+    "Max. price": "18",
+    "Time": 3600,
+    "XP": "4",
+    "Needs": [
+      {
+        "Sesame": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "16-25"
+  },
+  {
+    "image": "images/sesame-ice-cream.png",
+    "Name": "Sesame ice cream",
+    "Level": "50",
+    "Max. price": "176",
+    "Time": 7200,
+    "XP": "21",
+    "Needs": [
+      {
+        "Cream": 1
+      },
+      {
+        "Sesame": 3
+      },
+      {
+        "Brown sugar": 1
+      }
+    ],
+    "Source": "Ice Cream Maker",
+    "Per boat crate": "2-5"
+  },
+  {
+    "image": "images/caramel-apple.png",
+    "Name": "Caramel apple",
+    "Level": "51",
+    "Max. price": "255",
+    "Time": 7200,
+    "XP": "31",
+    "Needs": [
+      {
+        "Apple": 1
+      },
+      {
+        "Syrup": 2
+      }
+    ],
+    "Source": "Candy Machine",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/pillow.png",
+    "Name": "Pillow",
+    "Level": "51",
+    "Max. price": "676",
+    "Time": 10800,
+    "XP": "81",
+    "Needs": [
+      {
+        "Cotton fabric": 2
+      },
+      {
+        "Duck feather": 3
+      }
+    ],
+    "Source": "Sewing Machine",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/asparagus-soup.png",
+    "Name": "Asparagus soup",
+    "Level": "51",
+    "Max. price": "255",
+    "Time": 3600,
+    "XP": "30",
+    "Needs": [
+      {
+        "Asparagus": 3
+      },
+      {
+        "Cream": 2
+      }
+    ],
+    "Source": "Soup Kitchen",
+    "Per boat crate": "1-3"
+  },
+  {
+    "image": "images/toffee.png",
+    "Name": "Toffee",
+    "Level": "52",
+    "Max. price": "176",
+    "Time": 5400,
+    "XP": "21",
+    "Needs": [
+      {
+        "Butter": 1
+      },
+      {
+        "Wheat": 1
+      },
+      {
+        "White sugar": 1
+      }
+    ],
+    "Source": "Candy Machine",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/raspberry-candle.png",
+    "Name": "Raspberry candle",
+    "Level": "52",
+    "Max. price": "360",
+    "Time": 6300,
+    "XP": "43",
+    "Needs": [
+      {
+        "Beeswax": 1
+      },
+      {
+        "Raspberry": 2
+      }
+    ],
+    "Source": "Candle Maker",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/pineapple.png",
+    "Name": "Pineapple",
+    "Level": "52",
+    "Max. price": "14",
+    "Time": 1800,
+    "XP": "3",
+    "Needs": [
+      {
+        "Pineapple": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "20-31"
+  },
+  {
+    "image": "images/pineapple-juice.png",
+    "Name": "Pineapple juice",
+    "Level": "52",
+    "Max. price": "68",
+    "Time": 2700,
+    "XP": "8",
+    "Needs": [
+      {
+        "Pineapple": 3
+      }
+    ],
+    "Source": "Juice Press",
+    "Per boat crate": "5-8"
+  },
+  {
+    "image": "images/fish-soup.png",
+    "Name": "Fish soup",
+    "Level": "53",
+    "Max. price": "298",
+    "Time": 10800,
+    "XP": "35",
+    "Needs": [
+      {
+        "Carrot": 1
+      },
+      {
+        "Fish fillet": 2
+      },
+      {
+        "Milk": 1
+      },
+      {
+        "Potato": 3
+      }
+    ],
+    "Source": "Soup Kitchen",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/lily.png",
+    "Name": "Lily",
+    "Level": "53",
+    "Max. price": "21",
+    "Time": 5400,
+    "XP": "5",
+    "Needs": [
+      {
+        "Lily": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "12-20"
+  },
+  {
+    "image": "images/soy-sauce.png",
+    "Name": "Soy sauce",
+    "Level": "54",
+    "Max. price": "154",
+    "Time": 10800,
+    "XP": "19",
+    "Needs": [
+      {
+        "Soybean": 9
+      },
+      {
+        "Wheat": 1
+      }
+    ],
+    "Source": "Sauce Maker",
+    "Per boat crate": "2-4"
+  },
+  {
+    "image": "images/chocolate.png",
+    "Name": "Chocolate",
+    "Level": "54",
+    "Max. price": "460",
+    "Time": 72000,
+    "XP": "55",
+    "Needs": [
+      {
+        "Cacao": 3
+      },
+      {
+        "Cream": 1
+      },
+      {
+        "White sugar": 1
+      }
+    ],
+    "Source": "Candy Machine",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/fancy-cake.png",
+    "Name": "Fancy cake",
+    "Level": "54",
+    "Max. price": "450",
+    "Time": 900,
+    "XP": "49",
+    "Needs": [
+      {
+        "Cream cake": 1
+      },
+      {
+        "Lily": 3
+      },
+      {
+        "Raspberry": 3
+      },
+      {
+        "Gold ore": 1
+      }
+    ],
+    "Source": "Cake Oven",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/rice.png",
+    "Name": "Rice",
+    "Level": "56",
+    "Max. price": "18",
+    "Time": 2700,
+    "XP": "3",
+    "Needs": [
+      {
+        "Rice": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "19-32"
+  },
+  {
+    "image": "images/sushi-roll.png",
+    "Name": "Sushi roll",
+    "Level": "56",
+    "Max. price": "489",
+    "Time": 3600,
+    "XP": "58",
+    "Needs": [
+      {
+        "Fish fillet": 1
+      },
+      {
+        "Rice": 15
+      },
+      {
+        "Soy sauce": 1
+      }
+    ],
+    "Source": "Sushi Bar",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/olive.png",
+    "Name": "Olive",
+    "Level": "57",
+    "Max. price": "82",
+    "Time": 86400,
+    "XP": "17",
+    "Needs": [],
+    "Source": "Olive tree",
+    "Per boat crate": "4-6"
+  },
+  {
+    "image": "images/lollipop.png",
+    "Name": "Lollipop",
+    "Level": "57",
+    "Max. price": "342",
+    "Time": 43200,
+    "XP": "41",
+    "Needs": [
+      {
+        "Cherry": 1
+      },
+      {
+        "Strawberry": 2
+      },
+      {
+        "Syrup": 1
+      }
+    ],
+    "Source": "Candy Machine",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/lettuce.png",
+    "Name": "Lettuce",
+    "Level": "58",
+    "Max. price": "32",
+    "Time": 12600,
+    "XP": "7",
+    "Needs": [
+      {
+        "Lettuce": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "9-14"
+  },
+  {
+    "image": "images/feta-salad.png",
+    "Name": "Feta salad",
+    "Level": "58",
+    "Max. price": "745",
+    "Time": 5400,
+    "XP": "89",
+    "Needs": [
+      {
+        "Goat cheese": 2
+      },
+      {
+        "Lettuce": 3
+      },
+      {
+        "Olive": 2
+      },
+      {
+        "Roasted tomatoes": 1
+      }
+    ],
+    "Source": "Salad Bar",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/lobster-sushi.png",
+    "Name": "Lobster sushi",
+    "Level": "59",
+    "Max. price": "637",
+    "Time": 3600,
+    "XP": "76",
+    "Needs": [
+      {
+        "Lobster tail": 1
+      },
+      {
+        "Rice": 15
+      },
+      {
+        "Soy sauce": 1
+      }
+    ],
+    "Source": "Sushi Bar",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/blanket.png",
+    "Name": "Blanket",
+    "Level": "59",
+    "Max. price": "1098",
+    "Time": 12600,
+    "XP": "131",
+    "Needs": [
+      {
+        "Cotton fabric": 3
+      },
+      {
+        "Duck feather": 5
+      },
+      {
+        "Pumpkin": 1
+      }
+    ],
+    "Source": "Sewing Machine",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/jelly-beans.png",
+    "Name": "Jelly beans",
+    "Level": "60",
+    "Max. price": "684",
+    "Time": 86400,
+    "XP": "81",
+    "Needs": [
+      {
+        "Blackberry jam": 1
+      },
+      {
+        "Raspberry jam": 1
+      },
+      {
+        "White sugar": 1
+      }
+    ],
+    "Source": "Candy Machine",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/olive-oil.png",
+    "Name": "Olive oil",
+    "Level": "60",
+    "Max. price": "277",
+    "Time": 2700,
+    "XP": "33",
+    "Needs": [
+      {
+        "Olive": 3
+      }
+    ],
+    "Source": "Sauce Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/garlic.png",
+    "Name": "Garlic",
+    "Level": "60",
+    "Max. price": "14",
+    "Time": 1800,
+    "XP": "3",
+    "Needs": [
+      {
+        "Garlic": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "20-32"
+  },
+  {
+    "image": "images/garlic-bread.png",
+    "Name": "Garlic bread",
+    "Level": "60",
+    "Max. price": "198",
+    "Time": 900,
+    "XP": "24",
+    "Needs": [
+      {
+        "Bread": 2
+      },
+      {
+        "Butter": 1
+      },
+      {
+        "Garlic": 4
+      }
+    ],
+    "Source": "BBQ Grill",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/veggie-bagel.png",
+    "Name": "Veggie bagel",
+    "Level": "61",
+    "Max. price": "532",
+    "Time": 2400,
+    "XP": "63",
+    "Needs": [
+      {
+        "Bread": 2
+      },
+      {
+        "Lettuce": 3
+      },
+      {
+        "Olive oil": 1
+      },
+      {
+        "Tomato": 2
+      }
+    ],
+    "Source": "Sandwich Bar",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/mayonnaise.png",
+    "Name": "Mayonnaise",
+    "Level": "62",
+    "Max. price": "367",
+    "Time": 900,
+    "XP": "44",
+    "Needs": [
+      {
+        "Egg": 4
+      },
+      {
+        "Olive oil": 1
+      }
+    ],
+    "Source": "Sauce Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/blt-salad.png",
+    "Name": "BLT salad",
+    "Level": "62",
+    "Max. price": "723",
+    "Time": 6300,
+    "XP": "86",
+    "Needs": [
+      {
+        "Bacon": 2
+      },
+      {
+        "Lettuce": 3
+      },
+      {
+        "Mayonnaise": 1
+      },
+      {
+        "Roasted tomatoes": 1
+      }
+    ],
+    "Source": "Salad Bar",
+    "Per boat crate": "1-3"
+  },
+  {
+    "image": "images/caramel-latte.png",
+    "Name": "Caramel latte",
+    "Level": "62",
+    "Max. price": "345",
+    "Time": 900,
+    "XP": "41",
+    "Needs": [
+      {
+        "Coffee bean": 2
+      },
+      {
+        "Toffee": 1
+      },
+      {
+        "Milk": 1
+      }
+    ],
+    "Source": "Coffee Kiosk",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/peanuts.png",
+    "Name": "Peanuts",
+    "Level": "62",
+    "Max. price": "234",
+    "Time": 0,
+    "XP": "43",
+    "Needs": [],
+    "Source": "Squirrel House",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/sunflower.png",
+    "Name": "Sunflower",
+    "Level": "63",
+    "Max. price": "21",
+    "Time": 5400,
+    "XP": "5",
+    "Needs": [
+      {
+        "Sunflower": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "12-19"
+  },
+  {
+    "image": "images/egg-sushi.png",
+    "Name": "Egg sushi",
+    "Level": "63",
+    "Max. price": "550",
+    "Time": 7200,
+    "XP": "66",
+    "Needs": [
+      {
+        "Brown sugar": 1
+      },
+      {
+        "Egg": 4
+      },
+      {
+        "Rice": 15
+      },
+      {
+        "Soy sauce": 1
+      }
+    ],
+    "Source": "Sushi Bar",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/honey-peanuts.png",
+    "Name": "Honey peanuts",
+    "Level": "63",
+    "Max. price": "468",
+    "Time": 2400,
+    "XP": "64",
+    "Needs": [
+      {
+        "Honey": 1
+      },
+      {
+        "Peanuts": 1
+      }
+    ],
+    "Source": "Candy Machine",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/seafood-salad.png",
+    "Name": "Seafood salad",
+    "Level": "64",
+    "Max. price": "763",
+    "Time": 7200,
+    "XP": "91",
+    "Needs": [
+      {
+        "Fish fillet": 1
+      },
+      {
+        "Lettuce": 3
+      },
+      {
+        "Lobster tail": 1
+      },
+      {
+        "Mayonnaise": 1
+      }
+    ],
+    "Source": "Salad Bar",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/berry-smoothie.png",
+    "Name": "Berry smoothie",
+    "Level": "64",
+    "Max. price": "547",
+    "Time": 4500,
+    "XP": "65",
+    "Needs": [
+      {
+        "Blackberry": 3
+      },
+      {
+        "Strawberry": 3
+      },
+      {
+        "Raspberry": 3
+      }
+    ],
+    "Source": "Smoothie Mixer",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/snack-mix.png",
+    "Name": "Snack mix",
+    "Level": "64",
+    "Max. price": "309",
+    "Time": 2700,
+    "XP": "50",
+    "Needs": [
+      {
+        "Corn": 2
+      },
+      {
+        "Sesame": 1
+      },
+      {
+        "Peanuts": 1
+      }
+    ],
+    "Source": "Popcorn Pot",
+    "Per boat crate": "5-7"
+  },
+  {
+    "image": "images/bright-bouquet.png",
+    "Name": "Bright bouquet",
+    "Level": "65",
+    "Max. price": "338",
+    "Time": 1200,
+    "XP": "40",
+    "Needs": [
+      {
+        "Sunflower": 5
+      },
+      {
+        "Indigo": 3
+      },
+      {
+        "Cotton": 1
+      },
+      {
+        "Iron ore": 5
+      }
+    ],
+    "Source": "Flower Shop",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/bacon-toast.png",
+    "Name": "Bacon toast",
+    "Level": "65",
+    "Max. price": "648",
+    "Time": 6000,
+    "XP": "77",
+    "Needs": [
+      {
+        "Bacon": 2
+      },
+      {
+        "Bread": 2
+      },
+      {
+        "Lettuce": 3
+      },
+      {
+        "Mayonnaise": 1
+      }
+    ],
+    "Source": "Sandwich Bar",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/pineapple-cake.png",
+    "Name": "Pineapple cake",
+    "Level": "65",
+    "Max. price": "259",
+    "Time": 4500,
+    "XP": "31",
+    "Needs": [
+      {
+        "Pineapple": 3
+      },
+      {
+        "Egg": 2
+      },
+      {
+        "Cherry": 2
+      },
+      {
+        "Wheat": 4
+      }
+    ],
+    "Source": "Cake Oven",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/chocolate-pie.png",
+    "Name": "Chocolate pie",
+    "Level": "65",
+    "Max. price": "514",
+    "Time": 4500,
+    "XP": "70",
+    "Needs": [
+      {
+        "Wheat": 3
+      },
+      {
+        "Cacao": 3
+      },
+      {
+        "Egg": 1
+      },
+      {
+        "Peanuts": 1
+      }
+    ],
+    "Source": "Pie Oven",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/cabbage.png",
+    "Name": "Cabbage",
+    "Level": "65",
+    "Max. price": "18",
+    "Time": 2700,
+    "XP": "3",
+    "Needs": [
+      {
+        "Cabbage": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "12-31"
+  },
+  {
+    "image": "images/cabbage-soup.png",
+    "Name": "Cabbage soup",
+    "Level": "65",
+    "Max. price": "270",
+    "Time": 5400,
+    "XP": "32",
+    "Needs": [
+      {
+        "Cabbage": 3
+      },
+      {
+        "Bacon": 2
+      },
+      {
+        "Potato": 2
+      },
+      {
+        "Carrot": 2
+      }
+    ],
+    "Source": "Soup Kitchen",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/lemon.png",
+    "Name": "Lemon",
+    "Level": "66",
+    "Max. price": "93",
+    "Time": 104400,
+    "XP": "18",
+    "Needs": [],
+    "Source": "Lemon tree",
+    "Per boat crate": "4-6"
+  },
+  {
+    "image": "images/lemon-curd.png",
+    "Name": "Lemon curd",
+    "Level": "66",
+    "Max. price": "378",
+    "Time": 1500,
+    "XP": "45",
+    "Needs": [
+      {
+        "Butter": 1
+      },
+      {
+        "Egg": 2
+      },
+      {
+        "Lemon": 2
+      },
+      {
+        "White sugar": 1
+      }
+    ],
+    "Source": "Sauce Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/olive-dip.png",
+    "Name": "Olive dip",
+    "Level": "66",
+    "Max. price": "468",
+    "Time": 2700,
+    "XP": "56",
+    "Needs": [
+      {
+        "Olive": 3
+      },
+      {
+        "Bread": 2
+      },
+      {
+        "Lemon": 1
+      },
+      {
+        "Fish fillet": 1
+      }
+    ],
+    "Source": "Sauce Maker",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/egg-sandwich.png",
+    "Name": "Egg sandwich",
+    "Level": "66",
+    "Max. price": "583",
+    "Time": 4800,
+    "XP": "69",
+    "Needs": [
+      {
+        "Bread": 2
+      },
+      {
+        "Egg": 2
+      },
+      {
+        "Lettuce": 3
+      },
+      {
+        "Mayonnaise": 1
+      }
+    ],
+    "Source": "Sandwich Bar",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/green-smoothie.png",
+    "Name": "Green smoothie",
+    "Level": "66",
+    "Max. price": "320",
+    "Time": 2700,
+    "XP": "38",
+    "Needs": [
+      {
+        "Apple": 1
+      },
+      {
+        "Lemon": 1
+      },
+      {
+        "Lettuce": 5
+      }
+    ],
+    "Source": "Smoothie Mixer",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/fresh-pasta.png",
+    "Name": "Fresh pasta",
+    "Level": "67",
+    "Max. price": "43",
+    "Time": 900,
+    "XP": "5",
+    "Needs": [
+      {
+        "Egg": 1
+      },
+      {
+        "Wheat": 2
+      }
+    ],
+    "Source": "Pasta Maker",
+    "Per boat crate": "8-12"
+  },
+  {
+    "image": "images/pasta-salad.png",
+    "Name": "Pasta salad",
+    "Level": "67",
+    "Max. price": "759",
+    "Time": 9000,
+    "XP": "90",
+    "Needs": [
+      {
+        "Fresh pasta": 4
+      },
+      {
+        "Lemon": 2
+      },
+      {
+        "Olive oil": 1
+      },
+      {
+        "Tomato": 2
+      }
+    ],
+    "Source": "Salad Bar",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/lemon-pie.png",
+    "Name": "Lemon pie",
+    "Level": "67",
+    "Max. price": "446",
+    "Time": 8100,
+    "XP": "53",
+    "Needs": [
+      {
+        "Egg": 1
+      },
+      {
+        "Lemon curd": 1
+      },
+      {
+        "Wheat": 2
+      }
+    ],
+    "Source": "Pie Oven",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/grilled-asparagus.png",
+    "Name": "Grilled asparagus",
+    "Level": "67",
+    "Max. price": "486",
+    "Time": 4500,
+    "XP": "58",
+    "Needs": [
+      {
+        "Asparagus": 5
+      },
+      {
+        "Bacon": 3
+      },
+      {
+        "Lemon": 1
+      }
+    ],
+    "Source": "BBQ Grill",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/onion.png",
+    "Name": "Onion",
+    "Level": "68",
+    "Max. price": "39",
+    "Time": 18000,
+    "XP": "8",
+    "Needs": [
+      {
+        "Onion": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "8-9"
+  },
+  {
+    "image": "images/grilled-onion.png",
+    "Name": "Grilled onion",
+    "Level": "68",
+    "Max. price": "190",
+    "Time": 3600,
+    "XP": "23",
+    "Needs": [
+      {
+        "Butter": 1
+      },
+      {
+        "Onion": 2
+      }
+    ],
+    "Source": "BBQ Grill",
+    "Per boat crate": "3"
+  },
+  {
+    "image": "images/lemon-cake.png",
+    "Name": "Lemon cake",
+    "Level": "68",
+    "Max. price": "896",
+    "Time": 9000,
+    "XP": "107",
+    "Needs": [
+      {
+        "Cream": 1
+      },
+      {
+        "Egg": 2
+      },
+      {
+        "Lemon curd": 2
+      },
+      {
+        "Wheat": 3
+      }
+    ],
+    "Source": "Cake Oven",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/peanut-butter-milkshake.png",
+    "Name": "Peanut butter milkshake",
+    "Level": "68",
+    "Max. price": "619",
+    "Time": 6000,
+    "XP": "86",
+    "Needs": [
+      {
+        "Peanuts": 1
+      },
+      {
+        "Milk": 1
+      },
+      {
+        "Cream": 1
+      },
+      {
+        "Cacao": 3
+      }
+    ],
+    "Source": "Ice Cream Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/tomato-sauce.png",
+    "Name": "Tomato sauce",
+    "Level": "69",
+    "Max. price": "230",
+    "Time": 1800,
+    "XP": "27",
+    "Needs": [
+      {
+        "Brown sugar": 1
+      },
+      {
+        "Lemon": 1
+      },
+      {
+        "Tomato": 2
+      }
+    ],
+    "Source": "Sauce Maker",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/honey-toast.png",
+    "Name": "Honey toast",
+    "Level": "69",
+    "Max. price": "255",
+    "Time": 3600,
+    "XP": "31",
+    "Needs": [
+      {
+        "Bread": 1
+      },
+      {
+        "Egg": 1
+      },
+      {
+        "Honey": 1
+      },
+      {
+        "Milk": 1
+      }
+    ],
+    "Source": "Sandwich Bar",
+    "Per boat crate": "3-4"
+  },
+  {
+    "image": "images/fried-rice.png",
+    "Name": "Fried rice",
+    "Level": "69",
+    "Max. price": "205",
+    "Time": 3600,
+    "XP": "24",
+    "Needs": [
+      {
+        "Rice": 5
+      },
+      {
+        "Egg": 5
+      }
+    ],
+    "Source": "Wok Kitchen",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/yogurt-smoothie.png",
+    "Name": "Yogurt smoothie",
+    "Level": "70",
+    "Max. price": "349",
+    "Time": 3600,
+    "XP": "42",
+    "Needs": [
+      {
+        "Cherry": 1
+      },
+      {
+        "Cream": 1
+      },
+      {
+        "Raspberry": 2
+      },
+      {
+        "White sugar": 1
+      }
+    ],
+    "Source": "Smoothie Mixer",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/cloche-hat.png",
+    "Name": "Cloche hat",
+    "Level": "70",
+    "Max. price": "468",
+    "Time": 7200,
+    "XP": "56",
+    "Needs": [
+      {
+        "Strawberry": 2
+      },
+      {
+        "Wool": 6
+      }
+    ],
+    "Source": "Hat Maker",
+    "Per boat crate": "1-4"
+  },
+  {
+    "image": "images/cucumber.png",
+    "Name": "Cucumber",
+    "Level": "70",
+    "Max. price": "14",
+    "Time": 2100,
+    "XP": "3",
+    "Needs": [
+      {
+        "Cucumber": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "21-31"
+  },
+  {
+    "image": "images/cucumber-smoothie.png",
+    "Name": "Cucumber smoothie",
+    "Level": "70",
+    "Max. price": "266",
+    "Time": 2400,
+    "XP": "32",
+    "Needs": [
+      {
+        "Cucumber": 3
+      },
+      {
+        "Honey": 1
+      },
+      {
+        "Pineapple": 3
+      }
+    ],
+    "Source": "Smoothie Mixer",
+    "Per boat crate": "2-4"
+  },
+  {
+    "image": "images/orange.png",
+    "Name": "Orange",
+    "Level": "71",
+    "Max. price": "97",
+    "Time": 111600,
+    "XP": "19",
+    "Needs": [],
+    "Source": "Orange tree",
+    "Per boat crate": "4-6"
+  },
+  {
+    "image": "images/flower-shawl.png",
+    "Name": "Flower shawl",
+    "Level": "71",
+    "Max. price": "295",
+    "Time": 5400,
+    "XP": "35",
+    "Needs": [
+      {
+        "Wool": 2
+      },
+      {
+        "Sunflower": 3
+      },
+      {
+        "Blackberry": 1
+      }
+    ],
+    "Source": "Loom",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/orange-juice.png",
+    "Name": "Orange juice",
+    "Level": "71",
+    "Max. price": "234",
+    "Time": 7200,
+    "XP": "28",
+    "Needs": [
+      {
+        "Orange": 2
+      }
+    ],
+    "Source": "Juice Press",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/peanut-butter-and-jelly-sandwich.png",
+    "Name": "Peanut butter and jelly sandwich",
+    "Level": "71",
+    "Max. price": "601",
+    "Time": 1500,
+    "XP": "80",
+    "Needs": [
+      {
+        "Bread": 2
+      },
+      {
+        "Raspberry jam": 1
+      },
+      {
+        "Peanuts": 1
+      }
+    ],
+    "Source": "Sandwich Bar",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/onion-soup.png",
+    "Name": "Onion soup",
+    "Level": "72",
+    "Max. price": "327",
+    "Time": 9000,
+    "XP": "39",
+    "Needs": [
+      {
+        "Bread": 2
+      },
+      {
+        "Cheese": 1
+      },
+      {
+        "Onion": 3
+      }
+    ],
+    "Source": "Soup Kitchen",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/lemon-candle.png",
+    "Name": "Lemon candle",
+    "Level": "72",
+    "Max. price": "457",
+    "Time": 8100,
+    "XP": "55",
+    "Needs": [
+      {
+        "Beeswax": 1
+      },
+      {
+        "Lemon": 2
+      }
+    ],
+    "Source": "Candle Maker",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/top-hat.png",
+    "Name": "Top hat",
+    "Level": "72",
+    "Max. price": "619",
+    "Time": 12600,
+    "XP": "74",
+    "Needs": [
+      {
+        "Cotton fabric": 3
+      },
+      {
+        "Duck feather": 1
+      },
+      {
+        "Refined coal": 1
+      }
+    ],
+    "Source": "Hat Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/gnocchi.png",
+    "Name": "Gnocchi",
+    "Level": "72",
+    "Max. price": "475",
+    "Time": 4800,
+    "XP": "57",
+    "Needs": [
+      {
+        "Potato": 4
+      },
+      {
+        "Tomato": 3
+      },
+      {
+        "Wheat": 2
+      },
+      {
+        "Butter": 2
+      }
+    ],
+    "Source": "Pasta Kitchen",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/beetroot.png",
+    "Name": "Beetroot",
+    "Level": "72",
+    "Max. price": "14",
+    "Time": 2400,
+    "XP": "3",
+    "Needs": [
+      {
+        "Beetroot": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "20-31"
+  },
+  {
+    "image": "images/winter-veggies.png",
+    "Name": "Winter veggies",
+    "Level": "72",
+    "Max. price": "198",
+    "Time": 1500,
+    "XP": "24",
+    "Needs": [
+      {
+        "Beetroot": 2
+      },
+      {
+        "Carrot": 3
+      },
+      {
+        "Potato": 2
+      },
+      {
+        "Pumpkin": 2
+      }
+    ],
+    "Source": "BBQ Grill",
+    "Per boat crate": "2-4"
+  },
+  {
+    "image": "images/rice-noodles.png",
+    "Name": "Rice noodles",
+    "Level": "73",
+    "Max. price": "100",
+    "Time": 1200,
+    "XP": "12",
+    "Needs": [
+      {
+        "Rice": 5
+      }
+    ],
+    "Source": "Pasta Maker",
+    "Per boat crate": "4-6"
+  },
+  {
+    "image": "images/noodle-soup.png",
+    "Name": "Noodle soup",
+    "Level": "73",
+    "Max. price": "432",
+    "Time": 7200,
+    "XP": "52",
+    "Needs": [
+      {
+        "Carrot": 2
+      },
+      {
+        "Chili pepper": 1
+      },
+      {
+        "Egg": 2
+      },
+      {
+        "Rice noodles": 3
+      }
+    ],
+    "Source": "Soup Kitchen",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/gracious-bouquet.png",
+    "Name": "Gracious bouquet",
+    "Level": "73",
+    "Max. price": "500",
+    "Time": 2400,
+    "XP": "60",
+    "Needs": [
+      {
+        "Cotton fabric": 1
+      },
+      {
+        "Lily": 5
+      },
+      {
+        "Gold ore": 1
+      },
+      {
+        "Diamond": 1
+      }
+    ],
+    "Source": "Flower Shop",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/bell-pepper.png",
+    "Name": "Bell pepper",
+    "Level": "74",
+    "Max. price": "36",
+    "Time": 16200,
+    "XP": "7",
+    "Needs": [
+      {
+        "Bell pepper": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "10-14"
+  },
+  {
+    "image": "images/marmalade.png",
+    "Name": "Marmalade",
+    "Level": "74",
+    "Max. price": "457",
+    "Time": 30600,
+    "XP": "54",
+    "Needs": [
+      {
+        "Orange": 3
+      }
+    ],
+    "Source": "Jam Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/sun-hat.png",
+    "Name": "Sun hat",
+    "Level": "74",
+    "Max. price": "558",
+    "Time": 9000,
+    "XP": "66",
+    "Needs": [
+      {
+        "Duck feather": 2
+      },
+      {
+        "Indigo": 1
+      },
+      {
+        "Raspberry": 1
+      },
+      {
+        "Wool": 3
+      }
+    ],
+    "Source": "Hat Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/veggie-lasagna.png",
+    "Name": "Veggie lasagna",
+    "Level": "74",
+    "Max. price": "532",
+    "Time": 6000,
+    "XP": "63",
+    "Needs": [
+      {
+        "Tomato sauce": 1
+      },
+      {
+        "Fresh pasta": 3
+      },
+      {
+        "Carrot": 1
+      },
+      {
+        "Cheese": 1
+      }
+    ],
+    "Source": "Pasta Kitchen",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/veggie-platter.png",
+    "Name": "Veggie platter",
+    "Level": "74",
+    "Max. price": "266",
+    "Time": 7200,
+    "XP": "32",
+    "Needs": [
+      {
+        "Bell pepper": 2
+      },
+      {
+        "Carrot": 2
+      },
+      {
+        "Tomato": 2
+      },
+      {
+        "Cream": 1
+      }
+    ],
+    "Source": "Salad Bar",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/hot-dog.png",
+    "Name": "Hot dog",
+    "Level": "75",
+    "Max. price": "370",
+    "Time": 1800,
+    "XP": "44",
+    "Needs": [
+      {
+        "Bacon": 2
+      },
+      {
+        "Bread": 1
+      },
+      {
+        "Tomato sauce": 1
+      }
+    ],
+    "Source": "Hot Dog Stand",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/coleslaw.png",
+    "Name": "Coleslaw",
+    "Level": "75",
+    "Max. price": "468",
+    "Time": 4500,
+    "XP": "56",
+    "Needs": [
+      {
+        "Cabbage": 3
+      },
+      {
+        "Carrot": 2
+      },
+      {
+        "Mayonnaise": 1
+      }
+    ],
+    "Source": "Salad Bar",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/cotton-candy.png",
+    "Name": "Cotton Candy",
+    "Level": "75",
+    "Max. price": "226",
+    "Time": 1800,
+    "XP": "27",
+    "Needs": [
+      {
+        "White sugar": 3
+      },
+      {
+        "Strawberry": 1
+      }
+    ],
+    "Source": "Candy Machine",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/peach.png",
+    "Name": "Peach",
+    "Level": "76",
+    "Max. price": "100",
+    "Time": 108000,
+    "XP": "20",
+    "Needs": [],
+    "Source": "Peach tree",
+    "Per boat crate": "4-6"
+  },
+  {
+    "image": "images/peach-tart.png",
+    "Name": "Peach tart",
+    "Level": "76",
+    "Max. price": "435",
+    "Time": 9000,
+    "XP": "52",
+    "Needs": [
+      {
+        "Cream": 1
+      },
+      {
+        "Egg": 2
+      },
+      {
+        "Peach": 3
+      },
+      {
+        "Wheat": 2
+      }
+    ],
+    "Source": "Pie Oven",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/tofu-dog.png",
+    "Name": "Tofu dog",
+    "Level": "76",
+    "Max. price": "367",
+    "Time": 2700,
+    "XP": "44",
+    "Needs": [
+      {
+        "Lettuce": 3
+      },
+      {
+        "Soybean": 6
+      },
+      {
+        "Tomato": 4
+      }
+    ],
+    "Source": "Hot Dog Stand",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/big-sushi-roll.png",
+    "Name": "Big sushi roll",
+    "Level": "76",
+    "Max. price": "648",
+    "Time": 5400,
+    "XP": "77",
+    "Needs": [
+      {
+        "Lettuce": 5
+      },
+      {
+        "Rice": 20
+      },
+      {
+        "Fish fillet": 1
+      },
+      {
+        "Egg": 3
+      }
+    ],
+    "Source": "Sushi Bar",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/beetroot-salad.png",
+    "Name": "Beetroot salad",
+    "Level": "76",
+    "Max. price": "234",
+    "Time": 2700,
+    "XP": "28",
+    "Needs": [
+      {
+        "Beetroot": 3
+      },
+      {
+        "Goat Cheese": 1
+      }
+    ],
+    "Source": "Salad Bar",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/plain-donut.png",
+    "Name": "Plain Donut",
+    "Level": "76",
+    "Max. price": "129",
+    "Time": 900,
+    "XP": "15",
+    "Needs": [
+      {
+        "Milk": 1
+      },
+      {
+        "White sugar": 1
+      },
+      {
+        "Egg": 1
+      },
+      {
+        "Wheat": 3
+      }
+    ],
+    "Source": "Donut Maker",
+    "Per boat crate": "3-4"
+  },
+  {
+    "image": "images/salsa.png",
+    "Name": "Salsa",
+    "Level": "77",
+    "Max. price": "252",
+    "Time": 1200,
+    "XP": "30",
+    "Needs": [
+      {
+        "Chili pepper": 2
+      },
+      {
+        "Onion": 2
+      },
+      {
+        "Tomato": 2
+      }
+    ],
+    "Source": "Sauce Maker",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/taco.png",
+    "Name": "Taco",
+    "Level": "77",
+    "Max. price": "396",
+    "Time": 2700,
+    "XP": "47",
+    "Needs": [
+      {
+        "Corn bread": 1
+      },
+      {
+        "Bacon": 1
+      },
+      {
+        "Salsa": 1
+      }
+    ],
+    "Source": "Taco Kitchen",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/colourful-omelet.png",
+    "Name": "Colourful omelet",
+    "Level": "77",
+    "Max. price": "136",
+    "Time": 3600,
+    "XP": "16",
+    "Needs": [
+      {
+        "Egg": 2
+      },
+      {
+        "Carrot": 2
+      },
+      {
+        "Bell pepper": 1
+      },
+      {
+        "Cabbage": 1
+      }
+    ],
+    "Source": "Omelet Station",
+    "Per boat crate": "2-4"
+  },
+  {
+    "image": "images/spring-omelet.png",
+    "Name": "Spring omelet",
+    "Level": "77",
+    "Max. price": "230",
+    "Time": 2400,
+    "XP": "27",
+    "Needs": [
+      {
+        "Egg": 2
+      },
+      {
+        "Asparagus": 2
+      },
+      {
+        "Butter": 1
+      }
+    ],
+    "Source": "Omelet Station",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/summer-rolls.png",
+    "Name": "Summer rolls",
+    "Level": "78",
+    "Max. price": "316",
+    "Time": 3600,
+    "XP": "38",
+    "Needs": [
+      {
+        "Rice noodles": 2
+      },
+      {
+        "Carrot": 2
+      },
+      {
+        "Lettuce": 1
+      },
+      {
+        "Chili pepper": 1
+      }
+    ],
+    "Source": "Salad Bar",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/orange-sorbet.png",
+    "Name": "Orange sorbet",
+    "Level": "78",
+    "Max. price": "399",
+    "Time": 12600,
+    "XP": "48",
+    "Needs": [
+      {
+        "Honey": 1
+      },
+      {
+        "Orange": 2
+      }
+    ],
+    "Source": "Ice Cream Maker",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/corn-dog.png",
+    "Name": "Corn dog",
+    "Level": "78",
+    "Max. price": "529",
+    "Time": 3600,
+    "XP": "63",
+    "Needs": [
+      {
+        "Bacon": 4
+      },
+      {
+        "Corn": 4
+      },
+      {
+        "Olive oil": 1
+      }
+    ],
+    "Source": "Hot Dog Stand",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/potato-soup.png",
+    "Name": "Potato soup",
+    "Level": "78",
+    "Max. price": "255",
+    "Time": 9000,
+    "XP": "31",
+    "Needs": [
+      {
+        "Milk": 1
+      },
+      {
+        "Onion": 2
+      },
+      {
+        "Potato": 3
+      }
+    ],
+    "Source": "Soup Kitchen",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/ginger.png",
+    "Name": "Ginger",
+    "Level": "78",
+    "Max. price": "28",
+    "Time": 9000,
+    "XP": "6",
+    "Needs": [
+      {
+        "Ginger": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "11-16"
+  },
+  {
+    "image": "images/sesame-brittle.png",
+    "Name": "Sesame brittle",
+    "Level": "78",
+    "Max. price": "270",
+    "Time": 3600,
+    "XP": "32",
+    "Needs": [
+      {
+        "Sesame": 3
+      },
+      {
+        "Ginger": 1
+      },
+      {
+        "Honey": 1
+      }
+    ],
+    "Source": "Candy Machine",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/affogato.png",
+    "Name": "Affogato",
+    "Level": "78",
+    "Max. price": "435",
+    "Time": 1200,
+    "XP": "56",
+    "Needs": [
+      {
+        "Vanilla ice cream": 1
+      },
+      {
+        "Espresso": 1
+      }
+    ],
+    "Source": "Ice Cream Maker",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/fish-taco.png",
+    "Name": "Fish taco",
+    "Level": "79",
+    "Max. price": "392",
+    "Time": 5400,
+    "XP": "47",
+    "Needs": [
+      {
+        "Chili pepper": 2
+      },
+      {
+        "Corn bread": 2
+      },
+      {
+        "Fish fillet": 1
+      },
+      {
+        "Lemon": 1
+      }
+    ],
+    "Source": "Taco Kitchen",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/peach-jam.png",
+    "Name": "Peach jam",
+    "Level": "79",
+    "Max. price": "464",
+    "Time": 28800,
+    "XP": "55",
+    "Needs": [
+      {
+        "Peach": 3
+      }
+    ],
+    "Source": "Jam Maker",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/lobster-pasta.png",
+    "Name": "Lobster pasta",
+    "Level": "79",
+    "Max. price": "637",
+    "Time": 7200,
+    "XP": "76",
+    "Needs": [
+      {
+        "Lobster tail": 1
+      },
+      {
+        "Cream": 2
+      },
+      {
+        "Fresh pasta": 3
+      },
+      {
+        "Tomato": 4
+      }
+    ],
+    "Source": "Pasta Kitchen",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/cucumber-sandwich.png",
+    "Name": "Cucumber sandwich",
+    "Level": "79",
+    "Max. price": "464",
+    "Time": 2100,
+    "XP": "55",
+    "Needs": [
+      {
+        "Cucumber": 2
+      },
+      {
+        "Mayonnaise": 1
+      },
+      {
+        "Bread": 2
+      }
+    ],
+    "Source": "Sandwich Bar",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/spicy-fish.png",
+    "Name": "Spicy fish",
+    "Level": "79",
+    "Max. price": "543",
+    "Time": 5400,
+    "XP": "65",
+    "Needs": [
+      {
+        "Fish fillet": 1
+      },
+      {
+        "Chili pepper": 3
+      },
+      {
+        "Garlic": 5
+      },
+      {
+        "Olive oil": 1
+      }
+    ],
+    "Source": "Wok Kitchen",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/sprinkled-donut.png",
+    "Name": "Sprinkled Donut",
+    "Level": "79",
+    "Max. price": "313",
+    "Time": 1200,
+    "XP": "37",
+    "Needs": [
+      {
+        "Plain Donut": 1
+      },
+      {
+        "Cacao": 2
+      }
+    ],
+    "Source": "Donut Maker",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/cheese-omelet.png",
+    "Name": "Cheese omelet",
+    "Level": "79",
+    "Max. price": "464",
+    "Time": 5400,
+    "XP": "55",
+    "Needs": [
+      {
+        "Egg": 3
+      },
+      {
+        "Cheese": 2
+      },
+      {
+        "Tomato": 2
+      },
+      {
+        "Onion": 1
+      }
+    ],
+    "Source": "Omelet Station",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/tea-leaf.png",
+    "Name": "Tea leaf",
+    "Level": "80",
+    "Max. price": "43",
+    "Time": 23400,
+    "XP": "9",
+    "Needs": [
+      {
+        "Tea leaf": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "8-11"
+  },
+  {
+    "image": "images/green-tea.png",
+    "Name": "Green tea",
+    "Level": "80",
+    "Max. price": "241",
+    "Time": 1800,
+    "XP": "29",
+    "Needs": [
+      {
+        "Tea leaf": 5
+      }
+    ],
+    "Source": "Tea Stand",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/onion-dog.png",
+    "Name": "Onion dog",
+    "Level": "80",
+    "Max. price": "306",
+    "Time": 4500,
+    "XP": "36",
+    "Needs": [
+      {
+        "Bacon": 2
+      },
+      {
+        "Bread": 1
+      },
+      {
+        "Chili pepper": 1
+      },
+      {
+        "Onion": 3
+      }
+    ],
+    "Source": "Hot Dog Stand",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/stuffed-peppers.png",
+    "Name": "Stuffed peppers",
+    "Level": "80",
+    "Max. price": "352",
+    "Time": 1200,
+    "XP": "42",
+    "Needs": [
+      {
+        "Bell pepper": 3
+      },
+      {
+        "Bacon": 1
+      },
+      {
+        "Rice": 3
+      },
+      {
+        "Cheese": 1
+      }
+    ],
+    "Source": "BBQ Grill",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/milk-tea.png",
+    "Name": "Milk tea",
+    "Level": "81",
+    "Max. price": "190",
+    "Time": 2700,
+    "XP": "23",
+    "Needs": [
+      {
+        "Milk": 1
+      },
+      {
+        "Tea leaf": 3
+      }
+    ],
+    "Source": "Tea Stand",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/bell-pepper-soup.png",
+    "Name": "Bell pepper soup",
+    "Level": "81",
+    "Max. price": "439",
+    "Time": 3600,
+    "XP": "52",
+    "Needs": [
+      {
+        "Bread": 1
+      },
+      {
+        "Olive oil": 1
+      },
+      {
+        "Chili pepper": 1
+      },
+      {
+        "Bell pepper": 2
+      }
+    ],
+    "Source": "Soup Kitchen",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/chocolate-fondue.png",
+    "Name": "Chocolate fondue",
+    "Level": "81",
+    "Max. price": "626",
+    "Time": 1500,
+    "XP": "74",
+    "Needs": [
+      {
+        "Chocolate": 1
+      },
+      {
+        "Strawberry": 3
+      }
+    ],
+    "Source": "Fondue Pot",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/peony.png",
+    "Name": "Peony",
+    "Level": "82",
+    "Max. price": "36",
+    "Time": 14400,
+    "XP": "7",
+    "Needs": [
+      {
+        "Peony": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "10-14"
+  },
+  {
+    "image": "images/quesadilla.png",
+    "Name": "Quesadilla",
+    "Level": "82",
+    "Max. price": "241",
+    "Time": 3600,
+    "XP": "29",
+    "Needs": [
+      {
+        "Cheese": 1
+      },
+      {
+        "Chili pepper": 2
+      },
+      {
+        "Wheat": 4
+      }
+    ],
+    "Source": "Taco Kitchen",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/fruit-salad.png",
+    "Name": "Fruit salad",
+    "Level": "82",
+    "Max. price": "597",
+    "Time": 7200,
+    "XP": "71",
+    "Needs": [
+      {
+        "Blackberry": 2
+      },
+      {
+        "Honey": 1
+      },
+      {
+        "Orange": 1
+      },
+      {
+        "Strawberry": 3
+      }
+    ],
+    "Source": "Salad Bar",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/crunchy-donut.png",
+    "Name": "Crunchy Donut",
+    "Level": "82",
+    "Max. price": "594",
+    "Time": 1800,
+    "XP": "71",
+    "Needs": [
+      {
+        "Plain donut": 1
+      },
+      {
+        "Cacao": 1
+      },
+      {
+        "Peanuts": 1
+      }
+    ],
+    "Source": "Donut Maker",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/pasta-carbonara.png",
+    "Name": "Pasta carbonara",
+    "Level": "83",
+    "Max. price": "410",
+    "Time": 9000,
+    "XP": "49",
+    "Needs": [
+      {
+        "Fresh pasta": 3
+      },
+      {
+        "Bacon": 2
+      },
+      {
+        "Egg": 1
+      },
+      {
+        "Cheese": 1
+      }
+    ],
+    "Source": "Pasta Kitchen",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/peach-ice-cream.png",
+    "Name": "Peach ice cream",
+    "Level": "83",
+    "Max. price": "450",
+    "Time": 10800,
+    "XP": "54",
+    "Needs": [
+      {
+        "Cream": 1
+      },
+      {
+        "Honey": 1
+      },
+      {
+        "Peach": 2
+      }
+    ],
+    "Source": "Ice Cream Maker",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/honey-tea.png",
+    "Name": "Honey tea",
+    "Level": "83",
+    "Max. price": "313",
+    "Time": 2400,
+    "XP": "37",
+    "Needs": [
+      {
+        "Honey": 1
+      },
+      {
+        "Tea leaf": 3
+      }
+    ],
+    "Source": "Tea Stand",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/broccoli.png",
+    "Name": "Broccoli",
+    "Level": "83",
+    "Max. price": "21",
+    "Time": 5400,
+    "XP": "4",
+    "Needs": [
+      {
+        "Broccoli": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "16-24"
+  },
+  {
+    "image": "images/broccoli-pasta.png",
+    "Name": "Broccoli pasta",
+    "Level": "83",
+    "Max. price": "345",
+    "Time": 3600,
+    "XP": "41",
+    "Needs": [
+      {
+        "Broccoli": 3
+      },
+      {
+        "Cheese": 1
+      },
+      {
+        "Fresh pasta": 3
+      }
+    ],
+    "Source": "Pasta Kitchen",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/rice-omelet.png",
+    "Name": "Rice omelet",
+    "Level": "83",
+    "Max. price": "572",
+    "Time": 7200,
+    "XP": "68",
+    "Needs": [],
+    "Source": "Omelet Station",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/summer-salad.png",
+    "Name": "Summer salad",
+    "Level": "84",
+    "Max. price": "554",
+    "Time": 10800,
+    "XP": "66",
+    "Needs": [
+      {
+        "Goat cheese": 1
+      },
+      {
+        "Onion": 3
+      },
+      {
+        "Peach": 1
+      },
+      {
+        "Tomato": 3
+      }
+    ],
+    "Source": "Salad Bar",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/grapes.png",
+    "Name": "Grapes",
+    "Level": "84",
+    "Max. price": "32",
+    "Time": 10800,
+    "XP": "6",
+    "Needs": [
+      {
+        "Grapes": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "11-15"
+  },
+  {
+    "image": "images/grape-juice.png",
+    "Name": "Grape juice",
+    "Level": "84",
+    "Max. price": "104",
+    "Time": 9000,
+    "XP": "13",
+    "Needs": [
+      {
+        "Grapes": 2
+      }
+    ],
+    "Source": "Juice Press",
+    "Per boat crate": "2-6"
+  },
+  {
+    "image": "images/onion-melt.png",
+    "Name": "Onion melt",
+    "Level": "84",
+    "Max. price": "417",
+    "Time": 5400,
+    "XP": "50",
+    "Needs": [
+      {
+        "Corn bread": 2
+      },
+      {
+        "Onion": 3
+      },
+      {
+        "Cheese": 1
+      }
+    ],
+    "Source": "Sandwich Bar",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/honey-soap.png",
+    "Name": "Honey soap",
+    "Level": "84",
+    "Max. price": "327",
+    "Time": 3600,
+    "XP": "39",
+    "Needs": [
+      {
+        "Goat milk": 1
+      },
+      {
+        "Cacao": 2
+      },
+      {
+        "Honeycomb": 1
+      }
+    ],
+    "Source": "Bath Kiosk",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/lemon-lotion.png",
+    "Name": "Lemon lotion",
+    "Level": "84",
+    "Max. price": "403",
+    "Time": 4500,
+    "XP": "48",
+    "Needs": [
+      {
+        "Olive oil": 1
+      },
+      {
+        "Lemon": 1
+      }
+    ],
+    "Source": "Bath Kiosk",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/colorful-candles.png",
+    "Name": "Colorful Candles",
+    "Level": "84",
+    "Max. price": "324",
+    "Time": 6600,
+    "XP": "39",
+    "Needs": [
+      {
+        "Beeswax": 1
+      },
+      {
+        "Raspberry": 1
+      },
+      {
+        "Carrot": 1
+      }
+    ],
+    "Source": "Candle Maker",
+    "Per boat crate": "3-4"
+  },
+  {
+    "image": "images/mint.png",
+    "Name": "Mint",
+    "Level": "85",
+    "Max. price": "32",
+    "Time": 10800,
+    "XP": "6",
+    "Needs": [
+      {
+        "Mint": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "11-16"
+  },
+  {
+    "image": "images/grape-jam.png",
+    "Name": "Grape jam",
+    "Level": "85",
+    "Max. price": "162",
+    "Time": 23400,
+    "XP": "19",
+    "Needs": [
+      {
+        "Grapes": 3
+      }
+    ],
+    "Source": "Jam Maker",
+    "Per boat crate": "3-4"
+  },
+  {
+    "image": "images/mint-ice-cream.png",
+    "Name": "Mint ice cream",
+    "Level": "85",
+    "Max. price": "288",
+    "Time": 8100,
+    "XP": "34",
+    "Needs": [
+      {
+        "Cream": 1
+      },
+      {
+        "White sugar": 1
+      },
+      {
+        "Mint": 2
+      },
+      {
+        "Cacao": 1
+      }
+    ],
+    "Source": "Ice Cream Maker",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/flower-crown.png",
+    "Name": "Flower crown",
+    "Level": "86",
+    "Max. price": "331",
+    "Time": 7200,
+    "XP": "40",
+    "Needs": [
+      {
+        "Peony": 5
+      },
+      {
+        "Cotton": 4
+      }
+    ],
+    "Source": "Hat Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/lemon-tea.png",
+    "Name": "Lemon tea",
+    "Level": "86",
+    "Max. price": "241",
+    "Time": 1200,
+    "XP": "29",
+    "Needs": [
+      {
+        "Lemon": 1
+      },
+      {
+        "Tea leaf": 3
+      }
+    ],
+    "Source": "Tea Stand",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/bacon-fondue.png",
+    "Name": "Bacon fondue",
+    "Level": "86",
+    "Max. price": "507",
+    "Time": 1800,
+    "XP": "60",
+    "Needs": [
+      {
+        "Bacon": 3
+      },
+      {
+        "Broccoli": 1
+      },
+      {
+        "Bell pepper": 1
+      },
+      {
+        "Olive oil": 1
+      }
+    ],
+    "Source": "Fondue Pot",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/peanut-noodles.png",
+    "Name": "Peanut noodles",
+    "Level": "86",
+    "Max. price": "597",
+    "Time": 2700,
+    "XP": "80",
+    "Needs": [
+      {
+        "Ginger": 1
+      },
+      {
+        "Rice noodles": 1
+      },
+      {
+        "Soy sauce": 1
+      },
+      {
+        "Peanuts": 1
+      }
+    ],
+    "Source": "Wok Kitchen",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/gingerbread-cookie.png",
+    "Name": "Gingerbread cookie",
+    "Level": "86",
+    "Max. price": "273",
+    "Time": 1800,
+    "XP": "33",
+    "Needs": [
+      {
+        "Wheat": 5
+      },
+      {
+        "Butter": 1
+      },
+      {
+        "Syrup": 1
+      },
+      {
+        "Ginger": 2
+      }
+    ],
+    "Source": "Bakery",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/cream-donut.png",
+    "Name": "Cream Donut",
+    "Level": "86",
+    "Max. price": "230",
+    "Time": 1500,
+    "XP": "27",
+    "Needs": [
+      {
+        "Plain donut": 1
+      },
+      {
+        "Cream": 1
+      },
+      {
+        "Brown sugar": 1
+      }
+    ],
+    "Source": "Donut Maker",
+    "Per boat crate": "3"
+  },
+  {
+    "image": "images/nachos.png",
+    "Name": "Nachos",
+    "Level": "87",
+    "Max. price": "432",
+    "Time": 4500,
+    "XP": "52",
+    "Needs": [
+      {
+        "Cheese": 1
+      },
+      {
+        "Corn": 4
+      },
+      {
+        "Salsa": 1
+      }
+    ],
+    "Source": "Taco Kitchen",
+    "Per boat crate": "1-3"
+  },
+  {
+    "image": "images/spicy-pasta.png",
+    "Name": "Spicy pasta",
+    "Level": "87",
+    "Max. price": "576",
+    "Time": 5400,
+    "XP": "69",
+    "Needs": [
+      {
+        "Fresh pasta": 3
+      },
+      {
+        "Tomato sauce": 1
+      },
+      {
+        "Chili pepper": 3
+      },
+      {
+        "Onion": 2
+      }
+    ],
+    "Source": "Pasta Kitchen",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/broccoli-soup.png",
+    "Name": "Broccoli soup",
+    "Level": "87",
+    "Max. price": "237",
+    "Time": 4500,
+    "XP": "28",
+    "Needs": [
+      {
+        "Broccoli": 3
+      },
+      {
+        "Onion": 1
+      },
+      {
+        "Potato": 3
+      }
+    ],
+    "Source": "Soup Kitchen",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/bacon-fries.png",
+    "Name": "Bacon fries",
+    "Level": "87",
+    "Max. price": "302",
+    "Time": 1500,
+    "XP": "36",
+    "Needs": [
+      {
+        "Chili pepper": 1
+      },
+      {
+        "Bacon": 2
+      },
+      {
+        "Potato": 4
+      },
+      {
+        "Garlic": 1
+      }
+    ],
+    "Source": "Deep Fryer",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/potato-omelet.png",
+    "Name": "Potato Omelet",
+    "Level": "87",
+    "Max. price": "270",
+    "Time": 4500,
+    "XP": "32",
+    "Needs": [],
+    "Source": "Omelet Station",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/mixed-smoothie.png",
+    "Name": "Mixed smoothie",
+    "Level": "88",
+    "Max. price": "504",
+    "Time": 1800,
+    "XP": "60",
+    "Needs": [
+      {
+        "Lemon": 1
+      },
+      {
+        "Orange": 2
+      },
+      {
+        "Peach": 2
+      }
+    ],
+    "Source": "Smoothie Mixer",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/banana.png",
+    "Name": "Banana",
+    "Level": "88",
+    "Max. price": "104",
+    "Time": 97200,
+    "XP": "20",
+    "Needs": [],
+    "Source": "Banana tree",
+    "Per boat crate": "4-6"
+  },
+  {
+    "image": "images/iced-banana-latte.png",
+    "Name": "Iced banana latte",
+    "Level": "88",
+    "Max. price": "277",
+    "Time": 1200,
+    "XP": "33",
+    "Needs": [
+      {
+        "Banana": 1
+      },
+      {
+        "Coffee bean": 2
+      },
+      {
+        "Milk": 1
+      }
+    ],
+    "Source": "Coffee Kiosk",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/apple-ginger-tea.png",
+    "Name": "Apple ginger tea",
+    "Level": "88",
+    "Max. price": "169",
+    "Time": 1800,
+    "XP": "20",
+    "Needs": [
+      {
+        "Ginger": 1
+      },
+      {
+        "Apple": 2
+      },
+      {
+        "Tea leaf": 1
+      }
+    ],
+    "Source": "Tea Stand",
+    "Per boat crate": "4"
+  },
+  {
+    "image": "images/bacon-donut.png",
+    "Name": "Bacon Donut",
+    "Level": "88",
+    "Max. price": "388",
+    "Time": 1800,
+    "XP": "46",
+    "Needs": [
+      {
+        "Plain donut": 1
+      },
+      {
+        "Bacon": 3
+      },
+      {
+        "Syrup": 1
+      }
+    ],
+    "Source": "Donut Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/passion-fruit.png",
+    "Name": "Passion fruit",
+    "Level": "88",
+    "Max. price": "18",
+    "Time": 3600,
+    "XP": "4",
+    "Needs": [
+      {
+        "Passion fruit": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "16-24"
+  },
+  {
+    "image": "images/passion-fruit-juice.png",
+    "Name": "Passion fruit juice",
+    "Level": "88",
+    "Max. price": "64",
+    "Time": 2700,
+    "XP": "8",
+    "Needs": [
+      {
+        "Passion fruit": 2
+      }
+    ],
+    "Source": "Juice Press",
+    "Per boat crate": "7-9"
+  },
+  {
+    "image": "images/orange-tea.png",
+    "Name": "Orange tea",
+    "Level": "89",
+    "Max. price": "255",
+    "Time": 2400,
+    "XP": "30",
+    "Needs": [
+      {
+        "Orange": 1
+      },
+      {
+        "Tea leaf": 3
+      }
+    ],
+    "Source": "Tea Stand",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/fruit-cake.png",
+    "Name": "Fruit cake",
+    "Level": "89",
+    "Max. price": "450",
+    "Time": 10800,
+    "XP": "54",
+    "Needs": [
+      {
+        "Cherry": 2
+      },
+      {
+        "Grapes": 2
+      },
+      {
+        "Orange": 2
+      },
+      {
+        "Wheat": 3
+      }
+    ],
+    "Source": "Cake Oven",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/mushroom.png",
+    "Name": "Mushroom",
+    "Level": "89",
+    "Max. price": "10",
+    "Time": 1200,
+    "XP": "2",
+    "Needs": [
+      {
+        "Mushroom": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "33-50"
+  },
+  {
+    "image": "images/mushroom-salad.png",
+    "Name": "Mushroom salad",
+    "Level": "89",
+    "Max. price": "216",
+    "Time": 3600,
+    "XP": "26",
+    "Needs": [
+      {
+        "Mushroom": 3
+      },
+      {
+        "Lettuce": 1
+      },
+      {
+        "Potato": 2
+      },
+      {
+        "Bacon": 1
+      }
+    ],
+    "Source": "Salad Bar",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/tofu-stir-fry.png",
+    "Name": "Tofu stir fry",
+    "Level": "89",
+    "Max. price": "306",
+    "Time": 4500,
+    "XP": "37",
+    "Needs": [
+      {
+        "Soybean": 3
+      },
+      {
+        "Onion": 3
+      },
+      {
+        "Broccoli": 3
+      },
+      {
+        "Sesame": 3
+      }
+    ],
+    "Source": "Wok Kitchen",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/candy-bouquet.png",
+    "Name": "Candy bouquet",
+    "Level": "90",
+    "Max. price": "554",
+    "Time": 1200,
+    "XP": "66",
+    "Needs": [
+      {
+        "Peony": 3
+      },
+      {
+        "Toffee": 1
+      },
+      {
+        "Caramel apple": 1
+      }
+    ],
+    "Source": "Flower Shop",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/eggplant.png",
+    "Name": "Eggplant",
+    "Level": "90",
+    "Max. price": "14",
+    "Time": 2400,
+    "XP": "3",
+    "Needs": [
+      {
+        "Eggplant": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "22-32"
+  },
+  {
+    "image": "images/grilled-eggplant.png",
+    "Name": "Grilled eggplant",
+    "Level": "90",
+    "Max. price": "324",
+    "Time": 2400,
+    "XP": "39",
+    "Needs": [
+      {
+        "Eggplant": 3
+      },
+      {
+        "Salsa": 1
+      }
+    ],
+    "Source": "BBQ Grill",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/banana-bread.png",
+    "Name": "Banana bread",
+    "Level": "91",
+    "Max. price": "424",
+    "Time": 1800,
+    "XP": "50",
+    "Needs": [
+      {
+        "Banana": 3
+      },
+      {
+        "Egg": 1
+      },
+      {
+        "Grapes": 2
+      },
+      {
+        "Wheat": 3
+      }
+    ],
+    "Source": "Bakery",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/cheese-fondue.png",
+    "Name": "Cheese fondue",
+    "Level": "91",
+    "Max. price": "493",
+    "Time": 1200,
+    "XP": "59",
+    "Needs": [
+      {
+        "Potato bread": 1
+      },
+      {
+        "Cheese": 1
+      },
+      {
+        "Mushroom": 2
+      },
+      {
+        "Tomato": 1
+      }
+    ],
+    "Source": "Fondue Pot",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/hand-pies.png",
+    "Name": "Hand pies",
+    "Level": "91",
+    "Max. price": "295",
+    "Time": 1200,
+    "XP": "35",
+    "Needs": [
+      {
+        "Apple jam": 1
+      },
+      {
+        "Egg": 2
+      },
+      {
+        "Wheat": 5
+      }
+    ],
+    "Source": "Deep Fryer",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/pickles.png",
+    "Name": "Pickles",
+    "Level": "91",
+    "Max. price": "270",
+    "Time": 14400,
+    "XP": "32",
+    "Needs": [
+      {
+        "Cucumber": 3
+      },
+      {
+        "Onion": 2
+      },
+      {
+        "Lemon": 1
+      }
+    ],
+    "Source": "Preservation Station",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/watermelon.png",
+    "Name": "Watermelon",
+    "Level": "92",
+    "Max. price": "39",
+    "Time": 18000,
+    "XP": "8",
+    "Needs": [
+      {
+        "Watermelon": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "8-12"
+  },
+  {
+    "image": "images/iced-tea.png",
+    "Name": "Iced tea",
+    "Level": "92",
+    "Max. price": "252",
+    "Time": 1800,
+    "XP": "30",
+    "Needs": [
+      {
+        "Peach": 1
+      },
+      {
+        "Tea leaf": 3
+      }
+    ],
+    "Source": "Tea Stand",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/goat-cheese-toast.png",
+    "Name": "Goat cheese toast",
+    "Level": "92",
+    "Max. price": "302",
+    "Time": 3000,
+    "XP": "36",
+    "Needs": [
+      {
+        "Bread": 1
+      },
+      {
+        "Goat cheese": 1
+      },
+      {
+        "Grapes": 3
+      }
+    ],
+    "Source": "Sandwich Bar",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/watermelon-juice.png",
+    "Name": "Watermelon juice",
+    "Level": "92",
+    "Max. price": "108",
+    "Time": 3600,
+    "XP": "13",
+    "Needs": [
+      {
+        "Watermelon": 2
+      }
+    ],
+    "Source": "Juice Press",
+    "Per boat crate": "4-5"
+  },
+  {
+    "image": "images/birthday-bouquet.png",
+    "Name": "Birthday Bouquet",
+    "Level": "92",
+    "Max. price": "349",
+    "Time": 1200,
+    "XP": "42",
+    "Needs": [
+      {
+        "Cherry Juice": 1
+      },
+      {
+        "Peony": 3
+      },
+      {
+        "Lily": 1
+      },
+      {
+        "Indigo": 1
+      }
+    ],
+    "Source": "Flower Shop",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/passion-fruit-pie.png",
+    "Name": "Passion fruit pie",
+    "Level": "92",
+    "Max. price": "111",
+    "Time": 3000,
+    "XP": "13",
+    "Needs": [
+      {
+        "Passion fruit": 3
+      },
+      {
+        "Wheat": 2
+      },
+      {
+        "Egg": 1
+      }
+    ],
+    "Source": "Pie Oven",
+    "Per boat crate": "4-5"
+  },
+  {
+    "image": "images/soft-bouquet.png",
+    "Name": "Soft bouquet",
+    "Level": "93",
+    "Max. price": "298",
+    "Time": 1800,
+    "XP": "36",
+    "Needs": [
+      {
+        "Peony": 4
+      },
+      {
+        "Cotton": 1
+      },
+      {
+        "Cotton fabric": 1
+      }
+    ],
+    "Source": "Flower Shop",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/black-sesame-smoothie.png",
+    "Name": "Black sesame smoothie",
+    "Level": "93",
+    "Max. price": "313",
+    "Time": 2700,
+    "XP": "37",
+    "Needs": [
+      {
+        "Sesame": 3
+      },
+      {
+        "Banana": 1
+      },
+      {
+        "Goat milk": 2
+      }
+    ],
+    "Source": "Smoothie Mixer",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/exfoliating-soap.png",
+    "Name": "Exfoliating soap",
+    "Level": "93",
+    "Max. price": "363",
+    "Time": 3600,
+    "XP": "43",
+    "Needs": [
+      {
+        "Cacao": 2
+      },
+      {
+        "Coffee bean": 2
+      },
+      {
+        "Raspberry": 1
+      }
+    ],
+    "Source": "Bath Kiosk",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/filled-donut.png",
+    "Name": "Filled Donut",
+    "Level": "93",
+    "Max. price": "403",
+    "Time": 2100,
+    "XP": "48",
+    "Needs": [
+      {
+        "Plain donut": 1
+      },
+      {
+        "Raspberry jam": 1
+      }
+    ],
+    "Source": "Donut Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/plum.png",
+    "Name": "Plum",
+    "Level": "94",
+    "Max. price": "82",
+    "Time": 86400,
+    "XP": "16",
+    "Needs": [],
+    "Source": "Plum tree",
+    "Per boat crate": "4-6"
+  },
+  {
+    "image": "images/banana-pancakes.png",
+    "Name": "Banana pancakes",
+    "Level": "94",
+    "Max. price": "352",
+    "Time": 3600,
+    "XP": "42",
+    "Needs": [
+      {
+        "Banana": 1
+      },
+      {
+        "Blackberry": 2
+      },
+      {
+        "Cream": 1
+      },
+      {
+        "Wheat": 3
+      }
+    ],
+    "Source": "BBQ Grill",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/plum-jam.png",
+    "Name": "Plum jam",
+    "Level": "94",
+    "Max. price": "385",
+    "Time": 18000,
+    "XP": "46",
+    "Needs": [
+      {
+        "Plum": 3
+      }
+    ],
+    "Source": "Jam Maker",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/clay.png",
+    "Name": "Clay",
+    "Level": "94",
+    "Max. price": "18",
+    "Time": 6600,
+    "XP": "5",
+    "Needs": [
+      {
+        "Clay": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "12-19"
+  },
+  {
+    "image": "images/tea-pot.png",
+    "Name": "Tea pot",
+    "Level": "94",
+    "Max. price": "219",
+    "Time": 13200,
+    "XP": "26",
+    "Needs": [
+      {
+        "Clay": 3
+      },
+      {
+        "Coffee bean": 1
+      },
+      {
+        "Gold ore": 1
+      }
+    ],
+    "Source": "Pottery Studio",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/floral-candle.png",
+    "Name": "Floral candle",
+    "Level": "95",
+    "Max. price": "442",
+    "Time": 7200,
+    "XP": "53",
+    "Needs": [
+      {
+        "Beeswax": 1
+      },
+      {
+        "Peony": 2
+      },
+      {
+        "Sunflower": 2
+      },
+      {
+        "Indigo": 3
+      }
+    ],
+    "Source": "Candle Maker",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/chocolate-roll.png",
+    "Name": "Chocolate roll",
+    "Level": "95",
+    "Max. price": "604",
+    "Time": 5400,
+    "XP": "72",
+    "Needs": [
+      {
+        "Cacao": 5
+      },
+      {
+        "Cream": 1
+      },
+      {
+        "Wheat": 3
+      },
+      {
+        "Mint": 3
+      }
+    ],
+    "Source": "Cake Oven",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/canned-fish.png",
+    "Name": "Canned fish",
+    "Level": "95",
+    "Max. price": "471",
+    "Time": 13200,
+    "XP": "56",
+    "Needs": [
+      {
+        "Fish fillet": 2
+      },
+      {
+        "Chili pepper": 1
+      },
+      {
+        "Olive oil": 1
+      }
+    ],
+    "Source": "Preservation Station",
+    "Per boat crate": "??"
+  },
+  {
+    "image": "images/chickpea.png",
+    "Name": "Chickpea",
+    "Level": "95",
+    "Max. price": "18",
+    "Time": 3600,
+    "XP": "4",
+    "Needs": [
+      {
+        "Chickpea": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "16-24"
+  },
+  {
+    "image": "images/hummus.png",
+    "Name": "Hummus",
+    "Level": "95",
+    "Max. price": "277",
+    "Time": 1800,
+    "XP": "33",
+    "Needs": [
+      {
+        "Chickpea": 3
+      },
+      {
+        "Lemon": 2
+      },
+      {
+        "Garlic": 1
+      }
+    ],
+    "Source": "Sauce Maker",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/banana-split.png",
+    "Name": "Banana split",
+    "Level": "96",
+    "Max. price": "403",
+    "Time": 12600,
+    "XP": "48",
+    "Needs": [
+      {
+        "Banana": 1
+      },
+      {
+        "Cherry": 3
+      },
+      {
+        "Cream": 1
+      }
+    ],
+    "Source": "Ice Cream Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/fish-skewer.png",
+    "Name": "Fish skewer",
+    "Level": "96",
+    "Max. price": "176",
+    "Time": 1800,
+    "XP": "21",
+    "Needs": [
+      {
+        "Fish fillet": 1
+      },
+      {
+        "Mushroom": 3
+      },
+      {
+        "Ginger": 1
+      },
+      {
+        "Sesame": 2
+      }
+    ],
+    "Source": "BBQ Grill",
+    "Per boat crate": "2-8"
+  },
+  {
+    "image": "images/passion-fruit-jam.png",
+    "Name": "Passion fruit jam",
+    "Level": "96",
+    "Max. price": "118",
+    "Time": 19200,
+    "XP": "14",
+    "Needs": [
+      {
+        "Passion fruit": 3
+      }
+    ],
+    "Source": "Jam Maker",
+    "Per boat crate": "4"
+  },
+  {
+    "image": "images/potted-plant.png",
+    "Name": "Potted plant",
+    "Level": "96",
+    "Max. price": "151",
+    "Time": 13200,
+    "XP": "26",
+    "Needs": [
+      {
+        "Clay": 3
+      },
+      {
+        "Sunflower": 1
+      }
+    ],
+    "Source": "Pottery Studio",
+    "Per boat crate": "3-4"
+  },
+  {
+    "image": "images/mint-tea.png",
+    "Name": "Mint tea",
+    "Level": "97",
+    "Max. price": "255",
+    "Time": 2100,
+    "XP": "31",
+    "Needs": [
+      {
+        "Tea leaf": 3
+      },
+      {
+        "Mint": 1
+      },
+      {
+        "Watermelon": 1
+      }
+    ],
+    "Source": "Tea Stand",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/mushroom-pot-pie.png",
+    "Name": "Mushroom pot pie",
+    "Level": "97",
+    "Max. price": "162",
+    "Time": 3600,
+    "XP": "19",
+    "Needs": [
+      {
+        "Mushroom": 3
+      },
+      {
+        "Cabbage": 3
+      },
+      {
+        "Wheat": 3
+      },
+      {
+        "Egg": 2
+      }
+    ],
+    "Source": "Pie Oven",
+    "Per boat crate": "1-3"
+  },
+  {
+    "image": "images/mango.png",
+    "Name": "Mango",
+    "Level": "97",
+    "Max. price": "100",
+    "Time": 115200,
+    "XP": "20",
+    "Needs": [],
+    "Source": "Mango tree",
+    "Per boat crate": "4-6"
+  },
+  {
+    "image": "images/mango-juice.png",
+    "Name": "Mango juice",
+    "Level": "97",
+    "Max. price": "230",
+    "Time": 3000,
+    "XP": "27",
+    "Needs": [
+      {
+        "Mango": 2
+      }
+    ],
+    "Source": "Juice Press",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/flower-pendant.png",
+    "Name": "Flower pendant",
+    "Level": "98",
+    "Max. price": "698",
+    "Time": 3600,
+    "XP": "83",
+    "Needs": [
+      {
+        "Peony": 3
+      },
+      {
+        "Platinum bar": 1
+      },
+      {
+        "Gold bar": 2
+      }
+    ],
+    "Source": "Jeweler",
+    "Per boat crate": "N/A"
+  },
+  {
+    "image": "images/chili-poppers.png",
+    "Name": "Chili poppers",
+    "Level": "98",
+    "Max. price": "406",
+    "Time": 2400,
+    "XP": "48",
+    "Needs": [
+      {
+        "Chili pepper": 3
+      },
+      {
+        "Wheat": 1
+      },
+      {
+        "Bacon": 3
+      },
+      {
+        "Cheese": 1
+      }
+    ],
+    "Source": "Deep Fryer",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/falafel.png",
+    "Name": "Falafel",
+    "Level": "98",
+    "Max. price": "226",
+    "Time": 3300,
+    "XP": "27",
+    "Needs": [
+      {
+        "Chili pepper": 1
+      },
+      {
+        "Chickpea": 3
+      },
+      {
+        "Onion": 2
+      },
+      {
+        "Garlic": 2
+      }
+    ],
+    "Source": "Deep Fryer",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/kimchi.png",
+    "Name": "Kimchi",
+    "Level": "98",
+    "Max. price": "219",
+    "Time": 18000,
+    "XP": "26",
+    "Needs": [
+      {
+        "Cabbage": 5
+      },
+      {
+        "Ginger": 1
+      },
+      {
+        "Chili pepper": 1
+      },
+      {
+        "Garlic": 1
+      }
+    ],
+    "Source": "Preservation Station",
+    "Per boat crate": "??"
+  },
+  {
+    "image": "images/eggplant-parmesan.png",
+    "Name": "Eggplant parmesan",
+    "Level": "99",
+    "Max. price": "442",
+    "Time": 2700,
+    "XP": "53",
+    "Needs": [
+      {
+        "Eggplant": 3
+      },
+      {
+        "Cheese": 1
+      },
+      {
+        "Tomato sauce": 1
+      }
+    ],
+    "Source": "Pie Oven",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/honey-face-mask.png",
+    "Name": "Honey face mask",
+    "Level": "99",
+    "Max. price": "320",
+    "Time": 5400,
+    "XP": "38",
+    "Needs": [
+      {
+        "Egg": 2
+      },
+      {
+        "Honey": 1
+      },
+      {
+        "Lemon": 1
+      }
+    ],
+    "Source": "Bath Kiosk",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/clay-mug.png",
+    "Name": "Clay mug",
+    "Level": "99",
+    "Max. price": "212",
+    "Time": 12000,
+    "XP": "25",
+    "Needs": [
+      {
+        "Clay": 3
+      },
+      {
+        "Indigo": 2
+      },
+      {
+        "Peony": 1
+      }
+    ],
+    "Source": "Pottery Studio",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/rich-fudge.png",
+    "Name": "Rich fudge",
+    "Level": "99",
+    "Max. price": "644",
+    "Time": 7200,
+    "XP": "77",
+    "Needs": [
+      {
+        "Cacao": 3
+      },
+      {
+        "Butter": 3
+      },
+      {
+        "White sugar": 2
+      }
+    ],
+    "Source": "Fudge Shop",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/cocoa-smoothie.png",
+    "Name": "Cocoa smoothie",
+    "Level": "100",
+    "Max. price": "511",
+    "Time": 2400,
+    "XP": "61",
+    "Needs": [
+      {
+        "Banana": 2
+      },
+      {
+        "Cacao": 3
+      },
+      {
+        "Milk": 1
+      }
+    ],
+    "Source": "Smoothie Mixer",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/fried-candy-bar.png",
+    "Name": "Fried candy bar",
+    "Level": "100",
+    "Max. price": "658",
+    "Time": 900,
+    "XP": "87",
+    "Needs": [
+      {
+        "Cacao": 3
+      },
+      {
+        "Cookie": 1
+      },
+      {
+        "Peanuts": 1
+      }
+    ],
+    "Source": "Deep Fryer",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/tart-dressing.png",
+    "Name": "Tart dressing",
+    "Level": "100",
+    "Max. price": "288",
+    "Time": 1800,
+    "XP": "34",
+    "Needs": [
+      {
+        "Passion fruit": 2
+      },
+      {
+        "Chili pepper": 2
+      },
+      {
+        "Honey": 1
+      }
+    ],
+    "Source": "Sauce Maker",
+    "Per boat crate": "2-4"
+  },
+  {
+    "image": "images/tropical-fondue.png",
+    "Name": "Tropical fondue",
+    "Level": "100",
+    "Max. price": "417",
+    "Time": 2100,
+    "XP": "50",
+    "Needs": [
+      {
+        "White sugar": 1
+      },
+      {
+        "Cream": 2
+      },
+      {
+        "Pineapple": 3
+      },
+      {
+        "Mango": 2
+      }
+    ],
+    "Source": "Fondue Pot",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/mushroom-pasta.png",
+    "Name": "Mushroom pasta",
+    "Level": "101",
+    "Max. price": "280",
+    "Time": 4500,
+    "XP": "33",
+    "Needs": [
+      {
+        "Mushroom": 5
+      },
+      {
+        "Fresh pasta": 3
+      },
+      {
+        "Goat milk": 1
+      }
+    ],
+    "Source": "Pasta Kitchen",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/coconut.png",
+    "Name": "Coconut",
+    "Level": "101",
+    "Max. price": "108",
+    "Time": 129600,
+    "XP": "21",
+    "Needs": [],
+    "Source": "Coconut tree",
+    "Per boat crate": "4-5"
+  },
+  {
+    "image": "images/macaroon.png",
+    "Name": "Macaroon",
+    "Level": "101",
+    "Max. price": "421",
+    "Time": 1800,
+    "XP": "50",
+    "Needs": [
+      {
+        "Cacao": 1
+      },
+      {
+        "Coconut": 2
+      },
+      {
+        "White sugar": 2
+      }
+    ],
+    "Source": "Bakery",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/plum-smoothie.png",
+    "Name": "Plum smoothie",
+    "Level": "102",
+    "Max. price": "522",
+    "Time": 2100,
+    "XP": "62",
+    "Needs": [
+      {
+        "Plum": 3
+      },
+      {
+        "Grapes": 1
+      },
+      {
+        "Mint": 1
+      },
+      {
+        "Honey": 1
+      }
+    ],
+    "Source": "Smoothie Mixer",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/dried-fruit.png",
+    "Name": "Dried fruit",
+    "Level": "102",
+    "Max. price": "266",
+    "Time": 10800,
+    "XP": "32",
+    "Needs": [
+      {
+        "Grapes": 1
+      },
+      {
+        "Raspberry": 1
+      },
+      {
+        "Strawberry": 1
+      },
+      {
+        "Orange": 1
+      }
+    ],
+    "Source": "Preservation Station",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/mint-fudge.png",
+    "Name": "Mint fudge",
+    "Level": "102",
+    "Max. price": "522",
+    "Time": 9000,
+    "XP": "62",
+    "Needs": [
+      {
+        "Butter": 2
+      },
+      {
+        "Cacao": 2
+      },
+      {
+        "White sugar": 1
+      },
+      {
+        "Mint": 3
+      }
+    ],
+    "Source": "Fudge Shop",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/coconut-ice-cream.png",
+    "Name": "Coconut ice cream",
+    "Level": "102",
+    "Max. price": "320",
+    "Time": 900,
+    "XP": "38",
+    "Needs": [
+      {
+        "Coconut": 2
+      },
+      {
+        "Syrup": 1
+      }
+    ],
+    "Source": "Ice Cream Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/samosa.png",
+    "Name": "Samosa",
+    "Level": "103",
+    "Max. price": "223",
+    "Time": 4500,
+    "XP": "27",
+    "Needs": [
+      {
+        "Chickpea": 2
+      },
+      {
+        "Wheat": 4
+      },
+      {
+        "Chili Pepper": 1
+      },
+      {
+        "Potato": 3
+      }
+    ],
+    "Source": "Deep Fryer",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/plain-yogurt.png",
+    "Name": "Plain yogurt",
+    "Level": "103",
+    "Max. price": "234",
+    "Time": 7200,
+    "XP": "28",
+    "Needs": [
+      {
+        "Milk": 3
+      },
+      {
+        "Cream": 2
+      }
+    ],
+    "Source": "Yogurt Maker",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/mushroom-soup.png",
+    "Name": "Mushroom soup",
+    "Level": "104",
+    "Max. price": "176",
+    "Time": 4800,
+    "XP": "21",
+    "Needs": [
+      {
+        "Mushroom": 3
+      },
+      {
+        "Milk": 1
+      },
+      {
+        "Onion": 2
+      }
+    ],
+    "Source": "Soup Kitchen",
+    "Per boat crate": "2-4"
+  },
+  {
+    "image": "images/chili-fudge.png",
+    "Name": "Chili fudge",
+    "Level": "104",
+    "Max. price": "540",
+    "Time": 10200,
+    "XP": "64",
+    "Needs": [
+      {
+        "Butter": 2
+      },
+      {
+        "Cacao": 2
+      },
+      {
+        "White sugar": 1
+      },
+      {
+        "Chili pepper": 3
+      }
+    ],
+    "Source": "Fudge Shop",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/tropical-smoothie.png",
+    "Name": "Tropical smoothie",
+    "Level": "104",
+    "Max. price": "475",
+    "Time": 2400,
+    "XP": "57",
+    "Needs": [
+      {
+        "Coconut": 1
+      },
+      {
+        "Banana": 1
+      },
+      {
+        "Passion fruit": 2
+      },
+      {
+        "Mango": 2
+      }
+    ],
+    "Source": "Smoothie Mixer",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/guava.png",
+    "Name": "Guava",
+    "Level": "104",
+    "Max. price": "111",
+    "Time": 122400,
+    "XP": "22",
+    "Needs": [],
+    "Source": "Guava Tree",
+    "Per boat crate": "3-4"
+  },
+  {
+    "image": "images/guava-juice.png",
+    "Name": "Guava juice",
+    "Level": "104",
+    "Max. price": "252",
+    "Time": 3300,
+    "XP": "30",
+    "Needs": [
+      {
+        "Guava": 2
+      }
+    ],
+    "Source": "Juice Press",
+    "Per boat crate": "2-3"
+  },
+  {
+    "image": "images/guava-compote.png",
+    "Name": "Guava compote",
+    "Level": "104",
+    "Max. price": "421",
+    "Time": 15600,
+    "XP": "50",
+    "Needs": [
+      {
+        "Guava": 2
+      },
+      {
+        "Lemon": 1
+      },
+      {
+        "White sugar": 1
+      }
+    ],
+    "Source": "Preservation Station",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/strawberry-yogurt.png",
+    "Name": "Strawberry yogurt",
+    "Level": "105",
+    "Max. price": "529",
+    "Time": 2400,
+    "XP": "63",
+    "Needs": [
+      {
+        "Plain yogurt": 1
+      },
+      {
+        "Strawberry jam": 1
+      }
+    ],
+    "Source": "Yogurt Maker",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/veggie-bouquet.png",
+    "Name": "Veggie bouquet",
+    "Level": "106",
+    "Max. price": "352",
+    "Time": 900,
+    "XP": "42",
+    "Needs": [
+      {
+        "Broccoli": 3
+      },
+      {
+        "Tomato": 3
+      },
+      {
+        "Mushroom": 3
+      },
+      {
+        "Cotton fabric": 1
+      }
+    ],
+    "Source": "Flower Shop",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/chickpea-stew.png",
+    "Name": "Chickpea stew",
+    "Level": "106",
+    "Max. price": "284",
+    "Time": 5400,
+    "XP": "34",
+    "Needs": [
+      {
+        "Coconut": 1
+      },
+      {
+        "Tomato": 2
+      },
+      {
+        "Chickpea": 3
+      }
+    ],
+    "Source": "Stew Pot",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/fruit-sorbet.png",
+    "Name": "Fruit sorbet",
+    "Level": "106",
+    "Max. price": "518",
+    "Time": 3600,
+    "XP": "62",
+    "Needs": [
+      {
+        "Guava": 1
+      },
+      {
+        "Passion fruit": 1
+      },
+      {
+        "Mango": 2
+      },
+      {
+        "White sugar": 3
+      }
+    ],
+    "Source": "Ice Cream Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/pomegranate.png",
+    "Name": "Pomegranate",
+    "Level": "107",
+    "Max. price": "111",
+    "Time": 97200,
+    "XP": "22",
+    "Needs": [],
+    "Source": "Pomegranate tree",
+    "Per boat crate": "4-6"
+  },
+  {
+    "image": "images/pomegranate-tea.png",
+    "Name": "Pomegranate tea",
+    "Level": "107",
+    "Max. price": "313",
+    "Time": 2040,
+    "XP": "37",
+    "Needs": [
+      {
+        "Pomegranate": 1
+      },
+      {
+        "Tea leaf": 4
+      }
+    ],
+    "Source": "Tea Stand",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/lemon-fudge.png",
+    "Name": "Lemon fudge",
+    "Level": "108",
+    "Max. price": "590",
+    "Time": 6600,
+    "XP": "70",
+    "Needs": [
+      {
+        "Butter": 2
+      },
+      {
+        "Lemon": 2
+      },
+      {
+        "White sugar": 2
+      },
+      {
+        "Milk": 3
+      }
+    ],
+    "Source": "Fudge Shop",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/pomegranate-cake.png",
+    "Name": "Pomegranate cake",
+    "Level": "108",
+    "Max. price": "316",
+    "Time": 9600,
+    "XP": "38",
+    "Needs": [
+      {
+        "Pomegranate": 1
+      },
+      {
+        "Egg": 2
+      },
+      {
+        "Cream": 2
+      },
+      {
+        "Wheat": 6
+      }
+    ],
+    "Source": "Cake Oven",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/hummus-wrap.png",
+    "Name": "Hummus wrap",
+    "Level": "109",
+    "Max. price": "374",
+    "Time": 1800,
+    "XP": "45",
+    "Needs": [
+      {
+        "Bread": 2
+      },
+      {
+        "Lettuce": 1
+      },
+      {
+        "Hummus": 1
+      }
+    ],
+    "Source": "Sandwich Bar",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/tropical-yogurt.png",
+    "Name": "Tropical yogurt",
+    "Level": "109",
+    "Max. price": "457",
+    "Time": 3600,
+    "XP": "54",
+    "Needs": [
+      {
+        "Plain yogurt": 1
+      },
+      {
+        "Raspberry": 4
+      },
+      {
+        "Passion fruit": 1
+      },
+      {
+        "Mango": 2
+      }
+    ],
+    "Source": "Yogurt Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/chili-stew.png",
+    "Name": "Chili stew",
+    "Level": "109",
+    "Max. price": "370",
+    "Time": 7200,
+    "XP": "44",
+    "Needs": [
+      {
+        "Chili Pepper": 3
+      },
+      {
+        "Bacon": 2
+      },
+      {
+        "Onion": 2
+      },
+      {
+        "Cream": 1
+      }
+    ],
+    "Source": "Stew Pot",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/plain-cupcake.png",
+    "Name": "Plain cupcake",
+    "Level": "109",
+    "Max. price": "280",
+    "Time": 2400,
+    "XP": "34",
+    "Needs": [
+      {
+        "Milk": 2
+      },
+      {
+        "White sugar": 3
+      },
+      {
+        "Egg": 1
+      },
+      {
+        "Wheat": 5
+      }
+    ],
+    "Source": "Cupcake Maker",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/guava-cupcake.png",
+    "Name": "Guava cupcake",
+    "Level": "109",
+    "Max. price": "583",
+    "Time": 4200,
+    "XP": "70",
+    "Needs": [
+      {
+        "Plain cupcake": 1
+      },
+      {
+        "Guava": 2
+      },
+      {
+        "Cream": 1
+      }
+    ],
+    "Source": "Cupcake Maker",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/rice-ball.png",
+    "Name": "Rice ball",
+    "Level": "110",
+    "Max. price": "464",
+    "Time": 2700,
+    "XP": "55",
+    "Needs": [
+      {
+        "Rice": 20
+      },
+      {
+        "Sesame": 1
+      },
+      {
+        "Plum": 1
+      }
+    ],
+    "Source": "Sushi Bar",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/peanut-fudge.png",
+    "Name": "Peanut fudge",
+    "Level": "111",
+    "Max. price": "1141",
+    "Time": 5400,
+    "XP": "136",
+    "Needs": [
+      {
+        "Butter": 2
+      },
+      {
+        "Cacao": 2
+      },
+      {
+        "White sugar": 1
+      },
+      {
+        "Peanuts": 2
+      }
+    ],
+    "Source": "Fudge Shop",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/tropical-cupcake.png",
+    "Name": "Tropical cupcake",
+    "Level": "112",
+    "Max. price": "572",
+    "Time": 5400,
+    "XP": "68",
+    "Needs": [
+      {
+        "Plain cupcake": 1
+      },
+      {
+        "Pineapple": 3
+      },
+      {
+        "Coconut": 2
+      }
+    ],
+    "Source": "Cupcake Maker",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/winter-stew.png",
+    "Name": "Winter stew",
+    "Level": "112",
+    "Max. price": "295",
+    "Time": 8400,
+    "XP": "7",
+    "Needs": [
+      {
+        "Bacon": 1
+      },
+      {
+        "Potato": 3
+      },
+      {
+        "Onion": 2
+      },
+      {
+        "Mushroom": 2
+      }
+    ],
+    "Source": "Stew Pot",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/cookie-cupcake.png",
+    "Name": "Cookie cupcake",
+    "Level": "114",
+    "Max. price": "712",
+    "Time": 7200,
+    "XP": "85",
+    "Needs": [
+      {
+        "Plain cupcake": 1
+      },
+      {
+        "Cream": 2
+      },
+      {
+        "Cookie": 2
+      },
+      {
+        "Cacao": 1
+      }
+    ],
+    "Source": "Cupcake Maker",
+    "Per boat crate": "1-2"
+  },
+  {
+    "image": "images/plain-waffles.png",
+    "Name": "Plain waffles",
+    "Level": "114",
+    "Max. price": "198",
+    "Time": 1500,
+    "XP": "24",
+    "Needs": [
+      {
+        "White sugar": 2
+      },
+      {
+        "Egg": 3
+      },
+      {
+        "Wheat": 5
+      }
+    ],
+    "Source": "Waffle Maker",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/berry-waffles.png",
+    "Name": "Berry waffles",
+    "Level": "114",
+    "Max. price": "604",
+    "Time": 2100,
+    "XP": "72",
+    "Needs": [
+      {
+        "Plain waffles": 1
+      },
+      {
+        "Syrup": 1
+      },
+      {
+        "Raspberry": 3
+      },
+      {
+        "Blackberry": 2
+      }
+    ],
+    "Source": "Waffle Maker",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/orange-salad.png",
+    "Name": "Orange salad",
+    "Level": "117",
+    "Max. price": "558",
+    "Time": 2700,
+    "XP": "66",
+    "Needs": [
+      {
+        "Cheese": 1
+      },
+      {
+        "Lettuce": 3
+      },
+      {
+        "Pomegranate": 1
+      },
+      {
+        "Orange": 2
+      }
+    ],
+    "Source": "Salad Bar",
+    "Per boat crate": "2"
+  },
+  {
+    "image": "images/chocolate-waffles.png",
+    "Name": "Chocolate waffles",
+    "Level": "117",
+    "Max. price": "637",
+    "Time": 2400,
+    "XP": "76",
+    "Needs": [
+      {
+        "Plain waffles": 1
+      },
+      {
+        "Cacao": 2
+      },
+      {
+        "Strawberry": 3
+      },
+      {
+        "Banana": 1
+      }
+    ],
+    "Source": "Waffle Maker",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/breakfast-waffles.png",
+    "Name": "Breakfast waffles",
+    "Level": "119",
+    "Max. price": "424",
+    "Time": 2700,
+    "XP": "51",
+    "Needs": [
+      {
+        "Plain waffles": 1
+      },
+      {
+        "Bacon": 2
+      },
+      {
+        "Egg": 1
+      },
+      {
+        "Asparagus": 2
+      }
+    ],
+    "Source": "Waffle Maker",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/oats.png",
+    "Name": "Oats",
+    "Level": "119",
+    "Max. price": "7",
+    "Time": 420,
+    "XP": "1",
+    "Needs": [
+      {
+        "Oats": 1
+      }
+    ],
+    "Source": "Field",
+    "Per boat crate": "76-??"
+  },
+  {
+    "image": "images/breakfast-bowl.png",
+    "Name": "Breakfast Bowl",
+    "Level": "119",
+    "Max. price": "604",
+    "Time": 3600,
+    "XP": "54",
+    "Needs": [
+      {
+        "Plain yogurt": 1
+      },
+      {
+        "Oats": 4
+      },
+      {
+        "Honey": 1
+      },
+      {
+        "Blackberry": 2
+      }
+    ],
+    "Source": "Yogurt Maker",
+    "Per boat crate": "?"
+  },
+  {
+    "image": "images/vanilla-milkshake.png",
+    "Name": "Vanilla Milkshake",
+    "Level": "124",
+    "Max. price": "673",
+    "Time": 2700,
+    "XP": "80",
+    "Needs": [
+      {
+        "Vanilla Ice Cream": 1
+      },
+      {
+        "Cookie": 2
+      },
+      {
+        "Toffee": 1
+      },
+      {
+        "Syrup": 1
+      }
+    ],
+    "Source": "Milkshake Bar",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/mocha-milkshake.png",
+    "Name": "Mocha Milkshake",
+    "Level": "125",
+    "Max. price": "856",
+    "Time": 1800,
+    "XP": "125",
+    "Needs": [
+      {
+        "Chocolate Ice Cream": 1
+      },
+      {
+        "Espresso": 2
+      }
+    ],
+    "Source": "Milkshake Bar",
+    "Per boat crate": "1"
+  },
+  {
+    "image": "images/fruity-milkshake.png",
+    "Name": "Fruity Milkshake",
+    "Level": "126",
+    "Max. price": "759",
+    "Time": 2100,
+    "XP": "90",
+    "Needs": [
+      {
+        "Peach Ice Cream": 1
+      },
+      {
+        "Orange": 2
+      },
+      {
+        "Lemon": 1
+      }
+    ],
+    "Source": "Milkshake Bar",
+    "Per boat crate": "1"
+  }
+]
