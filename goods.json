@@ -1,14 +1,14 @@
 [
   {
     "image": "images/wheat.png",
-    "Name": "Wheat",
+    "Name": "wheat",
     "Level": "1",
     "Max. price": "3",
     "Time": 120,
     "XP": "1",
     "Needs": [
       {
-        "Wheat": 1
+        "wheat": 1
       }
     ],
     "Source": "Field",
@@ -16,14 +16,14 @@
   },
   {
     "image": "images/egg.png",
-    "Name": "Egg",
+    "Name": "egg",
     "Level": "1",
     "Max. price": "18",
     "Time": 1200,
     "XP": "2",
     "Needs": [
       {
-        "Chicken feed": 1
+        "chicken feed": 1
       }
     ],
     "Source": "Chicken",
@@ -31,14 +31,14 @@
   },
   {
     "image": "images/corn.png",
-    "Name": "Corn",
+    "Name": "corn",
     "Level": "2",
     "Max. price": "7",
     "Time": 300,
     "XP": "1",
     "Needs": [
       {
-        "Corn": 1
+        "corn": 1
       }
     ],
     "Source": "Field",
@@ -46,14 +46,14 @@
   },
   {
     "image": "images/bread.png",
-    "Name": "Bread",
+    "Name": "bread",
     "Level": "2",
     "Max. price": "21",
     "Time": 300,
     "XP": "3",
     "Needs": [
       {
-        "Wheat": 3
+        "wheat": 3
       }
     ],
     "Source": "Bakery",
@@ -61,17 +61,17 @@
   },
   {
     "image": "images/chicken-feed.png",
-    "Name": "Chicken feed",
+    "Name": "chicken feed",
     "Level": "3",
     "Max. price": "7",
     "Time": 300,
     "XP": "1",
     "Needs": [
       {
-        "Corn": 1
+        "corn": 1
       },
       {
-        "Wheat": 2
+        "wheat": 2
       }
     ],
     "Source": "Feed Mill",
@@ -79,14 +79,14 @@
   },
   {
     "image": "images/soybean.png",
-    "Name": "Soybean",
+    "Name": "soybean",
     "Level": "5",
     "Max. price": "10",
     "Time": 1200,
     "XP": "2",
     "Needs": [
       {
-        "Soybean": 1
+        "soybean": 1
       }
     ],
     "Source": "Field",
@@ -94,17 +94,17 @@
   },
   {
     "image": "images/cow-feed.png",
-    "Name": "Cow feed",
+    "Name": "cow feed",
     "Level": "6",
     "Max. price": "14",
     "Time": 600,
     "XP": "2",
     "Needs": [
       {
-        "Corn": 1
+        "corn": 1
       },
       {
-        "Soybean": 2
+        "soybean": 2
       }
     ],
     "Source": "Feed Mill",
@@ -112,14 +112,14 @@
   },
   {
     "image": "images/milk.png",
-    "Name": "Milk",
+    "Name": "milk",
     "Level": "6",
     "Max. price": "32",
     "Time": 3600,
     "XP": "3",
     "Needs": [
       {
-        "Cow feed": 1
+        "cow feed": 1
       }
     ],
     "Source": "Cow",
@@ -127,14 +127,14 @@
   },
   {
     "image": "images/cream.png",
-    "Name": "Cream",
+    "Name": "cream",
     "Level": "6",
     "Max. price": "50",
     "Time": 1200,
     "XP": "6",
     "Needs": [
       {
-        "Milk": 1
+        "milk": 1
       }
     ],
     "Source": "Dairy",
@@ -142,14 +142,14 @@
   },
   {
     "image": "images/sugarcane.png",
-    "Name": "Sugarcane",
+    "Name": "sugarcane",
     "Level": "7",
     "Max. price": "14",
     "Time": 1800,
     "XP": "3",
     "Needs": [
       {
-        "Sugarcane": 1
+        "sugarcane": 1
       }
     ],
     "Source": "Field",
@@ -157,17 +157,17 @@
   },
   {
     "image": "images/corn-bread.png",
-    "Name": "Corn bread",
+    "Name": "corn bread",
     "Level": "7",
     "Max. price": "72",
     "Time": 1800,
     "XP": "8",
     "Needs": [
       {
-        "Corn": 2
+        "corn": 2
       },
       {
-        "Egg": 2
+        "egg": 2
       }
     ],
     "Source": "Bakery",
@@ -175,14 +175,14 @@
   },
   {
     "image": "images/brown-sugar.png",
-    "Name": "Brown sugar",
+    "Name": "brown sugar",
     "Level": "7",
     "Max. price": "32",
     "Time": 1200,
     "XP": "4",
     "Needs": [
       {
-        "Sugarcane": 1
+        "sugarcane": 1
       }
     ],
     "Source": "Sugar Mill",
@@ -190,14 +190,14 @@
   },
   {
     "image": "images/popcorn.png",
-    "Name": "Popcorn",
+    "Name": "popcorn",
     "Level": "8",
     "Max. price": "32",
     "Time": 1800,
     "XP": "4",
     "Needs": [
       {
-        "Corn": 2
+        "corn": 2
       }
     ],
     "Source": "Popcorn Pot",
@@ -205,14 +205,14 @@
   },
   {
     "image": "images/carrot.png",
-    "Name": "Carrot",
+    "Name": "carrot",
     "Level": "9",
     "Max. price": "7",
     "Time": 600,
     "XP": "2",
     "Needs": [
       {
-        "Carrot": 1
+        "carrot": 1
       }
     ],
     "Source": "Field",
@@ -220,14 +220,14 @@
   },
   {
     "image": "images/butter.png",
-    "Name": "Butter",
+    "Name": "butter",
     "Level": "9",
     "Max. price": "82",
     "Time": 1800,
     "XP": "10",
     "Needs": [
       {
-        "Milk": 2
+        "milk": 2
       }
     ],
     "Source": "Dairy",
@@ -235,17 +235,17 @@
   },
   {
     "image": "images/pancake.png",
-    "Name": "Pancake",
+    "Name": "pancake",
     "Level": "9",
     "Max. price": "108",
     "Time": 1800,
     "XP": "13",
     "Needs": [
       {
-        "Brown sugar": 1
+        "brown sugar": 1
       },
       {
-        "Egg": 3
+        "egg": 3
       }
     ],
     "Source": "BBQ Grill",
@@ -253,17 +253,17 @@
   },
   {
     "image": "images/pig-feed.png",
-    "Name": "Pig feed",
+    "Name": "pig feed",
     "Level": "10",
     "Max. price": "14",
     "Time": 1200,
     "XP": "2",
     "Needs": [
       {
-        "Carrot": 2
+        "carrot": 2
       },
       {
-        "Soybean": 1
+        "soybean": 1
       }
     ],
     "Source": "Feed Mill",
@@ -271,14 +271,14 @@
   },
   {
     "image": "images/bacon.png",
-    "Name": "Bacon",
+    "Name": "bacon",
     "Level": "10",
     "Max. price": "50",
     "Time": 14400,
     "XP": "5",
     "Needs": [
       {
-        "Pig feed": 1
+        "pig feed": 1
       }
     ],
     "Source": "Pig",
@@ -286,20 +286,20 @@
   },
   {
     "image": "images/cookie.png",
-    "Name": "Cookie",
+    "Name": "cookie",
     "Level": "10",
     "Max. price": "104",
     "Time": 3600,
     "XP": "13",
     "Needs": [
       {
-        "Brown sugar": 1
+        "brown sugar": 1
       },
       {
-        "Egg": 2
+        "egg": 2
       },
       {
-        "Wheat": 2
+        "wheat": 2
       }
     ],
     "Source": "Bakery",
@@ -307,17 +307,17 @@
   },
   {
     "image": "images/bacon-and-eggs.png",
-    "Name": "Bacon and eggs",
+    "Name": "bacon and eggs",
     "Level": "11",
     "Max. price": "201",
     "Time": 3600,
     "XP": "24",
     "Needs": [
       {
-        "Bacon": 2
+        "bacon": 2
       },
       {
-        "Egg": 4
+        "egg": 4
       }
     ],
     "Source": "BBQ Grill",
@@ -325,14 +325,14 @@
   },
   {
     "image": "images/cheese.png",
-    "Name": "Cheese",
+    "Name": "cheese",
     "Level": "12",
     "Max. price": "122",
     "Time": 3600,
     "XP": "15",
     "Needs": [
       {
-        "Milk": 3
+        "milk": 3
       }
     ],
     "Source": "Dairy",
@@ -340,14 +340,14 @@
   },
   {
     "image": "images/indigo.png",
-    "Name": "Indigo",
+    "Name": "indigo",
     "Level": "13",
     "Max. price": "25",
     "Time": 7200,
     "XP": "5",
     "Needs": [
       {
-        "Indigo": 1
+        "indigo": 1
       }
     ],
     "Source": "Field",
@@ -355,14 +355,14 @@
   },
   {
     "image": "images/white-sugar.png",
-    "Name": "White sugar",
+    "Name": "white sugar",
     "Level": "13",
     "Max. price": "50",
     "Time": 2400,
     "XP": "6",
     "Needs": [
       {
-        "Sugarcane": 2
+        "sugarcane": 2
       }
     ],
     "Source": "Sugar Mill",
@@ -370,20 +370,20 @@
   },
   {
     "image": "images/carrot-pie.png",
-    "Name": "Carrot pie",
+    "Name": "carrot pie",
     "Level": "14",
     "Max. price": "82",
     "Time": 3600,
     "XP": "10",
     "Needs": [
       {
-        "Carrot": 3
+        "carrot": 3
       },
       {
-        "Egg": 1
+        "egg": 1
       },
       {
-        "Wheat": 2
+        "wheat": 2
       }
     ],
     "Source": "Pie Oven",
@@ -391,14 +391,14 @@
   },
   {
     "image": "images/pumpkin.png",
-    "Name": "Pumpkin",
+    "Name": "pumpkin",
     "Level": "15",
     "Max. price": "32",
     "Time": 10800,
     "XP": "6",
     "Needs": [
       {
-        "Pumpkin": 1
+        "pumpkin": 1
       }
     ],
     "Source": "Field",
@@ -406,20 +406,20 @@
   },
   {
     "image": "images/pumpkin-pie.png",
-    "Name": "Pumpkin pie",
+    "Name": "pumpkin pie",
     "Level": "15",
     "Max. price": "158",
     "Time": 7200,
     "XP": "19",
     "Needs": [
       {
-        "Egg": 1
+        "egg": 1
       },
       {
-        "Pumpkin": 3
+        "pumpkin": 3
       },
       {
-        "Wheat": 2
+        "wheat": 2
       }
     ],
     "Source": "Pie Oven",
@@ -427,7 +427,7 @@
   },
   {
     "image": "images/apple.png",
-    "Name": "Apple",
+    "Name": "apple",
     "Level": "15",
     "Max. price": "39",
     "Time": 57600,
@@ -438,17 +438,17 @@
   },
   {
     "image": "images/sheep-feed.png",
-    "Name": "Sheep feed",
+    "Name": "sheep feed",
     "Level": "16",
     "Max. price": "14",
     "Time": 1800,
     "XP": "3",
     "Needs": [
       {
-        "Soybean": 1
+        "soybean": 1
       },
       {
-        "Wheat": 3
+        "wheat": 3
       }
     ],
     "Source": "Feed Mill",
@@ -456,14 +456,14 @@
   },
   {
     "image": "images/wool.png",
-    "Name": "Wool",
+    "Name": "wool",
     "Level": "16",
     "Max. price": "54",
     "Time": 21600,
     "XP": "5",
     "Needs": [
       {
-        "Sheep feed": 1
+        "sheep feed": 1
       }
     ],
     "Source": "Sheep",
@@ -471,17 +471,17 @@
   },
   {
     "image": "images/buttered-popcorn.png",
-    "Name": "Buttered popcorn",
+    "Name": "buttered popcorn",
     "Level": "16",
     "Max. price": "126",
     "Time": 3600,
     "XP": "15",
     "Needs": [
       {
-        "Butter": 1
+        "butter": 1
       },
       {
-        "Corn": 2
+        "corn": 2
       }
     ],
     "Source": "Popcorn Pot",
@@ -489,14 +489,14 @@
   },
   {
     "image": "images/sweater.png",
-    "Name": "Sweater",
+    "Name": "sweater",
     "Level": "17",
     "Max. price": "151",
     "Time": 7200,
     "XP": "18",
     "Needs": [
       {
-        "Wool": 2
+        "wool": 2
       }
     ],
     "Source": "Loom",
@@ -504,14 +504,14 @@
   },
   {
     "image": "images/cotton.png",
-    "Name": "Cotton",
+    "Name": "cotton",
     "Level": "18",
     "Max. price": "28",
     "Time": 9000,
     "XP": "6",
     "Needs": [
       {
-        "Cotton": 1
+        "cotton": 1
       }
     ],
     "Source": "Field",
@@ -519,20 +519,20 @@
   },
   {
     "image": "images/bacon-pie.png",
-    "Name": "Bacon pie",
+    "Name": "bacon pie",
     "Level": "18",
     "Max. price": "219",
     "Time": 10800,
     "XP": "26",
     "Needs": [
       {
-        "Bacon": 3
+        "bacon": 3
       },
       {
-        "Egg": 1
+        "egg": 1
       },
       {
-        "Wheat": 2
+        "wheat": 2
       }
     ],
     "Source": "Pie Oven",
@@ -540,14 +540,14 @@
   },
   {
     "image": "images/syrup.png",
-    "Name": "Syrup",
+    "Name": "syrup",
     "Level": "18",
     "Max. price": "90",
     "Time": 5400,
     "XP": "11",
     "Needs": [
       {
-        "Sugarcane": 4
+        "sugarcane": 4
       }
     ],
     "Source": "Sugar Mill",
@@ -555,14 +555,14 @@
   },
   {
     "image": "images/cotton-fabric.png",
-    "Name": "Cotton fabric",
+    "Name": "cotton fabric",
     "Level": "18",
     "Max. price": "108",
     "Time": 1800,
     "XP": "13",
     "Needs": [
       {
-        "Cotton": 3
+        "cotton": 3
       }
     ],
     "Source": "Loom",
@@ -570,17 +570,17 @@
   },
   {
     "image": "images/hamburger.png",
-    "Name": "Hamburger",
+    "Name": "hamburger",
     "Level": "18",
     "Max. price": "180",
     "Time": 7200,
     "XP": "22",
     "Needs": [
       {
-        "Bacon": 2
+        "bacon": 2
       },
       {
-        "Bread": 2
+        "bread": 2
       }
     ],
     "Source": "BBQ Grill",
@@ -588,7 +588,7 @@
   },
   {
     "image": "images/raspberry.png",
-    "Name": "Raspberry",
+    "Name": "raspberry",
     "Level": "19",
     "Max. price": "46",
     "Time": 64800,
@@ -599,20 +599,20 @@
   },
   {
     "image": "images/raspberry-muffin.png",
-    "Name": "Raspberry muffin",
+    "Name": "raspberry muffin",
     "Level": "19",
     "Max. price": "140",
     "Time": 2700,
     "XP": "17",
     "Needs": [
       {
-        "Egg": 1
+        "egg": 1
       },
       {
-        "Raspberry": 2
+        "raspberry": 2
       },
       {
-        "Wheat": 2
+        "wheat": 2
       }
     ],
     "Source": "Bakery",
@@ -620,17 +620,17 @@
   },
   {
     "image": "images/blue-woolly-hat.png",
-    "Name": "Blue woolly hat",
+    "Name": "blue woolly hat",
     "Level": "19",
     "Max. price": "111",
     "Time": 3600,
     "XP": "13",
     "Needs": [
       {
-        "Indigo": 1
+        "indigo": 1
       },
       {
-        "Wool": 1
+        "wool": 1
       }
     ],
     "Source": "Loom",
@@ -638,14 +638,14 @@
   },
   {
     "image": "images/cotton-shirt.png",
-    "Name": "Cotton shirt",
+    "Name": "cotton shirt",
     "Level": "19",
     "Max. price": "241",
     "Time": 2700,
     "XP": "29",
     "Needs": [
       {
-        "Cotton fabric": 2
+        "cotton fabric": 2
       }
     ],
     "Source": "Sewing Machine",
@@ -653,17 +653,17 @@
   },
   {
     "image": "images/blue-sweater.png",
-    "Name": "Blue sweater",
+    "Name": "blue sweater",
     "Level": "20",
     "Max. price": "208",
     "Time": 10800,
     "XP": "25",
     "Needs": [
       {
-        "Indigo": 2
+        "indigo": 2
       },
       {
-        "Wool": 2
+        "wool": 2
       }
     ],
     "Source": "Loom",
@@ -671,20 +671,20 @@
   },
   {
     "image": "images/carrot-cake.png",
-    "Name": "Carrot cake",
+    "Name": "carrot cake",
     "Level": "21",
     "Max. price": "165",
     "Time": 5400,
     "XP": "20",
     "Needs": [
       {
-        "Brown sugar": 1
+        "brown sugar": 1
       },
       {
-        "Butter": 1
+        "butter": 1
       },
       {
-        "Carrot": 2
+        "carrot": 2
       }
     ],
     "Source": "Cake Oven",
@@ -692,17 +692,17 @@
   },
   {
     "image": "images/wooly-chaps.png",
-    "Name": "Wooly chaps",
+    "Name": "wooly chaps",
     "Level": "21",
     "Max. price": "309",
     "Time": 5400,
     "XP": "37",
     "Needs": [
       {
-        "Cotton fabric": 1
+        "cotton fabric": 1
       },
       {
-        "Wool": 3
+        "wool": 3
       }
     ],
     "Source": "Sewing Machine",
@@ -710,7 +710,7 @@
   },
   {
     "image": "images/cherry.png",
-    "Name": "Cherry",
+    "Name": "cherry",
     "Level": "22",
     "Max. price": "68",
     "Time": 97200,
@@ -721,20 +721,20 @@
   },
   {
     "image": "images/cream-cake.png",
-    "Name": "Cream cake",
+    "Name": "cream cake",
     "Level": "23",
     "Max. price": "219",
     "Time": 10800,
     "XP": "26",
     "Needs": [
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       },
       {
-        "Wheat": 5
+        "wheat": 5
       }
     ],
     "Source": "Cake Oven",
@@ -742,23 +742,23 @@
   },
   {
     "image": "images/red-berry-cake.png",
-    "Name": "Red berry cake",
+    "Name": "red berry cake",
     "Level": "23",
     "Max. price": "255",
     "Time": 3600,
     "XP": "31",
     "Needs": [
       {
-        "Cherry": 2
+        "cherry": 2
       },
       {
-        "Egg": 1
+        "egg": 1
       },
       {
-        "Milk": 1
+        "milk": 1
       },
       {
-        "Raspberry": 1
+        "raspberry": 1
       }
     ],
     "Source": "Cake Oven",
@@ -766,17 +766,17 @@
   },
   {
     "image": "images/cheesecake.png",
-    "Name": "Cheesecake",
+    "Name": "cheesecake",
     "Level": "24",
     "Max. price": "284",
     "Time": 14400,
     "XP": "34",
     "Needs": [
       {
-        "Cheese": 1
+        "cheese": 1
       },
       {
-        "Cookie": 1
+        "cookie": 1
       }
     ],
     "Source": "Cake Oven",
@@ -784,7 +784,7 @@
   },
   {
     "image": "images/silver-ore.png",
-    "Name": "Silver ore",
+    "Name": "silver ore",
     "Level": "24",
     "Max. price": "18",
     "Time": 0,
@@ -795,7 +795,7 @@
   },
   {
     "image": "images/gold-ore.png",
-    "Name": "Gold ore",
+    "Name": "gold ore",
     "Level": "24",
     "Max. price": "21",
     "Time": 0,
@@ -806,7 +806,7 @@
   },
   {
     "image": "images/platinum-ore.png",
-    "Name": "Platinum ore",
+    "Name": "platinum ore",
     "Level": "24",
     "Max. price": "32",
     "Time": 0,
@@ -817,14 +817,14 @@
   },
   {
     "image": "images/silver-bar.png",
-    "Name": "Silver bar",
+    "Name": "silver bar",
     "Level": "24",
     "Max. price": "147",
     "Time": 28800,
     "XP": "18",
     "Needs": [
       {
-        "Silver ore": 3
+        "silver ore": 3
       }
     ],
     "Source": "Smelter",
@@ -832,14 +832,14 @@
   },
   {
     "image": "images/chili-pepper.png",
-    "Name": "Chili pepper",
+    "Name": "chili pepper",
     "Level": "25",
     "Max. price": "36",
     "Time": 14400,
     "XP": "7",
     "Needs": [
       {
-        "Chili pepper": 1
+        "chili pepper": 1
       }
     ],
     "Source": "Field",
@@ -847,17 +847,17 @@
   },
   {
     "image": "images/chili-popcorn.png",
-    "Name": "Chili popcorn",
+    "Name": "chili popcorn",
     "Level": "25",
     "Max. price": "122",
     "Time": 7200,
     "XP": "15",
     "Needs": [
       {
-        "Chili pepper": 2
+        "chili pepper": 2
       },
       {
-        "Corn": 2
+        "corn": 2
       }
     ],
     "Source": "Popcorn Pot",
@@ -865,14 +865,14 @@
   },
   {
     "image": "images/gold-bar.png",
-    "Name": "Gold bar",
+    "Name": "gold bar",
     "Level": "25",
     "Max. price": "180",
     "Time": 43200,
     "XP": "21",
     "Needs": [
       {
-        "Gold ore": 3
+        "gold ore": 3
       }
     ],
     "Source": "Smelter",
@@ -880,14 +880,14 @@
   },
   {
     "image": "images/platinum-bar.png",
-    "Name": "Platinum bar",
+    "Name": "platinum bar",
     "Level": "25",
     "Max. price": "205",
     "Time": 57600,
     "XP": "24",
     "Needs": [
       {
-        "Platinum ore": 3
+        "platinum ore": 3
       }
     ],
     "Source": "Smelter",
@@ -895,20 +895,20 @@
   },
   {
     "image": "images/violet-dress.png",
-    "Name": "Violet dress",
+    "Name": "violet dress",
     "Level": "25",
     "Max. price": "327",
     "Time": 8100,
     "XP": "39",
     "Needs": [
       {
-        "Cotton fabric": 2
+        "cotton fabric": 2
       },
       {
-        "Indigo": 1
+        "indigo": 1
       },
       {
-        "Raspberry": 1
+        "raspberry": 1
       }
     ],
     "Source": "Sewing Machine",
@@ -916,7 +916,7 @@
   },
   {
     "image": "images/blackberry.png",
-    "Name": "Blackberry",
+    "Name": "blackberry",
     "Level": "26",
     "Max. price": "82",
     "Time": 115200,
@@ -927,20 +927,20 @@
   },
   {
     "image": "images/blackberry-muffin.png",
-    "Name": "Blackberry muffin",
+    "Name": "blackberry muffin",
     "Level": "26",
     "Max. price": "226",
     "Time": 2700,
     "XP": "27",
     "Needs": [
       {
-        "Blackberry": 2
+        "blackberry": 2
       },
       {
-        "Egg": 2
+        "egg": 2
       },
       {
-        "Wheat": 1
+        "wheat": 1
       }
     ],
     "Source": "Bakery",
@@ -948,30 +948,29 @@
   },
   {
     "image": "images/carrot-juice.png",
-    "Name": "Carrot juice",
+    "Name": "carrot juice",
     "Level": "26",
     "Max. price": "46",
     "Time": 1800,
     "XP": "6",
     "Needs": [
       {
-        "Carrot": 3
+        "carrot": 3
       }
     ],
     "Source": "Juice Press",
     "Per boat crate": "6-11"
   },
-
   {
     "image": "images/fish-fillet.png",
-    "Name": "Fish fillet",
+    "Name": "fish fillet",
     "Level": "27",
     "Max. price": "54",
     "Time": 72000,
     "XP": "4-20",
     "Needs": [
       {
-        "Fishing net": 1
+        "fishing net": 1
       }
     ],
     "Source": "Fish",
@@ -979,20 +978,20 @@
   },
   {
     "image": "images/fish-burger.png",
-    "Name": "Fish burger",
+    "Name": "fish burger",
     "Level": "27",
     "Max. price": "226",
     "Time": 7200,
     "XP": "27",
     "Needs": [
       {
-        "Bread": 2
+        "bread": 2
       },
       {
-        "Chili pepper": 1
+        "chili pepper": 1
       },
       {
-        "Fish fillet": 2
+        "fish fillet": 2
       }
     ],
     "Source": "BBQ Grill",
@@ -1000,23 +999,23 @@
   },
   {
     "image": "images/apple-pie.png",
-    "Name": "Apple pie",
+    "Name": "apple pie",
     "Level": "28",
     "Max. price": "270",
     "Time": 9000,
     "XP": "32",
     "Needs": [
       {
-        "Apple": 3
+        "apple": 3
       },
       {
-        "Egg": 1
+        "egg": 1
       },
       {
-        "Syrup": 1
+        "syrup": 1
       },
       {
-        "Wheat": 2
+        "wheat": 2
       }
     ],
     "Source": "Pie Oven",
@@ -1024,20 +1023,20 @@
   },
   {
     "image": "images/fish-pie.png",
-    "Name": "Fish pie",
+    "Name": "fish pie",
     "Level": "28",
     "Max. price": "226",
     "Time": 7200,
     "XP": "27",
     "Needs": [
       {
-        "Egg": 1
+        "egg": 1
       },
       {
-        "Fish fillet": 3
+        "fish fillet": 3
       },
       {
-        "Wheat": 2
+        "wheat": 2
       }
     ],
     "Source": "Pie Oven",
@@ -1045,14 +1044,14 @@
   },
   {
     "image": "images/apple-juice.png",
-    "Name": "Apple juice",
+    "Name": "apple juice",
     "Level": "28",
     "Max. price": "129",
     "Time": 7200,
     "XP": "15",
     "Needs": [
       {
-        "Apple": 2
+        "apple": 2
       }
     ],
     "Source": "Juice Press",
@@ -1060,20 +1059,20 @@
   },
   {
     "image": "images/vanilla-ice-cream.png",
-    "Name": "Vanilla ice cream",
+    "Name": "vanilla ice cream",
     "Level": "29",
     "Max. price": "172",
     "Time": 7200,
     "XP": "20",
     "Needs": [
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "Milk": 1
+        "milk": 1
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       }
     ],
     "Source": "Ice Cream Maker",
@@ -1081,14 +1080,14 @@
   },
   {
     "image": "images/tomato.png",
-    "Name": "Tomato",
+    "Name": "tomato",
     "Level": "30",
     "Max. price": "43",
     "Time": 21600,
     "XP": "8",
     "Needs": [
       {
-        "Tomato": 1
+        "tomato": 1
       }
     ],
     "Source": "Field",
@@ -1096,14 +1095,14 @@
   },
   {
     "image": "images/roasted-tomatoes.png",
-    "Name": "Roasted tomatoes",
+    "Name": "roasted tomatoes",
     "Level": "30",
     "Max. price": "118",
     "Time": 5400,
     "XP": "14",
     "Needs": [
       {
-        "Tomato": 2
+        "tomato": 2
       }
     ],
     "Source": "BBQ Grill",
@@ -1111,14 +1110,14 @@
   },
   {
     "image": "images/cherry-juice.png",
-    "Name": "Cherry juice",
+    "Name": "cherry juice",
     "Level": "30",
     "Max. price": "216",
     "Time": 9000,
     "XP": "26",
     "Needs": [
       {
-        "Cherry": 2
+        "cherry": 2
       }
     ],
     "Source": "Juice Press",
@@ -1126,7 +1125,7 @@
   },
   {
     "image": "images/fishing-net.png",
-    "Name": "Fishing net",
+    "Name": "fishing net",
     "Level": "30",
     "Max. price": "0",
     "Time": 14400,
@@ -1135,17 +1134,16 @@
     "Source": "Net Maker",
     "Per boat crate": "N/A"
   },
-
   {
     "image": "images/tomato-juice.png",
-    "Name": "Tomato juice",
+    "Name": "tomato juice",
     "Level": "31",
     "Max. price": "162",
     "Time": 5400,
     "XP": "19",
     "Needs": [
       {
-        "Tomato": 3
+        "tomato": 3
       }
     ],
     "Source": "Juice Press",
@@ -1153,17 +1151,17 @@
   },
   {
     "image": "images/berry-juice.png",
-    "Name": "Berry juice",
+    "Name": "berry juice",
     "Level": "31",
     "Max. price": "205",
     "Time": 10800,
     "XP": "24",
     "Needs": [
       {
-        "Blackberry": 1
+        "blackberry": 1
       },
       {
-        "Raspberry": 1
+        "raspberry": 1
       }
     ],
     "Source": "Juice Press",
@@ -1171,20 +1169,20 @@
   },
   {
     "image": "images/goat-feed.png",
-    "Name": "Goat Feed",
+    "Name": "goat feed",
     "Level": "32",
     "Max. price": "14",
     "Time": 2400,
     "XP": "3",
     "Needs": [
       {
-        "Carrot": 2
+        "carrot": 2
       },
       {
-        "Corn": 1
+        "corn": 1
       },
       {
-        "Wheat": 1
+        "wheat": 1
       }
     ],
     "Source": "Feed Mill",
@@ -1192,14 +1190,14 @@
   },
   {
     "image": "images/goat-milk.png",
-    "Name": "Goat milk",
+    "Name": "goat milk",
     "Level": "32",
     "Max. price": "64",
     "Time": 28800,
     "XP": "6",
     "Needs": [
       {
-        "Goat Feed": 1
+        "goat feed": 1
       }
     ],
     "Source": "Goat",
@@ -1207,14 +1205,14 @@
   },
   {
     "image": "images/goat-cheese.png",
-    "Name": "Goat cheese",
+    "Name": "goat cheese",
     "Level": "33",
     "Max. price": "162",
     "Time": 5400,
     "XP": "19",
     "Needs": [
       {
-        "Goat milk": 2
+        "goat milk": 2
       }
     ],
     "Source": "Dairy",
@@ -1222,20 +1220,20 @@
   },
   {
     "image": "images/pizza.png",
-    "Name": "Pizza",
+    "Name": "pizza",
     "Level": "33",
     "Max. price": "190",
     "Time": 900,
     "XP": "23",
     "Needs": [
       {
-        "Cheese": 1
+        "cheese": 1
       },
       {
-        "Tomato": 1
+        "tomato": 1
       },
       {
-        "Wheat": 2
+        "wheat": 2
       }
     ],
     "Source": "Bakery",
@@ -1243,7 +1241,7 @@
   },
   {
     "image": "images/coal.png",
-    "Name": "Coal",
+    "Name": "coal",
     "Level": "33",
     "Max. price": "10",
     "Time": 0,
@@ -1254,14 +1252,14 @@
   },
   {
     "image": "images/refined-coal.png",
-    "Name": "Refined coal",
+    "Name": "refined coal",
     "Level": "33",
     "Max. price": "108",
     "Time": 21600,
     "XP": "13",
     "Needs": [
       {
-        "Coal": 3
+        "coal": 3
       }
     ],
     "Source": "Smelter",
@@ -1269,17 +1267,17 @@
   },
   {
     "image": "images/cherry-popsicle.png",
-    "Name": "Cherry popsicle",
+    "Name": "cherry popsicle",
     "Level": "33",
     "Max. price": "352",
     "Time": 10800,
     "XP": "42",
     "Needs": [
       {
-        "Cherry juice": 1
+        "cherry juice": 1
       },
       {
-        "Syrup": 1
+        "syrup": 1
       }
     ],
     "Source": "Ice Cream Maker",
@@ -1287,14 +1285,14 @@
   },
   {
     "image": "images/strawberry.png",
-    "Name": "Strawberry",
+    "Name": "strawberry",
     "Level": "34",
     "Max. price": "50",
     "Time": 28800,
     "XP": "10",
     "Needs": [
       {
-        "Strawberry": 1
+        "strawberry": 1
       }
     ],
     "Source": "Field",
@@ -1302,20 +1300,20 @@
   },
   {
     "image": "images/feta-pie.png",
-    "Name": "Feta pie",
+    "Name": "feta pie",
     "Level": "34",
     "Max. price": "223",
     "Time": 5400,
     "XP": "26",
     "Needs": [
       {
-        "Egg": 1
+        "egg": 1
       },
       {
-        "Goat cheese": 1
+        "goat cheese": 1
       },
       {
-        "Wheat": 2
+        "wheat": 2
       }
     ],
     "Source": "Pie Oven",
@@ -1323,7 +1321,7 @@
   },
   {
     "image": "images/iron-ore.png",
-    "Name": "Iron ore",
+    "Name": "iron ore",
     "Level": "34",
     "Max. price": "14",
     "Time": 0,
@@ -1334,14 +1332,14 @@
   },
   {
     "image": "images/iron-bar.png",
-    "Name": "Iron bar",
+    "Name": "iron bar",
     "Level": "34",
     "Max. price": "129",
     "Time": 25200,
     "XP": "15",
     "Needs": [
       {
-        "Iron ore": 3
+        "iron ore": 3
       }
     ],
     "Source": "Smelter",
@@ -1349,23 +1347,23 @@
   },
   {
     "image": "images/strawberry-ice-cream.png",
-    "Name": "Strawberry ice cream",
+    "Name": "strawberry ice cream",
     "Level": "34",
     "Max. price": "331",
     "Time": 14400,
     "XP": "40",
     "Needs": [
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "Milk": 1
+        "milk": 1
       },
       {
-        "Strawberry": 3
+        "strawberry": 3
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       }
     ],
     "Source": "Ice Cream Maker",
@@ -1373,14 +1371,14 @@
   },
   {
     "image": "images/wheat-bundle.png",
-    "Name": "Wheat bundle",
+    "Name": "wheat bundle",
     "Level": "34 (Rep. 3)",
     "Max. price": "50",
     "Time": 5400,
     "XP": "10",
     "Needs": [
       {
-        "Wheat": 75
+        "wheat": 75
       }
     ],
     "Source": "Feed Mill",
@@ -1388,17 +1386,17 @@
   },
   {
     "image": "images/meat-bucket.png",
-    "Name": "Meat bucket",
+    "Name": "meat bucket",
     "Level": "34 (Rep. 3)",
     "Max. price": "72",
     "Time": 2700,
     "XP": "15",
     "Needs": [
       {
-        "Fish Fillet": 3
+        "fish fillet": 3
       },
       {
-        "Carrot": 5
+        "carrot": 5
       }
     ],
     "Source": "Feed Mill",
@@ -1406,14 +1404,14 @@
   },
   {
     "image": "images/potato.png",
-    "Name": "Potato",
+    "Name": "potato",
     "Level": "35",
     "Max. price": "36",
     "Time": 13200,
     "XP": "7",
     "Needs": [
       {
-        "Potato": 1
+        "potato": 1
       }
     ],
     "Source": "Field",
@@ -1421,23 +1419,23 @@
   },
   {
     "image": "images/strawberry-cake.png",
-    "Name": "Strawberry cake",
+    "Name": "strawberry cake",
     "Level": "35",
     "Max. price": "316",
     "Time": 10800,
     "XP": "38",
     "Needs": [
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "Strawberry": 2
+        "strawberry": 2
       },
       {
-        "Wheat": 3
+        "wheat": 3
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       }
     ],
     "Source": "Cake Oven",
@@ -1445,23 +1443,23 @@
   },
   {
     "image": "images/baked-potato.png",
-    "Name": "Baked potato",
+    "Name": "baked potato",
     "Level": "35",
     "Max. price": "298",
     "Time": 2100,
     "XP": "36",
     "Needs": [
       {
-        "Cheese": 1
+        "cheese": 1
       },
       {
-        "Chili pepper": 1
+        "chili pepper": 1
       },
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "Potato": 2
+        "potato": 2
       }
     ],
     "Source": "BBQ Grill",
@@ -1469,14 +1467,14 @@
   },
   {
     "image": "images/apple-jam.png",
-    "Name": "Apple jam",
+    "Name": "apple jam",
     "Level": "35",
     "Max. price": "219",
     "Time": 21600,
     "XP": "26",
     "Needs": [
       {
-        "Apple": 3
+        "apple": 3
       }
     ],
     "Source": "Jam Maker",
@@ -1484,20 +1482,20 @@
   },
   {
     "image": "images/chocolate-cake.png",
-    "Name": "Chocolate cake",
+    "Name": "chocolate cake",
     "Level": "36",
     "Max. price": "320",
     "Time": 7200,
     "XP": "38",
     "Needs": [
       {
-        "Brown sugar": 1
+        "brown sugar": 1
       },
       {
-        "Butter": 1
+        "butter": 1
       },
       {
-        "Cacao": 2
+        "cacao": 2
       }
     ],
     "Source": "Cake Oven",
@@ -1505,23 +1503,23 @@
   },
   {
     "image": "images/casserole.png",
-    "Name": "Casserole",
+    "Name": "casserole",
     "Level": "36",
     "Max. price": "367",
     "Time": 7200,
     "XP": "44",
     "Needs": [
       {
-        "Bacon": 2
+        "bacon": 2
       },
       {
-        "Cheese": 1
+        "cheese": 1
       },
       {
-        "Egg": 2
+        "egg": 2
       },
       {
-        "Potato": 2
+        "potato": 2
       }
     ],
     "Source": "Pie Oven",
@@ -1529,7 +1527,7 @@
   },
   {
     "image": "images/cacao.png",
-    "Name": "Cacao",
+    "Name": "cacao",
     "Level": "36",
     "Max. price": "86",
     "Time": 122400,
@@ -1540,14 +1538,14 @@
   },
   {
     "image": "images/raspberry-jam.png",
-    "Name": "Raspberry jam",
+    "Name": "raspberry jam",
     "Level": "36",
     "Max. price": "252",
     "Time": 25200,
     "XP": "30",
     "Needs": [
       {
-        "Raspberry": 3
+        "raspberry": 3
       }
     ],
     "Source": "Jam Maker",
@@ -1555,23 +1553,23 @@
   },
   {
     "image": "images/spicy-pizza.png",
-    "Name": "Spicy pizza",
+    "Name": "spicy pizza",
     "Level": "37",
     "Max. price": "226",
     "Time": 900,
     "XP": "27",
     "Needs": [
       {
-        "Cheese": 1
+        "cheese": 1
       },
       {
-        "Chili pepper": 1
+        "chili pepper": 1
       },
       {
-        "Tomato": 1
+        "tomato": 1
       },
       {
-        "Wheat": 2
+        "wheat": 2
       }
     ],
     "Source": "Bakery",
@@ -1579,14 +1577,14 @@
   },
   {
     "image": "images/blackberry-jam.png",
-    "Name": "Blackberry jam",
+    "Name": "blackberry jam",
     "Level": "37",
     "Max. price": "388",
     "Time": 28800,
     "XP": "46",
     "Needs": [
       {
-        "Blackberry": 3
+        "blackberry": 3
       }
     ],
     "Source": "Jam Maker",
@@ -1594,20 +1592,20 @@
   },
   {
     "image": "images/potato-feta-cake.png",
-    "Name": "Potato feta cake",
+    "Name": "potato feta cake",
     "Level": "38",
     "Max. price": "309",
     "Time": 7200,
     "XP": "37",
     "Needs": [
       {
-        "Egg": 4
+        "egg": 4
       },
       {
-        "Goat cheese": 1
+        "goat cheese": 1
       },
       {
-        "Potato": 1
+        "potato": 1
       }
     ],
     "Source": "Cake Oven",
@@ -1615,14 +1613,14 @@
   },
   {
     "image": "images/cherry-jam.png",
-    "Name": "Cherry jam",
+    "Name": "cherry jam",
     "Level": "38",
     "Max. price": "334",
     "Time": 25200,
     "XP": "40",
     "Needs": [
       {
-        "Cherry": 3
+        "cherry": 3
       }
     ],
     "Source": "Jam Maker",
@@ -1630,17 +1628,17 @@
   },
   {
     "image": "images/bracelet.png",
-    "Name": "Bracelet",
+    "Name": "bracelet",
     "Level": "38",
     "Max. price": "514",
     "Time": 7200,
     "XP": "61",
     "Needs": [
       {
-        "Gold bar": 1
+        "gold bar": 1
       },
       {
-        "Silver bar": 2
+        "silver bar": 2
       }
     ],
     "Source": "Jeweler",
@@ -1648,23 +1646,23 @@
   },
   {
     "image": "images/potato-bread.png",
-    "Name": "Potato bread",
+    "Name": "potato bread",
     "Level": "39",
     "Max. price": "284",
     "Time": 2700,
     "XP": "34",
     "Needs": [
       {
-        "Butter": 1
+        "butter": 1
       },
       {
-        "Egg": 3
+        "egg": 3
       },
       {
-        "Potato": 2
+        "potato": 2
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       }
     ],
     "Source": "Bakery",
@@ -1672,23 +1670,23 @@
   },
   {
     "image": "images/shepherd-s-pie.png",
-    "Name": "Shepherd's pie",
+    "Name": "shepherd's pie",
     "Level": "39",
     "Max. price": "280",
     "Time": 6000,
     "XP": "34",
     "Needs": [
       {
-        "Bacon": 2
+        "bacon": 2
       },
       {
-        "Carrot": 2
+        "carrot": 2
       },
       {
-        "Potato": 2
+        "potato": 2
       },
       {
-        "Pumpkin": 2
+        "pumpkin": 2
       }
     ],
     "Source": "Pie Oven",
@@ -1696,23 +1694,23 @@
   },
   {
     "image": "images/chocolate-ice-cream.png",
-    "Name": "Chocolate ice cream",
+    "Name": "chocolate ice cream",
     "Level": "39",
     "Max. price": "342",
     "Time": 9000,
     "XP": "41",
     "Needs": [
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "Cacao": 2
+        "cacao": 2
       },
       {
-        "Milk": 1
+        "milk": 1
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       }
     ],
     "Source": "Ice Cream Maker",
@@ -1720,7 +1718,7 @@
   },
   {
     "image": "images/honeycomb.png",
-    "Name": "Honeycomb",
+    "Name": "honeycomb",
     "Level": "39",
     "Max. price": "68",
     "Time": 0,
@@ -1731,20 +1729,20 @@
   },
   {
     "image": "images/necklace.png",
-    "Name": "Necklace",
+    "Name": "necklace",
     "Level": "39",
     "Max. price": "727",
     "Time": 10800,
     "XP": "87",
     "Needs": [
       {
-        "Gold bar": 1
+        "gold bar": 1
       },
       {
-        "Platinum bar": 1
+        "platinum bar": 1
       },
       {
-        "Silver bar": 2
+        "silver bar": 2
       }
     ],
     "Source": "Jeweler",
@@ -1752,14 +1750,14 @@
   },
   {
     "image": "images/honey.png",
-    "Name": "Honey",
+    "Name": "honey",
     "Level": "39",
     "Max. price": "154",
     "Time": 1200,
     "XP": "19",
     "Needs": [
       {
-        "Honeycomb": 2
+        "honeycomb": 2
       }
     ],
     "Source": "Honey Extractor",
@@ -1767,17 +1765,17 @@
   },
   {
     "image": "images/honey-popcorn.png",
-    "Name": "Honey popcorn",
+    "Name": "honey popcorn",
     "Level": "40",
     "Max. price": "360",
     "Time": 5400,
     "XP": "43",
     "Needs": [
       {
-        "Corn": 2
+        "corn": 2
       },
       {
-        "Honey": 2
+        "honey": 2
       }
     ],
     "Source": "Popcorn Pot",
@@ -1785,20 +1783,20 @@
   },
   {
     "image": "images/diamond-ring.png",
-    "Name": "Diamond ring",
+    "Name": "diamond ring",
     "Level": "40",
     "Max. price": "824",
     "Time": 14400,
     "XP": "98",
     "Needs": [
       {
-        "Diamond": 1
+        "diamond": 1
       },
       {
-        "Gold bar": 2
+        "gold bar": 2
       },
       {
-        "Platinum bar": 2
+        "platinum bar": 2
       }
     ],
     "Source": "Jeweler",
@@ -1806,17 +1804,17 @@
   },
   {
     "image": "images/fish-and-chips.png",
-    "Name": "Fish and chips",
+    "Name": "fish and chips",
     "Level": "41",
     "Max. price": "244",
     "Time": 5400,
     "XP": "29",
     "Needs": [
       {
-        "Fish fillet": 2
+        "fish fillet": 2
       },
       {
-        "Potato": 3
+        "potato": 3
       }
     ],
     "Source": "BBQ Grill",
@@ -1824,20 +1822,20 @@
   },
   {
     "image": "images/iron-bracelet.png",
-    "Name": "Iron bracelet",
+    "Name": "iron bracelet",
     "Level": "41",
     "Max. price": "658",
     "Time": 5400,
     "XP": "79",
     "Needs": [
       {
-        "Iron bar": 2
+        "iron bar": 2
       },
       {
-        "Refined coal": 2
+        "refined coal": 2
       },
       {
-        "Silver bar": 1
+        "silver bar": 1
       }
     ],
     "Source": "Jeweler",
@@ -1845,7 +1843,7 @@
   },
   {
     "image": "images/coffee-bean.png",
-    "Name": "Coffee bean",
+    "Name": "coffee bean",
     "Level": "42",
     "Max. price": "64",
     "Time": 90000,
@@ -1856,17 +1854,17 @@
   },
   {
     "image": "images/espresso.png",
-    "Name": "Espresso",
+    "Name": "espresso",
     "Level": "42",
     "Max. price": "248",
     "Time": 300,
     "XP": "29",
     "Needs": [
       {
-        "Coffee bean": 3
+        "coffee bean": 3
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       }
     ],
     "Source": "Coffee Kiosk",
@@ -1874,23 +1872,23 @@
   },
   {
     "image": "images/honey-apple-cake.png",
-    "Name": "Honey apple cake",
+    "Name": "honey apple cake",
     "Level": "42",
     "Max. price": "482",
     "Time": 12000,
     "XP": "57",
     "Needs": [
       {
-        "Apple": 2
+        "apple": 2
       },
       {
-        "Egg": 2
+        "egg": 2
       },
       {
-        "Honey": 2
+        "honey": 2
       },
       {
-        "Wheat": 2
+        "wheat": 2
       }
     ],
     "Source": "Cake Oven",
@@ -1898,20 +1896,20 @@
   },
   {
     "image": "images/caffe-latte.png",
-    "Name": "Caff\u00e8 latte",
+    "Name": "caff\u00e8 latte",
     "Level": "43",
     "Max. price": "219",
     "Time": 600,
     "XP": "26",
     "Needs": [
       {
-        "Coffee bean": 2
+        "coffee bean": 2
       },
       {
-        "Milk": 1
+        "milk": 1
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       }
     ],
     "Source": "Coffee Kiosk",
@@ -1919,17 +1917,17 @@
   },
   {
     "image": "images/chocolate-popcorn.png",
-    "Name": "Chocolate popcorn",
+    "Name": "chocolate popcorn",
     "Level": "44",
     "Max. price": "248",
     "Time": 9000,
     "XP": "29",
     "Needs": [
       {
-        "Cacao": 2
+        "cacao": 2
       },
       {
-        "Corn": 2
+        "corn": 2
       }
     ],
     "Source": "Popcorn Pot",
@@ -1937,7 +1935,7 @@
   },
   {
     "image": "images/lobster-trap.png",
-    "Name": "Lobster trap",
+    "Name": "lobster trap",
     "Level": "44",
     "Max. price": "0",
     "Time": 7200,
@@ -1948,7 +1946,7 @@
   },
   {
     "image": "images/lobster-tail.png",
-    "Name": "Lobster tail",
+    "Name": "lobster tail",
     "Level": "44",
     "Max. price": "201",
     "Time": 21600,
@@ -1959,23 +1957,23 @@
   },
   {
     "image": "images/frutti-di-mare-pizza.png",
-    "Name": "Frutti di Mare pizza",
+    "Name": "frutti di mare pizza",
     "Level": "45",
     "Max. price": "403",
     "Time": 900,
     "XP": "48",
     "Needs": [
       {
-        "Cheese": 1
+        "cheese": 1
       },
       {
-        "Fish fillet": 1
+        "fish fillet": 1
       },
       {
-        "Lobster tail": 1
+        "lobster tail": 1
       },
       {
-        "Wheat": 2
+        "wheat": 2
       }
     ],
     "Source": "Bakery",
@@ -1983,20 +1981,20 @@
   },
   {
     "image": "images/caffe-mocha.png",
-    "Name": "Caff\u00e8 mocha",
+    "Name": "caff\u00e8 mocha",
     "Level": "45",
     "Max. price": "291",
     "Time": 900,
     "XP": "35",
     "Needs": [
       {
-        "Coffee bean": 1
+        "coffee bean": 1
       },
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "Cacao": 2
+        "cacao": 2
       }
     ],
     "Source": "Coffee Kiosk",
@@ -2004,23 +2002,23 @@
   },
   {
     "image": "images/raspberry-mocha.png",
-    "Name": "Raspberry mocha",
+    "Name": "raspberry mocha",
     "Level": "46",
     "Max. price": "259",
     "Time": 1800,
     "XP": "31",
     "Needs": [
       {
-        "Cacao": 1
+        "cacao": 1
       },
       {
-        "Coffee bean": 1
+        "coffee bean": 1
       },
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "Raspberry": 1
+        "raspberry": 1
       }
     ],
     "Source": "Coffee Kiosk",
@@ -2028,23 +2026,23 @@
   },
   {
     "image": "images/lobster-soup.png",
-    "Name": "Lobster soup",
+    "Name": "lobster soup",
     "Level": "46",
     "Max. price": "612",
     "Time": 9000,
     "XP": "73",
     "Needs": [
       {
-        "Chili pepper": 2
+        "chili pepper": 2
       },
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "Lobster tail": 2
+        "lobster tail": 2
       },
       {
-        "Tomato": 1
+        "tomato": 1
       }
     ],
     "Source": "Soup Kitchen",
@@ -2052,23 +2050,23 @@
   },
   {
     "image": "images/hot-chocolate.png",
-    "Name": "Hot chocolate",
+    "Name": "hot chocolate",
     "Level": "47",
     "Max. price": "316",
     "Time": 1500,
     "XP": "38",
     "Needs": [
       {
-        "Cacao": 2
+        "cacao": 2
       },
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "Milk": 1
+        "milk": 1
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       }
     ],
     "Source": "Coffee Kiosk",
@@ -2076,23 +2074,23 @@
   },
   {
     "image": "images/tomato-soup.png",
-    "Name": "Tomato soup",
+    "Name": "tomato soup",
     "Level": "47",
     "Max. price": "478",
     "Time": 5400,
     "XP": "57",
     "Needs": [
       {
-        "Chili pepper": 1
+        "chili pepper": 1
       },
       {
-        "Goat cheese": 1
+        "goat cheese": 1
       },
       {
-        "Tomato juice": 1
+        "tomato juice": 1
       },
       {
-        "Tomato": 2
+        "tomato": 2
       }
     ],
     "Source": "Soup Kitchen",
@@ -2100,17 +2098,17 @@
   },
   {
     "image": "images/red-scarf.png",
-    "Name": "Red scarf",
+    "Name": "red scarf",
     "Level": "48",
     "Max. price": "288",
     "Time": 9000,
     "XP": "34",
     "Needs": [
       {
-        "Strawberry": 2
+        "strawberry": 2
       },
       {
-        "Wool": 2
+        "wool": 2
       }
     ],
     "Source": "Loom",
@@ -2118,20 +2116,20 @@
   },
   {
     "image": "images/lobster-skewer.png",
-    "Name": "Lobster skewer",
+    "Name": "lobster skewer",
     "Level": "48",
     "Max. price": "417",
     "Time": 2400,
     "XP": "50",
     "Needs": [
       {
-        "Chili pepper": 1
+        "chili pepper": 1
       },
       {
-        "Honey": 1
+        "honey": 1
       },
       {
-        "Lobster tail": 1
+        "lobster tail": 1
       }
     ],
     "Source": "BBQ Grill",
@@ -2139,14 +2137,14 @@
   },
   {
     "image": "images/beeswax.png",
-    "Name": "Beeswax",
+    "Name": "beeswax",
     "Level": "48",
     "Max. price": "234",
     "Time": 2700,
     "XP": "28",
     "Needs": [
       {
-        "Honeycomb": 3
+        "honeycomb": 3
       }
     ],
     "Source": "Honey Extractor",
@@ -2154,17 +2152,17 @@
   },
   {
     "image": "images/strawberry-candle.png",
-    "Name": "Strawberry candle",
+    "Name": "strawberry candle",
     "Level": "48",
     "Max. price": "370",
     "Time": 7200,
     "XP": "44",
     "Needs": [
       {
-        "Beeswax": 1
+        "beeswax": 1
       },
       {
-        "Strawberry": 2
+        "strawberry": 2
       }
     ],
     "Source": "Candle Maker",
@@ -2172,20 +2170,20 @@
   },
   {
     "image": "images/rustic-bouquet.png",
-    "Name": "Rustic bouquet",
+    "Name": "rustic bouquet",
     "Level": "49",
     "Max. price": "208",
     "Time": 2700,
     "XP": "25",
     "Needs": [
       {
-        "Wheat": 5
+        "wheat": 5
       },
       {
-        "Indigo": 3
+        "indigo": 3
       },
       {
-        "Cotton": 3
+        "cotton": 3
       }
     ],
     "Source": "Flower Shop",
@@ -2193,23 +2191,23 @@
   },
   {
     "image": "images/pumpkin-soup.png",
-    "Name": "Pumpkin soup",
+    "Name": "pumpkin soup",
     "Level": "49",
     "Max. price": "392",
     "Time": 7200,
     "XP": "47",
     "Needs": [
       {
-        "Butter": 1
+        "butter": 1
       },
       {
-        "Carrot": 2
+        "carrot": 2
       },
       {
-        "Honey": 1
+        "honey": 1
       },
       {
-        "Pumpkin": 3
+        "pumpkin": 3
       }
     ],
     "Source": "Soup Kitchen",
@@ -2217,14 +2215,14 @@
   },
   {
     "image": "images/asparagus.png",
-    "Name": "Asparagus",
+    "Name": "asparagus",
     "Level": "49",
     "Max. price": "43",
     "Time": 21600,
     "XP": "8",
     "Needs": [
       {
-        "Asparagus": 1
+        "asparagus": 1
       }
     ],
     "Source": "Field",
@@ -2232,23 +2230,23 @@
   },
   {
     "image": "images/asparagus-quiche.png",
-    "Name": "Asparagus quiche",
+    "Name": "asparagus quiche",
     "Level": "49",
     "Max. price": "302",
     "Time": 7200,
     "XP": "36",
     "Needs": [
       {
-        "Asparagus": 2
+        "asparagus": 2
       },
       {
-        "Egg": 2
+        "egg": 2
       },
       {
-        "Cheese": 1
+        "cheese": 1
       },
       {
-        "Wheat": 4
+        "wheat": 4
       }
     ],
     "Source": "Pie Oven",
@@ -2256,14 +2254,14 @@
   },
   {
     "image": "images/strawberry-jam.png",
-    "Name": "Strawberry jam",
+    "Name": "strawberry jam",
     "Level": "50",
     "Max. price": "270",
     "Time": 27000,
     "XP": "32",
     "Needs": [
       {
-        "Strawberry": 3
+        "strawberry": 3
       }
     ],
     "Source": "Jam Maker",
@@ -2271,7 +2269,7 @@
   },
   {
     "image": "images/duck-trap.png",
-    "Name": "Duck trap",
+    "Name": "duck trap",
     "Level": "50",
     "Max. price": "0",
     "Time": 3600,
@@ -2282,7 +2280,7 @@
   },
   {
     "image": "images/duck-feather.png",
-    "Name": "Duck feather",
+    "Name": "duck feather",
     "Level": "50",
     "Max. price": "140",
     "Time": 10800,
@@ -2293,14 +2291,14 @@
   },
   {
     "image": "images/sesame.png",
-    "Name": "Sesame",
+    "Name": "sesame",
     "Level": "50",
     "Max. price": "18",
     "Time": 3600,
     "XP": "4",
     "Needs": [
       {
-        "Sesame": 1
+        "sesame": 1
       }
     ],
     "Source": "Field",
@@ -2308,20 +2306,20 @@
   },
   {
     "image": "images/sesame-ice-cream.png",
-    "Name": "Sesame ice cream",
+    "Name": "sesame ice cream",
     "Level": "50",
     "Max. price": "176",
     "Time": 7200,
     "XP": "21",
     "Needs": [
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "Sesame": 3
+        "sesame": 3
       },
       {
-        "Brown sugar": 1
+        "brown sugar": 1
       }
     ],
     "Source": "Ice Cream Maker",
@@ -2329,17 +2327,17 @@
   },
   {
     "image": "images/caramel-apple.png",
-    "Name": "Caramel apple",
+    "Name": "caramel apple",
     "Level": "51",
     "Max. price": "255",
     "Time": 7200,
     "XP": "31",
     "Needs": [
       {
-        "Apple": 1
+        "apple": 1
       },
       {
-        "Syrup": 2
+        "syrup": 2
       }
     ],
     "Source": "Candy Machine",
@@ -2347,17 +2345,17 @@
   },
   {
     "image": "images/pillow.png",
-    "Name": "Pillow",
+    "Name": "pillow",
     "Level": "51",
     "Max. price": "676",
     "Time": 10800,
     "XP": "81",
     "Needs": [
       {
-        "Cotton fabric": 2
+        "cotton fabric": 2
       },
       {
-        "Duck feather": 3
+        "duck feather": 3
       }
     ],
     "Source": "Sewing Machine",
@@ -2365,17 +2363,17 @@
   },
   {
     "image": "images/asparagus-soup.png",
-    "Name": "Asparagus soup",
+    "Name": "asparagus soup",
     "Level": "51",
     "Max. price": "255",
     "Time": 3600,
     "XP": "30",
     "Needs": [
       {
-        "Asparagus": 3
+        "asparagus": 3
       },
       {
-        "Cream": 2
+        "cream": 2
       }
     ],
     "Source": "Soup Kitchen",
@@ -2383,20 +2381,20 @@
   },
   {
     "image": "images/toffee.png",
-    "Name": "Toffee",
+    "Name": "toffee",
     "Level": "52",
     "Max. price": "176",
     "Time": 5400,
     "XP": "21",
     "Needs": [
       {
-        "Butter": 1
+        "butter": 1
       },
       {
-        "Wheat": 1
+        "wheat": 1
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       }
     ],
     "Source": "Candy Machine",
@@ -2404,17 +2402,17 @@
   },
   {
     "image": "images/raspberry-candle.png",
-    "Name": "Raspberry candle",
+    "Name": "raspberry candle",
     "Level": "52",
     "Max. price": "360",
     "Time": 6300,
     "XP": "43",
     "Needs": [
       {
-        "Beeswax": 1
+        "beeswax": 1
       },
       {
-        "Raspberry": 2
+        "raspberry": 2
       }
     ],
     "Source": "Candle Maker",
@@ -2422,14 +2420,14 @@
   },
   {
     "image": "images/pineapple.png",
-    "Name": "Pineapple",
+    "Name": "pineapple",
     "Level": "52",
     "Max. price": "14",
     "Time": 1800,
     "XP": "3",
     "Needs": [
       {
-        "Pineapple": 1
+        "pineapple": 1
       }
     ],
     "Source": "Field",
@@ -2437,14 +2435,14 @@
   },
   {
     "image": "images/pineapple-juice.png",
-    "Name": "Pineapple juice",
+    "Name": "pineapple juice",
     "Level": "52",
     "Max. price": "68",
     "Time": 2700,
     "XP": "8",
     "Needs": [
       {
-        "Pineapple": 3
+        "pineapple": 3
       }
     ],
     "Source": "Juice Press",
@@ -2452,23 +2450,23 @@
   },
   {
     "image": "images/fish-soup.png",
-    "Name": "Fish soup",
+    "Name": "fish soup",
     "Level": "53",
     "Max. price": "298",
     "Time": 10800,
     "XP": "35",
     "Needs": [
       {
-        "Carrot": 1
+        "carrot": 1
       },
       {
-        "Fish fillet": 2
+        "fish fillet": 2
       },
       {
-        "Milk": 1
+        "milk": 1
       },
       {
-        "Potato": 3
+        "potato": 3
       }
     ],
     "Source": "Soup Kitchen",
@@ -2476,14 +2474,14 @@
   },
   {
     "image": "images/lily.png",
-    "Name": "Lily",
+    "Name": "lily",
     "Level": "53",
     "Max. price": "21",
     "Time": 5400,
     "XP": "5",
     "Needs": [
       {
-        "Lily": 1
+        "lily": 1
       }
     ],
     "Source": "Field",
@@ -2491,17 +2489,17 @@
   },
   {
     "image": "images/soy-sauce.png",
-    "Name": "Soy sauce",
+    "Name": "soy sauce",
     "Level": "54",
     "Max. price": "154",
     "Time": 10800,
     "XP": "19",
     "Needs": [
       {
-        "Soybean": 9
+        "soybean": 9
       },
       {
-        "Wheat": 1
+        "wheat": 1
       }
     ],
     "Source": "Sauce Maker",
@@ -2509,20 +2507,20 @@
   },
   {
     "image": "images/chocolate.png",
-    "Name": "Chocolate",
+    "Name": "chocolate",
     "Level": "54",
     "Max. price": "460",
     "Time": 72000,
     "XP": "55",
     "Needs": [
       {
-        "Cacao": 3
+        "cacao": 3
       },
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       }
     ],
     "Source": "Candy Machine",
@@ -2530,23 +2528,23 @@
   },
   {
     "image": "images/fancy-cake.png",
-    "Name": "Fancy cake",
+    "Name": "fancy cake",
     "Level": "54",
     "Max. price": "450",
     "Time": 900,
     "XP": "49",
     "Needs": [
       {
-        "Cream cake": 1
+        "cream cake": 1
       },
       {
-        "Lily": 3
+        "lily": 3
       },
       {
-        "Raspberry": 3
+        "raspberry": 3
       },
       {
-        "Gold ore": 1
+        "gold ore": 1
       }
     ],
     "Source": "Cake Oven",
@@ -2554,14 +2552,14 @@
   },
   {
     "image": "images/rice.png",
-    "Name": "Rice",
+    "Name": "rice",
     "Level": "56",
     "Max. price": "18",
     "Time": 2700,
     "XP": "3",
     "Needs": [
       {
-        "Rice": 1
+        "rice": 1
       }
     ],
     "Source": "Field",
@@ -2569,20 +2567,20 @@
   },
   {
     "image": "images/sushi-roll.png",
-    "Name": "Sushi roll",
+    "Name": "sushi roll",
     "Level": "56",
     "Max. price": "489",
     "Time": 3600,
     "XP": "58",
     "Needs": [
       {
-        "Fish fillet": 1
+        "fish fillet": 1
       },
       {
-        "Rice": 15
+        "rice": 15
       },
       {
-        "Soy sauce": 1
+        "soy sauce": 1
       }
     ],
     "Source": "Sushi Bar",
@@ -2590,7 +2588,7 @@
   },
   {
     "image": "images/olive.png",
-    "Name": "Olive",
+    "Name": "olive",
     "Level": "57",
     "Max. price": "82",
     "Time": 86400,
@@ -2601,20 +2599,20 @@
   },
   {
     "image": "images/lollipop.png",
-    "Name": "Lollipop",
+    "Name": "lollipop",
     "Level": "57",
     "Max. price": "342",
     "Time": 43200,
     "XP": "41",
     "Needs": [
       {
-        "Cherry": 1
+        "cherry": 1
       },
       {
-        "Strawberry": 2
+        "strawberry": 2
       },
       {
-        "Syrup": 1
+        "syrup": 1
       }
     ],
     "Source": "Candy Machine",
@@ -2622,14 +2620,14 @@
   },
   {
     "image": "images/lettuce.png",
-    "Name": "Lettuce",
+    "Name": "lettuce",
     "Level": "58",
     "Max. price": "32",
     "Time": 12600,
     "XP": "7",
     "Needs": [
       {
-        "Lettuce": 1
+        "lettuce": 1
       }
     ],
     "Source": "Field",
@@ -2637,23 +2635,23 @@
   },
   {
     "image": "images/feta-salad.png",
-    "Name": "Feta salad",
+    "Name": "feta salad",
     "Level": "58",
     "Max. price": "745",
     "Time": 5400,
     "XP": "89",
     "Needs": [
       {
-        "Goat cheese": 2
+        "goat cheese": 2
       },
       {
-        "Lettuce": 3
+        "lettuce": 3
       },
       {
-        "Olive": 2
+        "olive": 2
       },
       {
-        "Roasted tomatoes": 1
+        "roasted tomatoes": 1
       }
     ],
     "Source": "Salad Bar",
@@ -2661,20 +2659,20 @@
   },
   {
     "image": "images/lobster-sushi.png",
-    "Name": "Lobster sushi",
+    "Name": "lobster sushi",
     "Level": "59",
     "Max. price": "637",
     "Time": 3600,
     "XP": "76",
     "Needs": [
       {
-        "Lobster tail": 1
+        "lobster tail": 1
       },
       {
-        "Rice": 15
+        "rice": 15
       },
       {
-        "Soy sauce": 1
+        "soy sauce": 1
       }
     ],
     "Source": "Sushi Bar",
@@ -2682,20 +2680,20 @@
   },
   {
     "image": "images/blanket.png",
-    "Name": "Blanket",
+    "Name": "blanket",
     "Level": "59",
     "Max. price": "1098",
     "Time": 12600,
     "XP": "131",
     "Needs": [
       {
-        "Cotton fabric": 3
+        "cotton fabric": 3
       },
       {
-        "Duck feather": 5
+        "duck feather": 5
       },
       {
-        "Pumpkin": 1
+        "pumpkin": 1
       }
     ],
     "Source": "Sewing Machine",
@@ -2703,20 +2701,20 @@
   },
   {
     "image": "images/jelly-beans.png",
-    "Name": "Jelly beans",
+    "Name": "jelly beans",
     "Level": "60",
     "Max. price": "684",
     "Time": 86400,
     "XP": "81",
     "Needs": [
       {
-        "Blackberry jam": 1
+        "blackberry jam": 1
       },
       {
-        "Raspberry jam": 1
+        "raspberry jam": 1
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       }
     ],
     "Source": "Candy Machine",
@@ -2724,14 +2722,14 @@
   },
   {
     "image": "images/olive-oil.png",
-    "Name": "Olive oil",
+    "Name": "olive oil",
     "Level": "60",
     "Max. price": "277",
     "Time": 2700,
     "XP": "33",
     "Needs": [
       {
-        "Olive": 3
+        "olive": 3
       }
     ],
     "Source": "Sauce Maker",
@@ -2739,14 +2737,14 @@
   },
   {
     "image": "images/garlic.png",
-    "Name": "Garlic",
+    "Name": "garlic",
     "Level": "60",
     "Max. price": "14",
     "Time": 1800,
     "XP": "3",
     "Needs": [
       {
-        "Garlic": 1
+        "garlic": 1
       }
     ],
     "Source": "Field",
@@ -2754,20 +2752,20 @@
   },
   {
     "image": "images/garlic-bread.png",
-    "Name": "Garlic bread",
+    "Name": "garlic bread",
     "Level": "60",
     "Max. price": "198",
     "Time": 900,
     "XP": "24",
     "Needs": [
       {
-        "Bread": 2
+        "bread": 2
       },
       {
-        "Butter": 1
+        "butter": 1
       },
       {
-        "Garlic": 4
+        "garlic": 4
       }
     ],
     "Source": "BBQ Grill",
@@ -2775,23 +2773,23 @@
   },
   {
     "image": "images/veggie-bagel.png",
-    "Name": "Veggie bagel",
+    "Name": "veggie bagel",
     "Level": "61",
     "Max. price": "532",
     "Time": 2400,
     "XP": "63",
     "Needs": [
       {
-        "Bread": 2
+        "bread": 2
       },
       {
-        "Lettuce": 3
+        "lettuce": 3
       },
       {
-        "Olive oil": 1
+        "olive oil": 1
       },
       {
-        "Tomato": 2
+        "tomato": 2
       }
     ],
     "Source": "Sandwich Bar",
@@ -2799,17 +2797,17 @@
   },
   {
     "image": "images/mayonnaise.png",
-    "Name": "Mayonnaise",
+    "Name": "mayonnaise",
     "Level": "62",
     "Max. price": "367",
     "Time": 900,
     "XP": "44",
     "Needs": [
       {
-        "Egg": 4
+        "egg": 4
       },
       {
-        "Olive oil": 1
+        "olive oil": 1
       }
     ],
     "Source": "Sauce Maker",
@@ -2817,23 +2815,23 @@
   },
   {
     "image": "images/blt-salad.png",
-    "Name": "BLT salad",
+    "Name": "blt salad",
     "Level": "62",
     "Max. price": "723",
     "Time": 6300,
     "XP": "86",
     "Needs": [
       {
-        "Bacon": 2
+        "bacon": 2
       },
       {
-        "Lettuce": 3
+        "lettuce": 3
       },
       {
-        "Mayonnaise": 1
+        "mayonnaise": 1
       },
       {
-        "Roasted tomatoes": 1
+        "roasted tomatoes": 1
       }
     ],
     "Source": "Salad Bar",
@@ -2841,20 +2839,20 @@
   },
   {
     "image": "images/caramel-latte.png",
-    "Name": "Caramel latte",
+    "Name": "caramel latte",
     "Level": "62",
     "Max. price": "345",
     "Time": 900,
     "XP": "41",
     "Needs": [
       {
-        "Coffee bean": 2
+        "coffee bean": 2
       },
       {
-        "Toffee": 1
+        "toffee": 1
       },
       {
-        "Milk": 1
+        "milk": 1
       }
     ],
     "Source": "Coffee Kiosk",
@@ -2862,7 +2860,7 @@
   },
   {
     "image": "images/peanuts.png",
-    "Name": "Peanuts",
+    "Name": "peanuts",
     "Level": "62",
     "Max. price": "234",
     "Time": 0,
@@ -2873,14 +2871,14 @@
   },
   {
     "image": "images/sunflower.png",
-    "Name": "Sunflower",
+    "Name": "sunflower",
     "Level": "63",
     "Max. price": "21",
     "Time": 5400,
     "XP": "5",
     "Needs": [
       {
-        "Sunflower": 1
+        "sunflower": 1
       }
     ],
     "Source": "Field",
@@ -2888,23 +2886,23 @@
   },
   {
     "image": "images/egg-sushi.png",
-    "Name": "Egg sushi",
+    "Name": "egg sushi",
     "Level": "63",
     "Max. price": "550",
     "Time": 7200,
     "XP": "66",
     "Needs": [
       {
-        "Brown sugar": 1
+        "brown sugar": 1
       },
       {
-        "Egg": 4
+        "egg": 4
       },
       {
-        "Rice": 15
+        "rice": 15
       },
       {
-        "Soy sauce": 1
+        "soy sauce": 1
       }
     ],
     "Source": "Sushi Bar",
@@ -2912,17 +2910,17 @@
   },
   {
     "image": "images/honey-peanuts.png",
-    "Name": "Honey peanuts",
+    "Name": "honey peanuts",
     "Level": "63",
     "Max. price": "468",
     "Time": 2400,
     "XP": "64",
     "Needs": [
       {
-        "Honey": 1
+        "honey": 1
       },
       {
-        "Peanuts": 1
+        "peanuts": 1
       }
     ],
     "Source": "Candy Machine",
@@ -2930,23 +2928,23 @@
   },
   {
     "image": "images/seafood-salad.png",
-    "Name": "Seafood salad",
+    "Name": "seafood salad",
     "Level": "64",
     "Max. price": "763",
     "Time": 7200,
     "XP": "91",
     "Needs": [
       {
-        "Fish fillet": 1
+        "fish fillet": 1
       },
       {
-        "Lettuce": 3
+        "lettuce": 3
       },
       {
-        "Lobster tail": 1
+        "lobster tail": 1
       },
       {
-        "Mayonnaise": 1
+        "mayonnaise": 1
       }
     ],
     "Source": "Salad Bar",
@@ -2954,20 +2952,20 @@
   },
   {
     "image": "images/berry-smoothie.png",
-    "Name": "Berry smoothie",
+    "Name": "berry smoothie",
     "Level": "64",
     "Max. price": "547",
     "Time": 4500,
     "XP": "65",
     "Needs": [
       {
-        "Blackberry": 3
+        "blackberry": 3
       },
       {
-        "Strawberry": 3
+        "strawberry": 3
       },
       {
-        "Raspberry": 3
+        "raspberry": 3
       }
     ],
     "Source": "Smoothie Mixer",
@@ -2975,20 +2973,20 @@
   },
   {
     "image": "images/snack-mix.png",
-    "Name": "Snack mix",
+    "Name": "snack mix",
     "Level": "64",
     "Max. price": "309",
     "Time": 2700,
     "XP": "50",
     "Needs": [
       {
-        "Corn": 2
+        "corn": 2
       },
       {
-        "Sesame": 1
+        "sesame": 1
       },
       {
-        "Peanuts": 1
+        "peanuts": 1
       }
     ],
     "Source": "Popcorn Pot",
@@ -2996,23 +2994,23 @@
   },
   {
     "image": "images/bright-bouquet.png",
-    "Name": "Bright bouquet",
+    "Name": "bright bouquet",
     "Level": "65",
     "Max. price": "338",
     "Time": 1200,
     "XP": "40",
     "Needs": [
       {
-        "Sunflower": 5
+        "sunflower": 5
       },
       {
-        "Indigo": 3
+        "indigo": 3
       },
       {
-        "Cotton": 1
+        "cotton": 1
       },
       {
-        "Iron ore": 5
+        "iron ore": 5
       }
     ],
     "Source": "Flower Shop",
@@ -3020,23 +3018,23 @@
   },
   {
     "image": "images/bacon-toast.png",
-    "Name": "Bacon toast",
+    "Name": "bacon toast",
     "Level": "65",
     "Max. price": "648",
     "Time": 6000,
     "XP": "77",
     "Needs": [
       {
-        "Bacon": 2
+        "bacon": 2
       },
       {
-        "Bread": 2
+        "bread": 2
       },
       {
-        "Lettuce": 3
+        "lettuce": 3
       },
       {
-        "Mayonnaise": 1
+        "mayonnaise": 1
       }
     ],
     "Source": "Sandwich Bar",
@@ -3044,23 +3042,23 @@
   },
   {
     "image": "images/pineapple-cake.png",
-    "Name": "Pineapple cake",
+    "Name": "pineapple cake",
     "Level": "65",
     "Max. price": "259",
     "Time": 4500,
     "XP": "31",
     "Needs": [
       {
-        "Pineapple": 3
+        "pineapple": 3
       },
       {
-        "Egg": 2
+        "egg": 2
       },
       {
-        "Cherry": 2
+        "cherry": 2
       },
       {
-        "Wheat": 4
+        "wheat": 4
       }
     ],
     "Source": "Cake Oven",
@@ -3068,23 +3066,23 @@
   },
   {
     "image": "images/chocolate-pie.png",
-    "Name": "Chocolate pie",
+    "Name": "chocolate pie",
     "Level": "65",
     "Max. price": "514",
     "Time": 4500,
     "XP": "70",
     "Needs": [
       {
-        "Wheat": 3
+        "wheat": 3
       },
       {
-        "Cacao": 3
+        "cacao": 3
       },
       {
-        "Egg": 1
+        "egg": 1
       },
       {
-        "Peanuts": 1
+        "peanuts": 1
       }
     ],
     "Source": "Pie Oven",
@@ -3092,14 +3090,14 @@
   },
   {
     "image": "images/cabbage.png",
-    "Name": "Cabbage",
+    "Name": "cabbage",
     "Level": "65",
     "Max. price": "18",
     "Time": 2700,
     "XP": "3",
     "Needs": [
       {
-        "Cabbage": 1
+        "cabbage": 1
       }
     ],
     "Source": "Field",
@@ -3107,23 +3105,23 @@
   },
   {
     "image": "images/cabbage-soup.png",
-    "Name": "Cabbage soup",
+    "Name": "cabbage soup",
     "Level": "65",
     "Max. price": "270",
     "Time": 5400,
     "XP": "32",
     "Needs": [
       {
-        "Cabbage": 3
+        "cabbage": 3
       },
       {
-        "Bacon": 2
+        "bacon": 2
       },
       {
-        "Potato": 2
+        "potato": 2
       },
       {
-        "Carrot": 2
+        "carrot": 2
       }
     ],
     "Source": "Soup Kitchen",
@@ -3131,7 +3129,7 @@
   },
   {
     "image": "images/lemon.png",
-    "Name": "Lemon",
+    "Name": "lemon",
     "Level": "66",
     "Max. price": "93",
     "Time": 104400,
@@ -3142,23 +3140,23 @@
   },
   {
     "image": "images/lemon-curd.png",
-    "Name": "Lemon curd",
+    "Name": "lemon curd",
     "Level": "66",
     "Max. price": "378",
     "Time": 1500,
     "XP": "45",
     "Needs": [
       {
-        "Butter": 1
+        "butter": 1
       },
       {
-        "Egg": 2
+        "egg": 2
       },
       {
-        "Lemon": 2
+        "lemon": 2
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       }
     ],
     "Source": "Sauce Maker",
@@ -3166,23 +3164,23 @@
   },
   {
     "image": "images/olive-dip.png",
-    "Name": "Olive dip",
+    "Name": "olive dip",
     "Level": "66",
     "Max. price": "468",
     "Time": 2700,
     "XP": "56",
     "Needs": [
       {
-        "Olive": 3
+        "olive": 3
       },
       {
-        "Bread": 2
+        "bread": 2
       },
       {
-        "Lemon": 1
+        "lemon": 1
       },
       {
-        "Fish fillet": 1
+        "fish fillet": 1
       }
     ],
     "Source": "Sauce Maker",
@@ -3190,23 +3188,23 @@
   },
   {
     "image": "images/egg-sandwich.png",
-    "Name": "Egg sandwich",
+    "Name": "egg sandwich",
     "Level": "66",
     "Max. price": "583",
     "Time": 4800,
     "XP": "69",
     "Needs": [
       {
-        "Bread": 2
+        "bread": 2
       },
       {
-        "Egg": 2
+        "egg": 2
       },
       {
-        "Lettuce": 3
+        "lettuce": 3
       },
       {
-        "Mayonnaise": 1
+        "mayonnaise": 1
       }
     ],
     "Source": "Sandwich Bar",
@@ -3214,20 +3212,20 @@
   },
   {
     "image": "images/green-smoothie.png",
-    "Name": "Green smoothie",
+    "Name": "green smoothie",
     "Level": "66",
     "Max. price": "320",
     "Time": 2700,
     "XP": "38",
     "Needs": [
       {
-        "Apple": 1
+        "apple": 1
       },
       {
-        "Lemon": 1
+        "lemon": 1
       },
       {
-        "Lettuce": 5
+        "lettuce": 5
       }
     ],
     "Source": "Smoothie Mixer",
@@ -3235,17 +3233,17 @@
   },
   {
     "image": "images/fresh-pasta.png",
-    "Name": "Fresh pasta",
+    "Name": "fresh pasta",
     "Level": "67",
     "Max. price": "43",
     "Time": 900,
     "XP": "5",
     "Needs": [
       {
-        "Egg": 1
+        "egg": 1
       },
       {
-        "Wheat": 2
+        "wheat": 2
       }
     ],
     "Source": "Pasta Maker",
@@ -3253,23 +3251,23 @@
   },
   {
     "image": "images/pasta-salad.png",
-    "Name": "Pasta salad",
+    "Name": "pasta salad",
     "Level": "67",
     "Max. price": "759",
     "Time": 9000,
     "XP": "90",
     "Needs": [
       {
-        "Fresh pasta": 4
+        "fresh pasta": 4
       },
       {
-        "Lemon": 2
+        "lemon": 2
       },
       {
-        "Olive oil": 1
+        "olive oil": 1
       },
       {
-        "Tomato": 2
+        "tomato": 2
       }
     ],
     "Source": "Salad Bar",
@@ -3277,20 +3275,20 @@
   },
   {
     "image": "images/lemon-pie.png",
-    "Name": "Lemon pie",
+    "Name": "lemon pie",
     "Level": "67",
     "Max. price": "446",
     "Time": 8100,
     "XP": "53",
     "Needs": [
       {
-        "Egg": 1
+        "egg": 1
       },
       {
-        "Lemon curd": 1
+        "lemon curd": 1
       },
       {
-        "Wheat": 2
+        "wheat": 2
       }
     ],
     "Source": "Pie Oven",
@@ -3298,20 +3296,20 @@
   },
   {
     "image": "images/grilled-asparagus.png",
-    "Name": "Grilled asparagus",
+    "Name": "grilled asparagus",
     "Level": "67",
     "Max. price": "486",
     "Time": 4500,
     "XP": "58",
     "Needs": [
       {
-        "Asparagus": 5
+        "asparagus": 5
       },
       {
-        "Bacon": 3
+        "bacon": 3
       },
       {
-        "Lemon": 1
+        "lemon": 1
       }
     ],
     "Source": "BBQ Grill",
@@ -3319,14 +3317,14 @@
   },
   {
     "image": "images/onion.png",
-    "Name": "Onion",
+    "Name": "onion",
     "Level": "68",
     "Max. price": "39",
     "Time": 18000,
     "XP": "8",
     "Needs": [
       {
-        "Onion": 1
+        "onion": 1
       }
     ],
     "Source": "Field",
@@ -3334,17 +3332,17 @@
   },
   {
     "image": "images/grilled-onion.png",
-    "Name": "Grilled onion",
+    "Name": "grilled onion",
     "Level": "68",
     "Max. price": "190",
     "Time": 3600,
     "XP": "23",
     "Needs": [
       {
-        "Butter": 1
+        "butter": 1
       },
       {
-        "Onion": 2
+        "onion": 2
       }
     ],
     "Source": "BBQ Grill",
@@ -3352,23 +3350,23 @@
   },
   {
     "image": "images/lemon-cake.png",
-    "Name": "Lemon cake",
+    "Name": "lemon cake",
     "Level": "68",
     "Max. price": "896",
     "Time": 9000,
     "XP": "107",
     "Needs": [
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "Egg": 2
+        "egg": 2
       },
       {
-        "Lemon curd": 2
+        "lemon curd": 2
       },
       {
-        "Wheat": 3
+        "wheat": 3
       }
     ],
     "Source": "Cake Oven",
@@ -3376,23 +3374,23 @@
   },
   {
     "image": "images/peanut-butter-milkshake.png",
-    "Name": "Peanut butter milkshake",
+    "Name": "peanut butter milkshake",
     "Level": "68",
     "Max. price": "619",
     "Time": 6000,
     "XP": "86",
     "Needs": [
       {
-        "Peanuts": 1
+        "peanuts": 1
       },
       {
-        "Milk": 1
+        "milk": 1
       },
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "Cacao": 3
+        "cacao": 3
       }
     ],
     "Source": "Ice Cream Maker",
@@ -3400,20 +3398,20 @@
   },
   {
     "image": "images/tomato-sauce.png",
-    "Name": "Tomato sauce",
+    "Name": "tomato sauce",
     "Level": "69",
     "Max. price": "230",
     "Time": 1800,
     "XP": "27",
     "Needs": [
       {
-        "Brown sugar": 1
+        "brown sugar": 1
       },
       {
-        "Lemon": 1
+        "lemon": 1
       },
       {
-        "Tomato": 2
+        "tomato": 2
       }
     ],
     "Source": "Sauce Maker",
@@ -3421,23 +3419,23 @@
   },
   {
     "image": "images/honey-toast.png",
-    "Name": "Honey toast",
+    "Name": "honey toast",
     "Level": "69",
     "Max. price": "255",
     "Time": 3600,
     "XP": "31",
     "Needs": [
       {
-        "Bread": 1
+        "bread": 1
       },
       {
-        "Egg": 1
+        "egg": 1
       },
       {
-        "Honey": 1
+        "honey": 1
       },
       {
-        "Milk": 1
+        "milk": 1
       }
     ],
     "Source": "Sandwich Bar",
@@ -3445,17 +3443,17 @@
   },
   {
     "image": "images/fried-rice.png",
-    "Name": "Fried rice",
+    "Name": "fried rice",
     "Level": "69",
     "Max. price": "205",
     "Time": 3600,
     "XP": "24",
     "Needs": [
       {
-        "Rice": 5
+        "rice": 5
       },
       {
-        "Egg": 5
+        "egg": 5
       }
     ],
     "Source": "Wok Kitchen",
@@ -3463,23 +3461,23 @@
   },
   {
     "image": "images/yogurt-smoothie.png",
-    "Name": "Yogurt smoothie",
+    "Name": "yogurt smoothie",
     "Level": "70",
     "Max. price": "349",
     "Time": 3600,
     "XP": "42",
     "Needs": [
       {
-        "Cherry": 1
+        "cherry": 1
       },
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "Raspberry": 2
+        "raspberry": 2
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       }
     ],
     "Source": "Smoothie Mixer",
@@ -3487,17 +3485,17 @@
   },
   {
     "image": "images/cloche-hat.png",
-    "Name": "Cloche hat",
+    "Name": "cloche hat",
     "Level": "70",
     "Max. price": "468",
     "Time": 7200,
     "XP": "56",
     "Needs": [
       {
-        "Strawberry": 2
+        "strawberry": 2
       },
       {
-        "Wool": 6
+        "wool": 6
       }
     ],
     "Source": "Hat Maker",
@@ -3505,14 +3503,14 @@
   },
   {
     "image": "images/cucumber.png",
-    "Name": "Cucumber",
+    "Name": "cucumber",
     "Level": "70",
     "Max. price": "14",
     "Time": 2100,
     "XP": "3",
     "Needs": [
       {
-        "Cucumber": 1
+        "cucumber": 1
       }
     ],
     "Source": "Field",
@@ -3520,20 +3518,20 @@
   },
   {
     "image": "images/cucumber-smoothie.png",
-    "Name": "Cucumber smoothie",
+    "Name": "cucumber smoothie",
     "Level": "70",
     "Max. price": "266",
     "Time": 2400,
     "XP": "32",
     "Needs": [
       {
-        "Cucumber": 3
+        "cucumber": 3
       },
       {
-        "Honey": 1
+        "honey": 1
       },
       {
-        "Pineapple": 3
+        "pineapple": 3
       }
     ],
     "Source": "Smoothie Mixer",
@@ -3541,7 +3539,7 @@
   },
   {
     "image": "images/orange.png",
-    "Name": "Orange",
+    "Name": "orange",
     "Level": "71",
     "Max. price": "97",
     "Time": 111600,
@@ -3552,20 +3550,20 @@
   },
   {
     "image": "images/flower-shawl.png",
-    "Name": "Flower shawl",
+    "Name": "flower shawl",
     "Level": "71",
     "Max. price": "295",
     "Time": 5400,
     "XP": "35",
     "Needs": [
       {
-        "Wool": 2
+        "wool": 2
       },
       {
-        "Sunflower": 3
+        "sunflower": 3
       },
       {
-        "Blackberry": 1
+        "blackberry": 1
       }
     ],
     "Source": "Loom",
@@ -3573,14 +3571,14 @@
   },
   {
     "image": "images/orange-juice.png",
-    "Name": "Orange juice",
+    "Name": "orange juice",
     "Level": "71",
     "Max. price": "234",
     "Time": 7200,
     "XP": "28",
     "Needs": [
       {
-        "Orange": 2
+        "orange": 2
       }
     ],
     "Source": "Juice Press",
@@ -3588,20 +3586,20 @@
   },
   {
     "image": "images/peanut-butter-and-jelly-sandwich.png",
-    "Name": "Peanut butter and jelly sandwich",
+    "Name": "peanut butter and jelly sandwich",
     "Level": "71",
     "Max. price": "601",
     "Time": 1500,
     "XP": "80",
     "Needs": [
       {
-        "Bread": 2
+        "bread": 2
       },
       {
-        "Raspberry jam": 1
+        "raspberry jam": 1
       },
       {
-        "Peanuts": 1
+        "peanuts": 1
       }
     ],
     "Source": "Sandwich Bar",
@@ -3609,20 +3607,20 @@
   },
   {
     "image": "images/onion-soup.png",
-    "Name": "Onion soup",
+    "Name": "onion soup",
     "Level": "72",
     "Max. price": "327",
     "Time": 9000,
     "XP": "39",
     "Needs": [
       {
-        "Bread": 2
+        "bread": 2
       },
       {
-        "Cheese": 1
+        "cheese": 1
       },
       {
-        "Onion": 3
+        "onion": 3
       }
     ],
     "Source": "Soup Kitchen",
@@ -3630,17 +3628,17 @@
   },
   {
     "image": "images/lemon-candle.png",
-    "Name": "Lemon candle",
+    "Name": "lemon candle",
     "Level": "72",
     "Max. price": "457",
     "Time": 8100,
     "XP": "55",
     "Needs": [
       {
-        "Beeswax": 1
+        "beeswax": 1
       },
       {
-        "Lemon": 2
+        "lemon": 2
       }
     ],
     "Source": "Candle Maker",
@@ -3648,20 +3646,20 @@
   },
   {
     "image": "images/top-hat.png",
-    "Name": "Top hat",
+    "Name": "top hat",
     "Level": "72",
     "Max. price": "619",
     "Time": 12600,
     "XP": "74",
     "Needs": [
       {
-        "Cotton fabric": 3
+        "cotton fabric": 3
       },
       {
-        "Duck feather": 1
+        "duck feather": 1
       },
       {
-        "Refined coal": 1
+        "refined coal": 1
       }
     ],
     "Source": "Hat Maker",
@@ -3669,23 +3667,23 @@
   },
   {
     "image": "images/gnocchi.png",
-    "Name": "Gnocchi",
+    "Name": "gnocchi",
     "Level": "72",
     "Max. price": "475",
     "Time": 4800,
     "XP": "57",
     "Needs": [
       {
-        "Potato": 4
+        "potato": 4
       },
       {
-        "Tomato": 3
+        "tomato": 3
       },
       {
-        "Wheat": 2
+        "wheat": 2
       },
       {
-        "Butter": 2
+        "butter": 2
       }
     ],
     "Source": "Pasta Kitchen",
@@ -3693,14 +3691,14 @@
   },
   {
     "image": "images/beetroot.png",
-    "Name": "Beetroot",
+    "Name": "beetroot",
     "Level": "72",
     "Max. price": "14",
     "Time": 2400,
     "XP": "3",
     "Needs": [
       {
-        "Beetroot": 1
+        "beetroot": 1
       }
     ],
     "Source": "Field",
@@ -3708,23 +3706,23 @@
   },
   {
     "image": "images/winter-veggies.png",
-    "Name": "Winter veggies",
+    "Name": "winter veggies",
     "Level": "72",
     "Max. price": "198",
     "Time": 1500,
     "XP": "24",
     "Needs": [
       {
-        "Beetroot": 2
+        "beetroot": 2
       },
       {
-        "Carrot": 3
+        "carrot": 3
       },
       {
-        "Potato": 2
+        "potato": 2
       },
       {
-        "Pumpkin": 2
+        "pumpkin": 2
       }
     ],
     "Source": "BBQ Grill",
@@ -3732,14 +3730,14 @@
   },
   {
     "image": "images/rice-noodles.png",
-    "Name": "Rice noodles",
+    "Name": "rice noodles",
     "Level": "73",
     "Max. price": "100",
     "Time": 1200,
     "XP": "12",
     "Needs": [
       {
-        "Rice": 5
+        "rice": 5
       }
     ],
     "Source": "Pasta Maker",
@@ -3747,23 +3745,23 @@
   },
   {
     "image": "images/noodle-soup.png",
-    "Name": "Noodle soup",
+    "Name": "noodle soup",
     "Level": "73",
     "Max. price": "432",
     "Time": 7200,
     "XP": "52",
     "Needs": [
       {
-        "Carrot": 2
+        "carrot": 2
       },
       {
-        "Chili pepper": 1
+        "chili pepper": 1
       },
       {
-        "Egg": 2
+        "egg": 2
       },
       {
-        "Rice noodles": 3
+        "rice noodles": 3
       }
     ],
     "Source": "Soup Kitchen",
@@ -3771,23 +3769,23 @@
   },
   {
     "image": "images/gracious-bouquet.png",
-    "Name": "Gracious bouquet",
+    "Name": "gracious bouquet",
     "Level": "73",
     "Max. price": "500",
     "Time": 2400,
     "XP": "60",
     "Needs": [
       {
-        "Cotton fabric": 1
+        "cotton fabric": 1
       },
       {
-        "Lily": 5
+        "lily": 5
       },
       {
-        "Gold ore": 1
+        "gold ore": 1
       },
       {
-        "Diamond": 1
+        "diamond": 1
       }
     ],
     "Source": "Flower Shop",
@@ -3795,14 +3793,14 @@
   },
   {
     "image": "images/bell-pepper.png",
-    "Name": "Bell pepper",
+    "Name": "bell pepper",
     "Level": "74",
     "Max. price": "36",
     "Time": 16200,
     "XP": "7",
     "Needs": [
       {
-        "Bell pepper": 1
+        "bell pepper": 1
       }
     ],
     "Source": "Field",
@@ -3810,14 +3808,14 @@
   },
   {
     "image": "images/marmalade.png",
-    "Name": "Marmalade",
+    "Name": "marmalade",
     "Level": "74",
     "Max. price": "457",
     "Time": 30600,
     "XP": "54",
     "Needs": [
       {
-        "Orange": 3
+        "orange": 3
       }
     ],
     "Source": "Jam Maker",
@@ -3825,23 +3823,23 @@
   },
   {
     "image": "images/sun-hat.png",
-    "Name": "Sun hat",
+    "Name": "sun hat",
     "Level": "74",
     "Max. price": "558",
     "Time": 9000,
     "XP": "66",
     "Needs": [
       {
-        "Duck feather": 2
+        "duck feather": 2
       },
       {
-        "Indigo": 1
+        "indigo": 1
       },
       {
-        "Raspberry": 1
+        "raspberry": 1
       },
       {
-        "Wool": 3
+        "wool": 3
       }
     ],
     "Source": "Hat Maker",
@@ -3849,23 +3847,23 @@
   },
   {
     "image": "images/veggie-lasagna.png",
-    "Name": "Veggie lasagna",
+    "Name": "veggie lasagna",
     "Level": "74",
     "Max. price": "532",
     "Time": 6000,
     "XP": "63",
     "Needs": [
       {
-        "Tomato sauce": 1
+        "tomato sauce": 1
       },
       {
-        "Fresh pasta": 3
+        "fresh pasta": 3
       },
       {
-        "Carrot": 1
+        "carrot": 1
       },
       {
-        "Cheese": 1
+        "cheese": 1
       }
     ],
     "Source": "Pasta Kitchen",
@@ -3873,23 +3871,23 @@
   },
   {
     "image": "images/veggie-platter.png",
-    "Name": "Veggie platter",
+    "Name": "veggie platter",
     "Level": "74",
     "Max. price": "266",
     "Time": 7200,
     "XP": "32",
     "Needs": [
       {
-        "Bell pepper": 2
+        "bell pepper": 2
       },
       {
-        "Carrot": 2
+        "carrot": 2
       },
       {
-        "Tomato": 2
+        "tomato": 2
       },
       {
-        "Cream": 1
+        "cream": 1
       }
     ],
     "Source": "Salad Bar",
@@ -3897,20 +3895,20 @@
   },
   {
     "image": "images/hot-dog.png",
-    "Name": "Hot dog",
+    "Name": "hot dog",
     "Level": "75",
     "Max. price": "370",
     "Time": 1800,
     "XP": "44",
     "Needs": [
       {
-        "Bacon": 2
+        "bacon": 2
       },
       {
-        "Bread": 1
+        "bread": 1
       },
       {
-        "Tomato sauce": 1
+        "tomato sauce": 1
       }
     ],
     "Source": "Hot Dog Stand",
@@ -3918,20 +3916,20 @@
   },
   {
     "image": "images/coleslaw.png",
-    "Name": "Coleslaw",
+    "Name": "coleslaw",
     "Level": "75",
     "Max. price": "468",
     "Time": 4500,
     "XP": "56",
     "Needs": [
       {
-        "Cabbage": 3
+        "cabbage": 3
       },
       {
-        "Carrot": 2
+        "carrot": 2
       },
       {
-        "Mayonnaise": 1
+        "mayonnaise": 1
       }
     ],
     "Source": "Salad Bar",
@@ -3939,17 +3937,17 @@
   },
   {
     "image": "images/cotton-candy.png",
-    "Name": "Cotton Candy",
+    "Name": "cotton candy",
     "Level": "75",
     "Max. price": "226",
     "Time": 1800,
     "XP": "27",
     "Needs": [
       {
-        "White sugar": 3
+        "white sugar": 3
       },
       {
-        "Strawberry": 1
+        "strawberry": 1
       }
     ],
     "Source": "Candy Machine",
@@ -3957,7 +3955,7 @@
   },
   {
     "image": "images/peach.png",
-    "Name": "Peach",
+    "Name": "peach",
     "Level": "76",
     "Max. price": "100",
     "Time": 108000,
@@ -3968,23 +3966,23 @@
   },
   {
     "image": "images/peach-tart.png",
-    "Name": "Peach tart",
+    "Name": "peach tart",
     "Level": "76",
     "Max. price": "435",
     "Time": 9000,
     "XP": "52",
     "Needs": [
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "Egg": 2
+        "egg": 2
       },
       {
-        "Peach": 3
+        "peach": 3
       },
       {
-        "Wheat": 2
+        "wheat": 2
       }
     ],
     "Source": "Pie Oven",
@@ -3992,20 +3990,20 @@
   },
   {
     "image": "images/tofu-dog.png",
-    "Name": "Tofu dog",
+    "Name": "tofu dog",
     "Level": "76",
     "Max. price": "367",
     "Time": 2700,
     "XP": "44",
     "Needs": [
       {
-        "Lettuce": 3
+        "lettuce": 3
       },
       {
-        "Soybean": 6
+        "soybean": 6
       },
       {
-        "Tomato": 4
+        "tomato": 4
       }
     ],
     "Source": "Hot Dog Stand",
@@ -4013,23 +4011,23 @@
   },
   {
     "image": "images/big-sushi-roll.png",
-    "Name": "Big sushi roll",
+    "Name": "big sushi roll",
     "Level": "76",
     "Max. price": "648",
     "Time": 5400,
     "XP": "77",
     "Needs": [
       {
-        "Lettuce": 5
+        "lettuce": 5
       },
       {
-        "Rice": 20
+        "rice": 20
       },
       {
-        "Fish fillet": 1
+        "fish fillet": 1
       },
       {
-        "Egg": 3
+        "egg": 3
       }
     ],
     "Source": "Sushi Bar",
@@ -4037,17 +4035,17 @@
   },
   {
     "image": "images/beetroot-salad.png",
-    "Name": "Beetroot salad",
+    "Name": "beetroot salad",
     "Level": "76",
     "Max. price": "234",
     "Time": 2700,
     "XP": "28",
     "Needs": [
       {
-        "Beetroot": 3
+        "beetroot": 3
       },
       {
-        "Goat Cheese": 1
+        "goat cheese": 1
       }
     ],
     "Source": "Salad Bar",
@@ -4055,23 +4053,23 @@
   },
   {
     "image": "images/plain-donut.png",
-    "Name": "Plain Donut",
+    "Name": "plain donut",
     "Level": "76",
     "Max. price": "129",
     "Time": 900,
     "XP": "15",
     "Needs": [
       {
-        "Milk": 1
+        "milk": 1
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       },
       {
-        "Egg": 1
+        "egg": 1
       },
       {
-        "Wheat": 3
+        "wheat": 3
       }
     ],
     "Source": "Donut Maker",
@@ -4079,20 +4077,20 @@
   },
   {
     "image": "images/salsa.png",
-    "Name": "Salsa",
+    "Name": "salsa",
     "Level": "77",
     "Max. price": "252",
     "Time": 1200,
     "XP": "30",
     "Needs": [
       {
-        "Chili pepper": 2
+        "chili pepper": 2
       },
       {
-        "Onion": 2
+        "onion": 2
       },
       {
-        "Tomato": 2
+        "tomato": 2
       }
     ],
     "Source": "Sauce Maker",
@@ -4100,20 +4098,20 @@
   },
   {
     "image": "images/taco.png",
-    "Name": "Taco",
+    "Name": "taco",
     "Level": "77",
     "Max. price": "396",
     "Time": 2700,
     "XP": "47",
     "Needs": [
       {
-        "Corn bread": 1
+        "corn bread": 1
       },
       {
-        "Bacon": 1
+        "bacon": 1
       },
       {
-        "Salsa": 1
+        "salsa": 1
       }
     ],
     "Source": "Taco Kitchen",
@@ -4121,23 +4119,23 @@
   },
   {
     "image": "images/colourful-omelet.png",
-    "Name": "Colourful omelet",
+    "Name": "colourful omelet",
     "Level": "77",
     "Max. price": "136",
     "Time": 3600,
     "XP": "16",
     "Needs": [
       {
-        "Egg": 2
+        "egg": 2
       },
       {
-        "Carrot": 2
+        "carrot": 2
       },
       {
-        "Bell pepper": 1
+        "bell pepper": 1
       },
       {
-        "Cabbage": 1
+        "cabbage": 1
       }
     ],
     "Source": "Omelet Station",
@@ -4145,20 +4143,20 @@
   },
   {
     "image": "images/spring-omelet.png",
-    "Name": "Spring omelet",
+    "Name": "spring omelet",
     "Level": "77",
     "Max. price": "230",
     "Time": 2400,
     "XP": "27",
     "Needs": [
       {
-        "Egg": 2
+        "egg": 2
       },
       {
-        "Asparagus": 2
+        "asparagus": 2
       },
       {
-        "Butter": 1
+        "butter": 1
       }
     ],
     "Source": "Omelet Station",
@@ -4166,23 +4164,23 @@
   },
   {
     "image": "images/summer-rolls.png",
-    "Name": "Summer rolls",
+    "Name": "summer rolls",
     "Level": "78",
     "Max. price": "316",
     "Time": 3600,
     "XP": "38",
     "Needs": [
       {
-        "Rice noodles": 2
+        "rice noodles": 2
       },
       {
-        "Carrot": 2
+        "carrot": 2
       },
       {
-        "Lettuce": 1
+        "lettuce": 1
       },
       {
-        "Chili pepper": 1
+        "chili pepper": 1
       }
     ],
     "Source": "Salad Bar",
@@ -4190,17 +4188,17 @@
   },
   {
     "image": "images/orange-sorbet.png",
-    "Name": "Orange sorbet",
+    "Name": "orange sorbet",
     "Level": "78",
     "Max. price": "399",
     "Time": 12600,
     "XP": "48",
     "Needs": [
       {
-        "Honey": 1
+        "honey": 1
       },
       {
-        "Orange": 2
+        "orange": 2
       }
     ],
     "Source": "Ice Cream Maker",
@@ -4208,20 +4206,20 @@
   },
   {
     "image": "images/corn-dog.png",
-    "Name": "Corn dog",
+    "Name": "corn dog",
     "Level": "78",
     "Max. price": "529",
     "Time": 3600,
     "XP": "63",
     "Needs": [
       {
-        "Bacon": 4
+        "bacon": 4
       },
       {
-        "Corn": 4
+        "corn": 4
       },
       {
-        "Olive oil": 1
+        "olive oil": 1
       }
     ],
     "Source": "Hot Dog Stand",
@@ -4229,20 +4227,20 @@
   },
   {
     "image": "images/potato-soup.png",
-    "Name": "Potato soup",
+    "Name": "potato soup",
     "Level": "78",
     "Max. price": "255",
     "Time": 9000,
     "XP": "31",
     "Needs": [
       {
-        "Milk": 1
+        "milk": 1
       },
       {
-        "Onion": 2
+        "onion": 2
       },
       {
-        "Potato": 3
+        "potato": 3
       }
     ],
     "Source": "Soup Kitchen",
@@ -4250,14 +4248,14 @@
   },
   {
     "image": "images/ginger.png",
-    "Name": "Ginger",
+    "Name": "ginger",
     "Level": "78",
     "Max. price": "28",
     "Time": 9000,
     "XP": "6",
     "Needs": [
       {
-        "Ginger": 1
+        "ginger": 1
       }
     ],
     "Source": "Field",
@@ -4265,20 +4263,20 @@
   },
   {
     "image": "images/sesame-brittle.png",
-    "Name": "Sesame brittle",
+    "Name": "sesame brittle",
     "Level": "78",
     "Max. price": "270",
     "Time": 3600,
     "XP": "32",
     "Needs": [
       {
-        "Sesame": 3
+        "sesame": 3
       },
       {
-        "Ginger": 1
+        "ginger": 1
       },
       {
-        "Honey": 1
+        "honey": 1
       }
     ],
     "Source": "Candy Machine",
@@ -4286,17 +4284,17 @@
   },
   {
     "image": "images/affogato.png",
-    "Name": "Affogato",
+    "Name": "affogato",
     "Level": "78",
     "Max. price": "435",
     "Time": 1200,
     "XP": "56",
     "Needs": [
       {
-        "Vanilla ice cream": 1
+        "vanilla ice cream": 1
       },
       {
-        "Espresso": 1
+        "espresso": 1
       }
     ],
     "Source": "Ice Cream Maker",
@@ -4304,23 +4302,23 @@
   },
   {
     "image": "images/fish-taco.png",
-    "Name": "Fish taco",
+    "Name": "fish taco",
     "Level": "79",
     "Max. price": "392",
     "Time": 5400,
     "XP": "47",
     "Needs": [
       {
-        "Chili pepper": 2
+        "chili pepper": 2
       },
       {
-        "Corn bread": 2
+        "corn bread": 2
       },
       {
-        "Fish fillet": 1
+        "fish fillet": 1
       },
       {
-        "Lemon": 1
+        "lemon": 1
       }
     ],
     "Source": "Taco Kitchen",
@@ -4328,14 +4326,14 @@
   },
   {
     "image": "images/peach-jam.png",
-    "Name": "Peach jam",
+    "Name": "peach jam",
     "Level": "79",
     "Max. price": "464",
     "Time": 28800,
     "XP": "55",
     "Needs": [
       {
-        "Peach": 3
+        "peach": 3
       }
     ],
     "Source": "Jam Maker",
@@ -4343,23 +4341,23 @@
   },
   {
     "image": "images/lobster-pasta.png",
-    "Name": "Lobster pasta",
+    "Name": "lobster pasta",
     "Level": "79",
     "Max. price": "637",
     "Time": 7200,
     "XP": "76",
     "Needs": [
       {
-        "Lobster tail": 1
+        "lobster tail": 1
       },
       {
-        "Cream": 2
+        "cream": 2
       },
       {
-        "Fresh pasta": 3
+        "fresh pasta": 3
       },
       {
-        "Tomato": 4
+        "tomato": 4
       }
     ],
     "Source": "Pasta Kitchen",
@@ -4367,20 +4365,20 @@
   },
   {
     "image": "images/cucumber-sandwich.png",
-    "Name": "Cucumber sandwich",
+    "Name": "cucumber sandwich",
     "Level": "79",
     "Max. price": "464",
     "Time": 2100,
     "XP": "55",
     "Needs": [
       {
-        "Cucumber": 2
+        "cucumber": 2
       },
       {
-        "Mayonnaise": 1
+        "mayonnaise": 1
       },
       {
-        "Bread": 2
+        "bread": 2
       }
     ],
     "Source": "Sandwich Bar",
@@ -4388,23 +4386,23 @@
   },
   {
     "image": "images/spicy-fish.png",
-    "Name": "Spicy fish",
+    "Name": "spicy fish",
     "Level": "79",
     "Max. price": "543",
     "Time": 5400,
     "XP": "65",
     "Needs": [
       {
-        "Fish fillet": 1
+        "fish fillet": 1
       },
       {
-        "Chili pepper": 3
+        "chili pepper": 3
       },
       {
-        "Garlic": 5
+        "garlic": 5
       },
       {
-        "Olive oil": 1
+        "olive oil": 1
       }
     ],
     "Source": "Wok Kitchen",
@@ -4412,17 +4410,17 @@
   },
   {
     "image": "images/sprinkled-donut.png",
-    "Name": "Sprinkled Donut",
+    "Name": "sprinkled donut",
     "Level": "79",
     "Max. price": "313",
     "Time": 1200,
     "XP": "37",
     "Needs": [
       {
-        "Plain Donut": 1
+        "plain donut": 1
       },
       {
-        "Cacao": 2
+        "cacao": 2
       }
     ],
     "Source": "Donut Maker",
@@ -4430,23 +4428,23 @@
   },
   {
     "image": "images/cheese-omelet.png",
-    "Name": "Cheese omelet",
+    "Name": "cheese omelet",
     "Level": "79",
     "Max. price": "464",
     "Time": 5400,
     "XP": "55",
     "Needs": [
       {
-        "Egg": 3
+        "egg": 3
       },
       {
-        "Cheese": 2
+        "cheese": 2
       },
       {
-        "Tomato": 2
+        "tomato": 2
       },
       {
-        "Onion": 1
+        "onion": 1
       }
     ],
     "Source": "Omelet Station",
@@ -4454,14 +4452,14 @@
   },
   {
     "image": "images/tea-leaf.png",
-    "Name": "Tea leaf",
+    "Name": "tea leaf",
     "Level": "80",
     "Max. price": "43",
     "Time": 23400,
     "XP": "9",
     "Needs": [
       {
-        "Tea leaf": 1
+        "tea leaf": 1
       }
     ],
     "Source": "Field",
@@ -4469,14 +4467,14 @@
   },
   {
     "image": "images/green-tea.png",
-    "Name": "Green tea",
+    "Name": "green tea",
     "Level": "80",
     "Max. price": "241",
     "Time": 1800,
     "XP": "29",
     "Needs": [
       {
-        "Tea leaf": 5
+        "tea leaf": 5
       }
     ],
     "Source": "Tea Stand",
@@ -4484,23 +4482,23 @@
   },
   {
     "image": "images/onion-dog.png",
-    "Name": "Onion dog",
+    "Name": "onion dog",
     "Level": "80",
     "Max. price": "306",
     "Time": 4500,
     "XP": "36",
     "Needs": [
       {
-        "Bacon": 2
+        "bacon": 2
       },
       {
-        "Bread": 1
+        "bread": 1
       },
       {
-        "Chili pepper": 1
+        "chili pepper": 1
       },
       {
-        "Onion": 3
+        "onion": 3
       }
     ],
     "Source": "Hot Dog Stand",
@@ -4508,23 +4506,23 @@
   },
   {
     "image": "images/stuffed-peppers.png",
-    "Name": "Stuffed peppers",
+    "Name": "stuffed peppers",
     "Level": "80",
     "Max. price": "352",
     "Time": 1200,
     "XP": "42",
     "Needs": [
       {
-        "Bell pepper": 3
+        "bell pepper": 3
       },
       {
-        "Bacon": 1
+        "bacon": 1
       },
       {
-        "Rice": 3
+        "rice": 3
       },
       {
-        "Cheese": 1
+        "cheese": 1
       }
     ],
     "Source": "BBQ Grill",
@@ -4532,17 +4530,17 @@
   },
   {
     "image": "images/milk-tea.png",
-    "Name": "Milk tea",
+    "Name": "milk tea",
     "Level": "81",
     "Max. price": "190",
     "Time": 2700,
     "XP": "23",
     "Needs": [
       {
-        "Milk": 1
+        "milk": 1
       },
       {
-        "Tea leaf": 3
+        "tea leaf": 3
       }
     ],
     "Source": "Tea Stand",
@@ -4550,23 +4548,23 @@
   },
   {
     "image": "images/bell-pepper-soup.png",
-    "Name": "Bell pepper soup",
+    "Name": "bell pepper soup",
     "Level": "81",
     "Max. price": "439",
     "Time": 3600,
     "XP": "52",
     "Needs": [
       {
-        "Bread": 1
+        "bread": 1
       },
       {
-        "Olive oil": 1
+        "olive oil": 1
       },
       {
-        "Chili pepper": 1
+        "chili pepper": 1
       },
       {
-        "Bell pepper": 2
+        "bell pepper": 2
       }
     ],
     "Source": "Soup Kitchen",
@@ -4574,17 +4572,17 @@
   },
   {
     "image": "images/chocolate-fondue.png",
-    "Name": "Chocolate fondue",
+    "Name": "chocolate fondue",
     "Level": "81",
     "Max. price": "626",
     "Time": 1500,
     "XP": "74",
     "Needs": [
       {
-        "Chocolate": 1
+        "chocolate": 1
       },
       {
-        "Strawberry": 3
+        "strawberry": 3
       }
     ],
     "Source": "Fondue Pot",
@@ -4592,14 +4590,14 @@
   },
   {
     "image": "images/peony.png",
-    "Name": "Peony",
+    "Name": "peony",
     "Level": "82",
     "Max. price": "36",
     "Time": 14400,
     "XP": "7",
     "Needs": [
       {
-        "Peony": 1
+        "peony": 1
       }
     ],
     "Source": "Field",
@@ -4607,20 +4605,20 @@
   },
   {
     "image": "images/quesadilla.png",
-    "Name": "Quesadilla",
+    "Name": "quesadilla",
     "Level": "82",
     "Max. price": "241",
     "Time": 3600,
     "XP": "29",
     "Needs": [
       {
-        "Cheese": 1
+        "cheese": 1
       },
       {
-        "Chili pepper": 2
+        "chili pepper": 2
       },
       {
-        "Wheat": 4
+        "wheat": 4
       }
     ],
     "Source": "Taco Kitchen",
@@ -4628,23 +4626,23 @@
   },
   {
     "image": "images/fruit-salad.png",
-    "Name": "Fruit salad",
+    "Name": "fruit salad",
     "Level": "82",
     "Max. price": "597",
     "Time": 7200,
     "XP": "71",
     "Needs": [
       {
-        "Blackberry": 2
+        "blackberry": 2
       },
       {
-        "Honey": 1
+        "honey": 1
       },
       {
-        "Orange": 1
+        "orange": 1
       },
       {
-        "Strawberry": 3
+        "strawberry": 3
       }
     ],
     "Source": "Salad Bar",
@@ -4652,20 +4650,20 @@
   },
   {
     "image": "images/crunchy-donut.png",
-    "Name": "Crunchy Donut",
+    "Name": "crunchy donut",
     "Level": "82",
     "Max. price": "594",
     "Time": 1800,
     "XP": "71",
     "Needs": [
       {
-        "Plain donut": 1
+        "plain donut": 1
       },
       {
-        "Cacao": 1
+        "cacao": 1
       },
       {
-        "Peanuts": 1
+        "peanuts": 1
       }
     ],
     "Source": "Donut Maker",
@@ -4673,23 +4671,23 @@
   },
   {
     "image": "images/pasta-carbonara.png",
-    "Name": "Pasta carbonara",
+    "Name": "pasta carbonara",
     "Level": "83",
     "Max. price": "410",
     "Time": 9000,
     "XP": "49",
     "Needs": [
       {
-        "Fresh pasta": 3
+        "fresh pasta": 3
       },
       {
-        "Bacon": 2
+        "bacon": 2
       },
       {
-        "Egg": 1
+        "egg": 1
       },
       {
-        "Cheese": 1
+        "cheese": 1
       }
     ],
     "Source": "Pasta Kitchen",
@@ -4697,20 +4695,20 @@
   },
   {
     "image": "images/peach-ice-cream.png",
-    "Name": "Peach ice cream",
+    "Name": "peach ice cream",
     "Level": "83",
     "Max. price": "450",
     "Time": 10800,
     "XP": "54",
     "Needs": [
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "Honey": 1
+        "honey": 1
       },
       {
-        "Peach": 2
+        "peach": 2
       }
     ],
     "Source": "Ice Cream Maker",
@@ -4718,17 +4716,17 @@
   },
   {
     "image": "images/honey-tea.png",
-    "Name": "Honey tea",
+    "Name": "honey tea",
     "Level": "83",
     "Max. price": "313",
     "Time": 2400,
     "XP": "37",
     "Needs": [
       {
-        "Honey": 1
+        "honey": 1
       },
       {
-        "Tea leaf": 3
+        "tea leaf": 3
       }
     ],
     "Source": "Tea Stand",
@@ -4736,14 +4734,14 @@
   },
   {
     "image": "images/broccoli.png",
-    "Name": "Broccoli",
+    "Name": "broccoli",
     "Level": "83",
     "Max. price": "21",
     "Time": 5400,
     "XP": "4",
     "Needs": [
       {
-        "Broccoli": 1
+        "broccoli": 1
       }
     ],
     "Source": "Field",
@@ -4751,20 +4749,20 @@
   },
   {
     "image": "images/broccoli-pasta.png",
-    "Name": "Broccoli pasta",
+    "Name": "broccoli pasta",
     "Level": "83",
     "Max. price": "345",
     "Time": 3600,
     "XP": "41",
     "Needs": [
       {
-        "Broccoli": 3
+        "broccoli": 3
       },
       {
-        "Cheese": 1
+        "cheese": 1
       },
       {
-        "Fresh pasta": 3
+        "fresh pasta": 3
       }
     ],
     "Source": "Pasta Kitchen",
@@ -4772,7 +4770,7 @@
   },
   {
     "image": "images/rice-omelet.png",
-    "Name": "Rice omelet",
+    "Name": "rice omelet",
     "Level": "83",
     "Max. price": "572",
     "Time": 7200,
@@ -4783,23 +4781,23 @@
   },
   {
     "image": "images/summer-salad.png",
-    "Name": "Summer salad",
+    "Name": "summer salad",
     "Level": "84",
     "Max. price": "554",
     "Time": 10800,
     "XP": "66",
     "Needs": [
       {
-        "Goat cheese": 1
+        "goat cheese": 1
       },
       {
-        "Onion": 3
+        "onion": 3
       },
       {
-        "Peach": 1
+        "peach": 1
       },
       {
-        "Tomato": 3
+        "tomato": 3
       }
     ],
     "Source": "Salad Bar",
@@ -4807,14 +4805,14 @@
   },
   {
     "image": "images/grapes.png",
-    "Name": "Grapes",
+    "Name": "grapes",
     "Level": "84",
     "Max. price": "32",
     "Time": 10800,
     "XP": "6",
     "Needs": [
       {
-        "Grapes": 1
+        "grapes": 1
       }
     ],
     "Source": "Field",
@@ -4822,14 +4820,14 @@
   },
   {
     "image": "images/grape-juice.png",
-    "Name": "Grape juice",
+    "Name": "grape juice",
     "Level": "84",
     "Max. price": "104",
     "Time": 9000,
     "XP": "13",
     "Needs": [
       {
-        "Grapes": 2
+        "grapes": 2
       }
     ],
     "Source": "Juice Press",
@@ -4837,20 +4835,20 @@
   },
   {
     "image": "images/onion-melt.png",
-    "Name": "Onion melt",
+    "Name": "onion melt",
     "Level": "84",
     "Max. price": "417",
     "Time": 5400,
     "XP": "50",
     "Needs": [
       {
-        "Corn bread": 2
+        "corn bread": 2
       },
       {
-        "Onion": 3
+        "onion": 3
       },
       {
-        "Cheese": 1
+        "cheese": 1
       }
     ],
     "Source": "Sandwich Bar",
@@ -4858,20 +4856,20 @@
   },
   {
     "image": "images/honey-soap.png",
-    "Name": "Honey soap",
+    "Name": "honey soap",
     "Level": "84",
     "Max. price": "327",
     "Time": 3600,
     "XP": "39",
     "Needs": [
       {
-        "Goat milk": 1
+        "goat milk": 1
       },
       {
-        "Cacao": 2
+        "cacao": 2
       },
       {
-        "Honeycomb": 1
+        "honeycomb": 1
       }
     ],
     "Source": "Bath Kiosk",
@@ -4879,17 +4877,17 @@
   },
   {
     "image": "images/lemon-lotion.png",
-    "Name": "Lemon lotion",
+    "Name": "lemon lotion",
     "Level": "84",
     "Max. price": "403",
     "Time": 4500,
     "XP": "48",
     "Needs": [
       {
-        "Olive oil": 1
+        "olive oil": 1
       },
       {
-        "Lemon": 1
+        "lemon": 1
       }
     ],
     "Source": "Bath Kiosk",
@@ -4897,20 +4895,20 @@
   },
   {
     "image": "images/colorful-candles.png",
-    "Name": "Colorful Candles",
+    "Name": "colorful candles",
     "Level": "84",
     "Max. price": "324",
     "Time": 6600,
     "XP": "39",
     "Needs": [
       {
-        "Beeswax": 1
+        "beeswax": 1
       },
       {
-        "Raspberry": 1
+        "raspberry": 1
       },
       {
-        "Carrot": 1
+        "carrot": 1
       }
     ],
     "Source": "Candle Maker",
@@ -4918,14 +4916,14 @@
   },
   {
     "image": "images/mint.png",
-    "Name": "Mint",
+    "Name": "mint",
     "Level": "85",
     "Max. price": "32",
     "Time": 10800,
     "XP": "6",
     "Needs": [
       {
-        "Mint": 1
+        "mint": 1
       }
     ],
     "Source": "Field",
@@ -4933,14 +4931,14 @@
   },
   {
     "image": "images/grape-jam.png",
-    "Name": "Grape jam",
+    "Name": "grape jam",
     "Level": "85",
     "Max. price": "162",
     "Time": 23400,
     "XP": "19",
     "Needs": [
       {
-        "Grapes": 3
+        "grapes": 3
       }
     ],
     "Source": "Jam Maker",
@@ -4948,23 +4946,23 @@
   },
   {
     "image": "images/mint-ice-cream.png",
-    "Name": "Mint ice cream",
+    "Name": "mint ice cream",
     "Level": "85",
     "Max. price": "288",
     "Time": 8100,
     "XP": "34",
     "Needs": [
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       },
       {
-        "Mint": 2
+        "mint": 2
       },
       {
-        "Cacao": 1
+        "cacao": 1
       }
     ],
     "Source": "Ice Cream Maker",
@@ -4972,17 +4970,17 @@
   },
   {
     "image": "images/flower-crown.png",
-    "Name": "Flower crown",
+    "Name": "flower crown",
     "Level": "86",
     "Max. price": "331",
     "Time": 7200,
     "XP": "40",
     "Needs": [
       {
-        "Peony": 5
+        "peony": 5
       },
       {
-        "Cotton": 4
+        "cotton": 4
       }
     ],
     "Source": "Hat Maker",
@@ -4990,17 +4988,17 @@
   },
   {
     "image": "images/lemon-tea.png",
-    "Name": "Lemon tea",
+    "Name": "lemon tea",
     "Level": "86",
     "Max. price": "241",
     "Time": 1200,
     "XP": "29",
     "Needs": [
       {
-        "Lemon": 1
+        "lemon": 1
       },
       {
-        "Tea leaf": 3
+        "tea leaf": 3
       }
     ],
     "Source": "Tea Stand",
@@ -5008,23 +5006,23 @@
   },
   {
     "image": "images/bacon-fondue.png",
-    "Name": "Bacon fondue",
+    "Name": "bacon fondue",
     "Level": "86",
     "Max. price": "507",
     "Time": 1800,
     "XP": "60",
     "Needs": [
       {
-        "Bacon": 3
+        "bacon": 3
       },
       {
-        "Broccoli": 1
+        "broccoli": 1
       },
       {
-        "Bell pepper": 1
+        "bell pepper": 1
       },
       {
-        "Olive oil": 1
+        "olive oil": 1
       }
     ],
     "Source": "Fondue Pot",
@@ -5032,23 +5030,23 @@
   },
   {
     "image": "images/peanut-noodles.png",
-    "Name": "Peanut noodles",
+    "Name": "peanut noodles",
     "Level": "86",
     "Max. price": "597",
     "Time": 2700,
     "XP": "80",
     "Needs": [
       {
-        "Ginger": 1
+        "ginger": 1
       },
       {
-        "Rice noodles": 1
+        "rice noodles": 1
       },
       {
-        "Soy sauce": 1
+        "soy sauce": 1
       },
       {
-        "Peanuts": 1
+        "peanuts": 1
       }
     ],
     "Source": "Wok Kitchen",
@@ -5056,23 +5054,23 @@
   },
   {
     "image": "images/gingerbread-cookie.png",
-    "Name": "Gingerbread cookie",
+    "Name": "gingerbread cookie",
     "Level": "86",
     "Max. price": "273",
     "Time": 1800,
     "XP": "33",
     "Needs": [
       {
-        "Wheat": 5
+        "wheat": 5
       },
       {
-        "Butter": 1
+        "butter": 1
       },
       {
-        "Syrup": 1
+        "syrup": 1
       },
       {
-        "Ginger": 2
+        "ginger": 2
       }
     ],
     "Source": "Bakery",
@@ -5080,20 +5078,20 @@
   },
   {
     "image": "images/cream-donut.png",
-    "Name": "Cream Donut",
+    "Name": "cream donut",
     "Level": "86",
     "Max. price": "230",
     "Time": 1500,
     "XP": "27",
     "Needs": [
       {
-        "Plain donut": 1
+        "plain donut": 1
       },
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "Brown sugar": 1
+        "brown sugar": 1
       }
     ],
     "Source": "Donut Maker",
@@ -5101,20 +5099,20 @@
   },
   {
     "image": "images/nachos.png",
-    "Name": "Nachos",
+    "Name": "nachos",
     "Level": "87",
     "Max. price": "432",
     "Time": 4500,
     "XP": "52",
     "Needs": [
       {
-        "Cheese": 1
+        "cheese": 1
       },
       {
-        "Corn": 4
+        "corn": 4
       },
       {
-        "Salsa": 1
+        "salsa": 1
       }
     ],
     "Source": "Taco Kitchen",
@@ -5122,23 +5120,23 @@
   },
   {
     "image": "images/spicy-pasta.png",
-    "Name": "Spicy pasta",
+    "Name": "spicy pasta",
     "Level": "87",
     "Max. price": "576",
     "Time": 5400,
     "XP": "69",
     "Needs": [
       {
-        "Fresh pasta": 3
+        "fresh pasta": 3
       },
       {
-        "Tomato sauce": 1
+        "tomato sauce": 1
       },
       {
-        "Chili pepper": 3
+        "chili pepper": 3
       },
       {
-        "Onion": 2
+        "onion": 2
       }
     ],
     "Source": "Pasta Kitchen",
@@ -5146,20 +5144,20 @@
   },
   {
     "image": "images/broccoli-soup.png",
-    "Name": "Broccoli soup",
+    "Name": "broccoli soup",
     "Level": "87",
     "Max. price": "237",
     "Time": 4500,
     "XP": "28",
     "Needs": [
       {
-        "Broccoli": 3
+        "broccoli": 3
       },
       {
-        "Onion": 1
+        "onion": 1
       },
       {
-        "Potato": 3
+        "potato": 3
       }
     ],
     "Source": "Soup Kitchen",
@@ -5167,23 +5165,23 @@
   },
   {
     "image": "images/bacon-fries.png",
-    "Name": "Bacon fries",
+    "Name": "bacon fries",
     "Level": "87",
     "Max. price": "302",
     "Time": 1500,
     "XP": "36",
     "Needs": [
       {
-        "Chili pepper": 1
+        "chili pepper": 1
       },
       {
-        "Bacon": 2
+        "bacon": 2
       },
       {
-        "Potato": 4
+        "potato": 4
       },
       {
-        "Garlic": 1
+        "garlic": 1
       }
     ],
     "Source": "Deep Fryer",
@@ -5191,7 +5189,7 @@
   },
   {
     "image": "images/potato-omelet.png",
-    "Name": "Potato Omelet",
+    "Name": "potato omelet",
     "Level": "87",
     "Max. price": "270",
     "Time": 4500,
@@ -5202,20 +5200,20 @@
   },
   {
     "image": "images/mixed-smoothie.png",
-    "Name": "Mixed smoothie",
+    "Name": "mixed smoothie",
     "Level": "88",
     "Max. price": "504",
     "Time": 1800,
     "XP": "60",
     "Needs": [
       {
-        "Lemon": 1
+        "lemon": 1
       },
       {
-        "Orange": 2
+        "orange": 2
       },
       {
-        "Peach": 2
+        "peach": 2
       }
     ],
     "Source": "Smoothie Mixer",
@@ -5223,7 +5221,7 @@
   },
   {
     "image": "images/banana.png",
-    "Name": "Banana",
+    "Name": "banana",
     "Level": "88",
     "Max. price": "104",
     "Time": 97200,
@@ -5234,20 +5232,20 @@
   },
   {
     "image": "images/iced-banana-latte.png",
-    "Name": "Iced banana latte",
+    "Name": "iced banana latte",
     "Level": "88",
     "Max. price": "277",
     "Time": 1200,
     "XP": "33",
     "Needs": [
       {
-        "Banana": 1
+        "banana": 1
       },
       {
-        "Coffee bean": 2
+        "coffee bean": 2
       },
       {
-        "Milk": 1
+        "milk": 1
       }
     ],
     "Source": "Coffee Kiosk",
@@ -5255,20 +5253,20 @@
   },
   {
     "image": "images/apple-ginger-tea.png",
-    "Name": "Apple ginger tea",
+    "Name": "apple ginger tea",
     "Level": "88",
     "Max. price": "169",
     "Time": 1800,
     "XP": "20",
     "Needs": [
       {
-        "Ginger": 1
+        "ginger": 1
       },
       {
-        "Apple": 2
+        "apple": 2
       },
       {
-        "Tea leaf": 1
+        "tea leaf": 1
       }
     ],
     "Source": "Tea Stand",
@@ -5276,20 +5274,20 @@
   },
   {
     "image": "images/bacon-donut.png",
-    "Name": "Bacon Donut",
+    "Name": "bacon donut",
     "Level": "88",
     "Max. price": "388",
     "Time": 1800,
     "XP": "46",
     "Needs": [
       {
-        "Plain donut": 1
+        "plain donut": 1
       },
       {
-        "Bacon": 3
+        "bacon": 3
       },
       {
-        "Syrup": 1
+        "syrup": 1
       }
     ],
     "Source": "Donut Maker",
@@ -5297,14 +5295,14 @@
   },
   {
     "image": "images/passion-fruit.png",
-    "Name": "Passion fruit",
+    "Name": "passion fruit",
     "Level": "88",
     "Max. price": "18",
     "Time": 3600,
     "XP": "4",
     "Needs": [
       {
-        "Passion fruit": 1
+        "passion fruit": 1
       }
     ],
     "Source": "Field",
@@ -5312,14 +5310,14 @@
   },
   {
     "image": "images/passion-fruit-juice.png",
-    "Name": "Passion fruit juice",
+    "Name": "passion fruit juice",
     "Level": "88",
     "Max. price": "64",
     "Time": 2700,
     "XP": "8",
     "Needs": [
       {
-        "Passion fruit": 2
+        "passion fruit": 2
       }
     ],
     "Source": "Juice Press",
@@ -5327,17 +5325,17 @@
   },
   {
     "image": "images/orange-tea.png",
-    "Name": "Orange tea",
+    "Name": "orange tea",
     "Level": "89",
     "Max. price": "255",
     "Time": 2400,
     "XP": "30",
     "Needs": [
       {
-        "Orange": 1
+        "orange": 1
       },
       {
-        "Tea leaf": 3
+        "tea leaf": 3
       }
     ],
     "Source": "Tea Stand",
@@ -5345,23 +5343,23 @@
   },
   {
     "image": "images/fruit-cake.png",
-    "Name": "Fruit cake",
+    "Name": "fruit cake",
     "Level": "89",
     "Max. price": "450",
     "Time": 10800,
     "XP": "54",
     "Needs": [
       {
-        "Cherry": 2
+        "cherry": 2
       },
       {
-        "Grapes": 2
+        "grapes": 2
       },
       {
-        "Orange": 2
+        "orange": 2
       },
       {
-        "Wheat": 3
+        "wheat": 3
       }
     ],
     "Source": "Cake Oven",
@@ -5369,14 +5367,14 @@
   },
   {
     "image": "images/mushroom.png",
-    "Name": "Mushroom",
+    "Name": "mushroom",
     "Level": "89",
     "Max. price": "10",
     "Time": 1200,
     "XP": "2",
     "Needs": [
       {
-        "Mushroom": 1
+        "mushroom": 1
       }
     ],
     "Source": "Field",
@@ -5384,23 +5382,23 @@
   },
   {
     "image": "images/mushroom-salad.png",
-    "Name": "Mushroom salad",
+    "Name": "mushroom salad",
     "Level": "89",
     "Max. price": "216",
     "Time": 3600,
     "XP": "26",
     "Needs": [
       {
-        "Mushroom": 3
+        "mushroom": 3
       },
       {
-        "Lettuce": 1
+        "lettuce": 1
       },
       {
-        "Potato": 2
+        "potato": 2
       },
       {
-        "Bacon": 1
+        "bacon": 1
       }
     ],
     "Source": "Salad Bar",
@@ -5408,23 +5406,23 @@
   },
   {
     "image": "images/tofu-stir-fry.png",
-    "Name": "Tofu stir fry",
+    "Name": "tofu stir fry",
     "Level": "89",
     "Max. price": "306",
     "Time": 4500,
     "XP": "37",
     "Needs": [
       {
-        "Soybean": 3
+        "soybean": 3
       },
       {
-        "Onion": 3
+        "onion": 3
       },
       {
-        "Broccoli": 3
+        "broccoli": 3
       },
       {
-        "Sesame": 3
+        "sesame": 3
       }
     ],
     "Source": "Wok Kitchen",
@@ -5432,20 +5430,20 @@
   },
   {
     "image": "images/candy-bouquet.png",
-    "Name": "Candy bouquet",
+    "Name": "candy bouquet",
     "Level": "90",
     "Max. price": "554",
     "Time": 1200,
     "XP": "66",
     "Needs": [
       {
-        "Peony": 3
+        "peony": 3
       },
       {
-        "Toffee": 1
+        "toffee": 1
       },
       {
-        "Caramel apple": 1
+        "caramel apple": 1
       }
     ],
     "Source": "Flower Shop",
@@ -5453,14 +5451,14 @@
   },
   {
     "image": "images/eggplant.png",
-    "Name": "Eggplant",
+    "Name": "eggplant",
     "Level": "90",
     "Max. price": "14",
     "Time": 2400,
     "XP": "3",
     "Needs": [
       {
-        "Eggplant": 1
+        "eggplant": 1
       }
     ],
     "Source": "Field",
@@ -5468,17 +5466,17 @@
   },
   {
     "image": "images/grilled-eggplant.png",
-    "Name": "Grilled eggplant",
+    "Name": "grilled eggplant",
     "Level": "90",
     "Max. price": "324",
     "Time": 2400,
     "XP": "39",
     "Needs": [
       {
-        "Eggplant": 3
+        "eggplant": 3
       },
       {
-        "Salsa": 1
+        "salsa": 1
       }
     ],
     "Source": "BBQ Grill",
@@ -5486,23 +5484,23 @@
   },
   {
     "image": "images/banana-bread.png",
-    "Name": "Banana bread",
+    "Name": "banana bread",
     "Level": "91",
     "Max. price": "424",
     "Time": 1800,
     "XP": "50",
     "Needs": [
       {
-        "Banana": 3
+        "banana": 3
       },
       {
-        "Egg": 1
+        "egg": 1
       },
       {
-        "Grapes": 2
+        "grapes": 2
       },
       {
-        "Wheat": 3
+        "wheat": 3
       }
     ],
     "Source": "Bakery",
@@ -5510,23 +5508,23 @@
   },
   {
     "image": "images/cheese-fondue.png",
-    "Name": "Cheese fondue",
+    "Name": "cheese fondue",
     "Level": "91",
     "Max. price": "493",
     "Time": 1200,
     "XP": "59",
     "Needs": [
       {
-        "Potato bread": 1
+        "potato bread": 1
       },
       {
-        "Cheese": 1
+        "cheese": 1
       },
       {
-        "Mushroom": 2
+        "mushroom": 2
       },
       {
-        "Tomato": 1
+        "tomato": 1
       }
     ],
     "Source": "Fondue Pot",
@@ -5534,20 +5532,20 @@
   },
   {
     "image": "images/hand-pies.png",
-    "Name": "Hand pies",
+    "Name": "hand pies",
     "Level": "91",
     "Max. price": "295",
     "Time": 1200,
     "XP": "35",
     "Needs": [
       {
-        "Apple jam": 1
+        "apple jam": 1
       },
       {
-        "Egg": 2
+        "egg": 2
       },
       {
-        "Wheat": 5
+        "wheat": 5
       }
     ],
     "Source": "Deep Fryer",
@@ -5555,20 +5553,20 @@
   },
   {
     "image": "images/pickles.png",
-    "Name": "Pickles",
+    "Name": "pickles",
     "Level": "91",
     "Max. price": "270",
     "Time": 14400,
     "XP": "32",
     "Needs": [
       {
-        "Cucumber": 3
+        "cucumber": 3
       },
       {
-        "Onion": 2
+        "onion": 2
       },
       {
-        "Lemon": 1
+        "lemon": 1
       }
     ],
     "Source": "Preservation Station",
@@ -5576,14 +5574,14 @@
   },
   {
     "image": "images/watermelon.png",
-    "Name": "Watermelon",
+    "Name": "watermelon",
     "Level": "92",
     "Max. price": "39",
     "Time": 18000,
     "XP": "8",
     "Needs": [
       {
-        "Watermelon": 1
+        "watermelon": 1
       }
     ],
     "Source": "Field",
@@ -5591,17 +5589,17 @@
   },
   {
     "image": "images/iced-tea.png",
-    "Name": "Iced tea",
+    "Name": "iced tea",
     "Level": "92",
     "Max. price": "252",
     "Time": 1800,
     "XP": "30",
     "Needs": [
       {
-        "Peach": 1
+        "peach": 1
       },
       {
-        "Tea leaf": 3
+        "tea leaf": 3
       }
     ],
     "Source": "Tea Stand",
@@ -5609,20 +5607,20 @@
   },
   {
     "image": "images/goat-cheese-toast.png",
-    "Name": "Goat cheese toast",
+    "Name": "goat cheese toast",
     "Level": "92",
     "Max. price": "302",
     "Time": 3000,
     "XP": "36",
     "Needs": [
       {
-        "Bread": 1
+        "bread": 1
       },
       {
-        "Goat cheese": 1
+        "goat cheese": 1
       },
       {
-        "Grapes": 3
+        "grapes": 3
       }
     ],
     "Source": "Sandwich Bar",
@@ -5630,14 +5628,14 @@
   },
   {
     "image": "images/watermelon-juice.png",
-    "Name": "Watermelon juice",
+    "Name": "watermelon juice",
     "Level": "92",
     "Max. price": "108",
     "Time": 3600,
     "XP": "13",
     "Needs": [
       {
-        "Watermelon": 2
+        "watermelon": 2
       }
     ],
     "Source": "Juice Press",
@@ -5645,23 +5643,23 @@
   },
   {
     "image": "images/birthday-bouquet.png",
-    "Name": "Birthday Bouquet",
+    "Name": "birthday bouquet",
     "Level": "92",
     "Max. price": "349",
     "Time": 1200,
     "XP": "42",
     "Needs": [
       {
-        "Cherry Juice": 1
+        "cherry juice": 1
       },
       {
-        "Peony": 3
+        "peony": 3
       },
       {
-        "Lily": 1
+        "lily": 1
       },
       {
-        "Indigo": 1
+        "indigo": 1
       }
     ],
     "Source": "Flower Shop",
@@ -5669,20 +5667,20 @@
   },
   {
     "image": "images/passion-fruit-pie.png",
-    "Name": "Passion fruit pie",
+    "Name": "passion fruit pie",
     "Level": "92",
     "Max. price": "111",
     "Time": 3000,
     "XP": "13",
     "Needs": [
       {
-        "Passion fruit": 3
+        "passion fruit": 3
       },
       {
-        "Wheat": 2
+        "wheat": 2
       },
       {
-        "Egg": 1
+        "egg": 1
       }
     ],
     "Source": "Pie Oven",
@@ -5690,20 +5688,20 @@
   },
   {
     "image": "images/soft-bouquet.png",
-    "Name": "Soft bouquet",
+    "Name": "soft bouquet",
     "Level": "93",
     "Max. price": "298",
     "Time": 1800,
     "XP": "36",
     "Needs": [
       {
-        "Peony": 4
+        "peony": 4
       },
       {
-        "Cotton": 1
+        "cotton": 1
       },
       {
-        "Cotton fabric": 1
+        "cotton fabric": 1
       }
     ],
     "Source": "Flower Shop",
@@ -5711,20 +5709,20 @@
   },
   {
     "image": "images/black-sesame-smoothie.png",
-    "Name": "Black sesame smoothie",
+    "Name": "black sesame smoothie",
     "Level": "93",
     "Max. price": "313",
     "Time": 2700,
     "XP": "37",
     "Needs": [
       {
-        "Sesame": 3
+        "sesame": 3
       },
       {
-        "Banana": 1
+        "banana": 1
       },
       {
-        "Goat milk": 2
+        "goat milk": 2
       }
     ],
     "Source": "Smoothie Mixer",
@@ -5732,20 +5730,20 @@
   },
   {
     "image": "images/exfoliating-soap.png",
-    "Name": "Exfoliating soap",
+    "Name": "exfoliating soap",
     "Level": "93",
     "Max. price": "363",
     "Time": 3600,
     "XP": "43",
     "Needs": [
       {
-        "Cacao": 2
+        "cacao": 2
       },
       {
-        "Coffee bean": 2
+        "coffee bean": 2
       },
       {
-        "Raspberry": 1
+        "raspberry": 1
       }
     ],
     "Source": "Bath Kiosk",
@@ -5753,17 +5751,17 @@
   },
   {
     "image": "images/filled-donut.png",
-    "Name": "Filled Donut",
+    "Name": "filled donut",
     "Level": "93",
     "Max. price": "403",
     "Time": 2100,
     "XP": "48",
     "Needs": [
       {
-        "Plain donut": 1
+        "plain donut": 1
       },
       {
-        "Raspberry jam": 1
+        "raspberry jam": 1
       }
     ],
     "Source": "Donut Maker",
@@ -5771,7 +5769,7 @@
   },
   {
     "image": "images/plum.png",
-    "Name": "Plum",
+    "Name": "plum",
     "Level": "94",
     "Max. price": "82",
     "Time": 86400,
@@ -5782,23 +5780,23 @@
   },
   {
     "image": "images/banana-pancakes.png",
-    "Name": "Banana pancakes",
+    "Name": "banana pancakes",
     "Level": "94",
     "Max. price": "352",
     "Time": 3600,
     "XP": "42",
     "Needs": [
       {
-        "Banana": 1
+        "banana": 1
       },
       {
-        "Blackberry": 2
+        "blackberry": 2
       },
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "Wheat": 3
+        "wheat": 3
       }
     ],
     "Source": "BBQ Grill",
@@ -5806,14 +5804,14 @@
   },
   {
     "image": "images/plum-jam.png",
-    "Name": "Plum jam",
+    "Name": "plum jam",
     "Level": "94",
     "Max. price": "385",
     "Time": 18000,
     "XP": "46",
     "Needs": [
       {
-        "Plum": 3
+        "plum": 3
       }
     ],
     "Source": "Jam Maker",
@@ -5821,14 +5819,14 @@
   },
   {
     "image": "images/clay.png",
-    "Name": "Clay",
+    "Name": "clay",
     "Level": "94",
     "Max. price": "18",
     "Time": 6600,
     "XP": "5",
     "Needs": [
       {
-        "Clay": 1
+        "clay": 1
       }
     ],
     "Source": "Field",
@@ -5836,20 +5834,20 @@
   },
   {
     "image": "images/tea-pot.png",
-    "Name": "Tea pot",
+    "Name": "tea pot",
     "Level": "94",
     "Max. price": "219",
     "Time": 13200,
     "XP": "26",
     "Needs": [
       {
-        "Clay": 3
+        "clay": 3
       },
       {
-        "Coffee bean": 1
+        "coffee bean": 1
       },
       {
-        "Gold ore": 1
+        "gold ore": 1
       }
     ],
     "Source": "Pottery Studio",
@@ -5857,23 +5855,23 @@
   },
   {
     "image": "images/floral-candle.png",
-    "Name": "Floral candle",
+    "Name": "floral candle",
     "Level": "95",
     "Max. price": "442",
     "Time": 7200,
     "XP": "53",
     "Needs": [
       {
-        "Beeswax": 1
+        "beeswax": 1
       },
       {
-        "Peony": 2
+        "peony": 2
       },
       {
-        "Sunflower": 2
+        "sunflower": 2
       },
       {
-        "Indigo": 3
+        "indigo": 3
       }
     ],
     "Source": "Candle Maker",
@@ -5881,23 +5879,23 @@
   },
   {
     "image": "images/chocolate-roll.png",
-    "Name": "Chocolate roll",
+    "Name": "chocolate roll",
     "Level": "95",
     "Max. price": "604",
     "Time": 5400,
     "XP": "72",
     "Needs": [
       {
-        "Cacao": 5
+        "cacao": 5
       },
       {
-        "Cream": 1
+        "cream": 1
       },
       {
-        "Wheat": 3
+        "wheat": 3
       },
       {
-        "Mint": 3
+        "mint": 3
       }
     ],
     "Source": "Cake Oven",
@@ -5905,20 +5903,20 @@
   },
   {
     "image": "images/canned-fish.png",
-    "Name": "Canned fish",
+    "Name": "canned fish",
     "Level": "95",
     "Max. price": "471",
     "Time": 13200,
     "XP": "56",
     "Needs": [
       {
-        "Fish fillet": 2
+        "fish fillet": 2
       },
       {
-        "Chili pepper": 1
+        "chili pepper": 1
       },
       {
-        "Olive oil": 1
+        "olive oil": 1
       }
     ],
     "Source": "Preservation Station",
@@ -5926,14 +5924,14 @@
   },
   {
     "image": "images/chickpea.png",
-    "Name": "Chickpea",
+    "Name": "chickpea",
     "Level": "95",
     "Max. price": "18",
     "Time": 3600,
     "XP": "4",
     "Needs": [
       {
-        "Chickpea": 1
+        "chickpea": 1
       }
     ],
     "Source": "Field",
@@ -5941,20 +5939,20 @@
   },
   {
     "image": "images/hummus.png",
-    "Name": "Hummus",
+    "Name": "hummus",
     "Level": "95",
     "Max. price": "277",
     "Time": 1800,
     "XP": "33",
     "Needs": [
       {
-        "Chickpea": 3
+        "chickpea": 3
       },
       {
-        "Lemon": 2
+        "lemon": 2
       },
       {
-        "Garlic": 1
+        "garlic": 1
       }
     ],
     "Source": "Sauce Maker",
@@ -5962,20 +5960,20 @@
   },
   {
     "image": "images/banana-split.png",
-    "Name": "Banana split",
+    "Name": "banana split",
     "Level": "96",
     "Max. price": "403",
     "Time": 12600,
     "XP": "48",
     "Needs": [
       {
-        "Banana": 1
+        "banana": 1
       },
       {
-        "Cherry": 3
+        "cherry": 3
       },
       {
-        "Cream": 1
+        "cream": 1
       }
     ],
     "Source": "Ice Cream Maker",
@@ -5983,23 +5981,23 @@
   },
   {
     "image": "images/fish-skewer.png",
-    "Name": "Fish skewer",
+    "Name": "fish skewer",
     "Level": "96",
     "Max. price": "176",
     "Time": 1800,
     "XP": "21",
     "Needs": [
       {
-        "Fish fillet": 1
+        "fish fillet": 1
       },
       {
-        "Mushroom": 3
+        "mushroom": 3
       },
       {
-        "Ginger": 1
+        "ginger": 1
       },
       {
-        "Sesame": 2
+        "sesame": 2
       }
     ],
     "Source": "BBQ Grill",
@@ -6007,14 +6005,14 @@
   },
   {
     "image": "images/passion-fruit-jam.png",
-    "Name": "Passion fruit jam",
+    "Name": "passion fruit jam",
     "Level": "96",
     "Max. price": "118",
     "Time": 19200,
     "XP": "14",
     "Needs": [
       {
-        "Passion fruit": 3
+        "passion fruit": 3
       }
     ],
     "Source": "Jam Maker",
@@ -6022,17 +6020,17 @@
   },
   {
     "image": "images/potted-plant.png",
-    "Name": "Potted plant",
+    "Name": "potted plant",
     "Level": "96",
     "Max. price": "151",
     "Time": 13200,
     "XP": "26",
     "Needs": [
       {
-        "Clay": 3
+        "clay": 3
       },
       {
-        "Sunflower": 1
+        "sunflower": 1
       }
     ],
     "Source": "Pottery Studio",
@@ -6040,20 +6038,20 @@
   },
   {
     "image": "images/mint-tea.png",
-    "Name": "Mint tea",
+    "Name": "mint tea",
     "Level": "97",
     "Max. price": "255",
     "Time": 2100,
     "XP": "31",
     "Needs": [
       {
-        "Tea leaf": 3
+        "tea leaf": 3
       },
       {
-        "Mint": 1
+        "mint": 1
       },
       {
-        "Watermelon": 1
+        "watermelon": 1
       }
     ],
     "Source": "Tea Stand",
@@ -6061,23 +6059,23 @@
   },
   {
     "image": "images/mushroom-pot-pie.png",
-    "Name": "Mushroom pot pie",
+    "Name": "mushroom pot pie",
     "Level": "97",
     "Max. price": "162",
     "Time": 3600,
     "XP": "19",
     "Needs": [
       {
-        "Mushroom": 3
+        "mushroom": 3
       },
       {
-        "Cabbage": 3
+        "cabbage": 3
       },
       {
-        "Wheat": 3
+        "wheat": 3
       },
       {
-        "Egg": 2
+        "egg": 2
       }
     ],
     "Source": "Pie Oven",
@@ -6085,7 +6083,7 @@
   },
   {
     "image": "images/mango.png",
-    "Name": "Mango",
+    "Name": "mango",
     "Level": "97",
     "Max. price": "100",
     "Time": 115200,
@@ -6096,14 +6094,14 @@
   },
   {
     "image": "images/mango-juice.png",
-    "Name": "Mango juice",
+    "Name": "mango juice",
     "Level": "97",
     "Max. price": "230",
     "Time": 3000,
     "XP": "27",
     "Needs": [
       {
-        "Mango": 2
+        "mango": 2
       }
     ],
     "Source": "Juice Press",
@@ -6111,20 +6109,20 @@
   },
   {
     "image": "images/flower-pendant.png",
-    "Name": "Flower pendant",
+    "Name": "flower pendant",
     "Level": "98",
     "Max. price": "698",
     "Time": 3600,
     "XP": "83",
     "Needs": [
       {
-        "Peony": 3
+        "peony": 3
       },
       {
-        "Platinum bar": 1
+        "platinum bar": 1
       },
       {
-        "Gold bar": 2
+        "gold bar": 2
       }
     ],
     "Source": "Jeweler",
@@ -6132,23 +6130,23 @@
   },
   {
     "image": "images/chili-poppers.png",
-    "Name": "Chili poppers",
+    "Name": "chili poppers",
     "Level": "98",
     "Max. price": "406",
     "Time": 2400,
     "XP": "48",
     "Needs": [
       {
-        "Chili pepper": 3
+        "chili pepper": 3
       },
       {
-        "Wheat": 1
+        "wheat": 1
       },
       {
-        "Bacon": 3
+        "bacon": 3
       },
       {
-        "Cheese": 1
+        "cheese": 1
       }
     ],
     "Source": "Deep Fryer",
@@ -6156,23 +6154,23 @@
   },
   {
     "image": "images/falafel.png",
-    "Name": "Falafel",
+    "Name": "falafel",
     "Level": "98",
     "Max. price": "226",
     "Time": 3300,
     "XP": "27",
     "Needs": [
       {
-        "Chili pepper": 1
+        "chili pepper": 1
       },
       {
-        "Chickpea": 3
+        "chickpea": 3
       },
       {
-        "Onion": 2
+        "onion": 2
       },
       {
-        "Garlic": 2
+        "garlic": 2
       }
     ],
     "Source": "Deep Fryer",
@@ -6180,23 +6178,23 @@
   },
   {
     "image": "images/kimchi.png",
-    "Name": "Kimchi",
+    "Name": "kimchi",
     "Level": "98",
     "Max. price": "219",
     "Time": 18000,
     "XP": "26",
     "Needs": [
       {
-        "Cabbage": 5
+        "cabbage": 5
       },
       {
-        "Ginger": 1
+        "ginger": 1
       },
       {
-        "Chili pepper": 1
+        "chili pepper": 1
       },
       {
-        "Garlic": 1
+        "garlic": 1
       }
     ],
     "Source": "Preservation Station",
@@ -6204,20 +6202,20 @@
   },
   {
     "image": "images/eggplant-parmesan.png",
-    "Name": "Eggplant parmesan",
+    "Name": "eggplant parmesan",
     "Level": "99",
     "Max. price": "442",
     "Time": 2700,
     "XP": "53",
     "Needs": [
       {
-        "Eggplant": 3
+        "eggplant": 3
       },
       {
-        "Cheese": 1
+        "cheese": 1
       },
       {
-        "Tomato sauce": 1
+        "tomato sauce": 1
       }
     ],
     "Source": "Pie Oven",
@@ -6225,20 +6223,20 @@
   },
   {
     "image": "images/honey-face-mask.png",
-    "Name": "Honey face mask",
+    "Name": "honey face mask",
     "Level": "99",
     "Max. price": "320",
     "Time": 5400,
     "XP": "38",
     "Needs": [
       {
-        "Egg": 2
+        "egg": 2
       },
       {
-        "Honey": 1
+        "honey": 1
       },
       {
-        "Lemon": 1
+        "lemon": 1
       }
     ],
     "Source": "Bath Kiosk",
@@ -6246,20 +6244,20 @@
   },
   {
     "image": "images/clay-mug.png",
-    "Name": "Clay mug",
+    "Name": "clay mug",
     "Level": "99",
     "Max. price": "212",
     "Time": 12000,
     "XP": "25",
     "Needs": [
       {
-        "Clay": 3
+        "clay": 3
       },
       {
-        "Indigo": 2
+        "indigo": 2
       },
       {
-        "Peony": 1
+        "peony": 1
       }
     ],
     "Source": "Pottery Studio",
@@ -6267,20 +6265,20 @@
   },
   {
     "image": "images/rich-fudge.png",
-    "Name": "Rich fudge",
+    "Name": "rich fudge",
     "Level": "99",
     "Max. price": "644",
     "Time": 7200,
     "XP": "77",
     "Needs": [
       {
-        "Cacao": 3
+        "cacao": 3
       },
       {
-        "Butter": 3
+        "butter": 3
       },
       {
-        "White sugar": 2
+        "white sugar": 2
       }
     ],
     "Source": "Fudge Shop",
@@ -6288,20 +6286,20 @@
   },
   {
     "image": "images/cocoa-smoothie.png",
-    "Name": "Cocoa smoothie",
+    "Name": "cocoa smoothie",
     "Level": "100",
     "Max. price": "511",
     "Time": 2400,
     "XP": "61",
     "Needs": [
       {
-        "Banana": 2
+        "banana": 2
       },
       {
-        "Cacao": 3
+        "cacao": 3
       },
       {
-        "Milk": 1
+        "milk": 1
       }
     ],
     "Source": "Smoothie Mixer",
@@ -6309,20 +6307,20 @@
   },
   {
     "image": "images/fried-candy-bar.png",
-    "Name": "Fried candy bar",
+    "Name": "fried candy bar",
     "Level": "100",
     "Max. price": "658",
     "Time": 900,
     "XP": "87",
     "Needs": [
       {
-        "Cacao": 3
+        "cacao": 3
       },
       {
-        "Cookie": 1
+        "cookie": 1
       },
       {
-        "Peanuts": 1
+        "peanuts": 1
       }
     ],
     "Source": "Deep Fryer",
@@ -6330,20 +6328,20 @@
   },
   {
     "image": "images/tart-dressing.png",
-    "Name": "Tart dressing",
+    "Name": "tart dressing",
     "Level": "100",
     "Max. price": "288",
     "Time": 1800,
     "XP": "34",
     "Needs": [
       {
-        "Passion fruit": 2
+        "passion fruit": 2
       },
       {
-        "Chili pepper": 2
+        "chili pepper": 2
       },
       {
-        "Honey": 1
+        "honey": 1
       }
     ],
     "Source": "Sauce Maker",
@@ -6351,23 +6349,23 @@
   },
   {
     "image": "images/tropical-fondue.png",
-    "Name": "Tropical fondue",
+    "Name": "tropical fondue",
     "Level": "100",
     "Max. price": "417",
     "Time": 2100,
     "XP": "50",
     "Needs": [
       {
-        "White sugar": 1
+        "white sugar": 1
       },
       {
-        "Cream": 2
+        "cream": 2
       },
       {
-        "Pineapple": 3
+        "pineapple": 3
       },
       {
-        "Mango": 2
+        "mango": 2
       }
     ],
     "Source": "Fondue Pot",
@@ -6375,20 +6373,20 @@
   },
   {
     "image": "images/mushroom-pasta.png",
-    "Name": "Mushroom pasta",
+    "Name": "mushroom pasta",
     "Level": "101",
     "Max. price": "280",
     "Time": 4500,
     "XP": "33",
     "Needs": [
       {
-        "Mushroom": 5
+        "mushroom": 5
       },
       {
-        "Fresh pasta": 3
+        "fresh pasta": 3
       },
       {
-        "Goat milk": 1
+        "goat milk": 1
       }
     ],
     "Source": "Pasta Kitchen",
@@ -6396,7 +6394,7 @@
   },
   {
     "image": "images/coconut.png",
-    "Name": "Coconut",
+    "Name": "coconut",
     "Level": "101",
     "Max. price": "108",
     "Time": 129600,
@@ -6407,20 +6405,20 @@
   },
   {
     "image": "images/macaroon.png",
-    "Name": "Macaroon",
+    "Name": "macaroon",
     "Level": "101",
     "Max. price": "421",
     "Time": 1800,
     "XP": "50",
     "Needs": [
       {
-        "Cacao": 1
+        "cacao": 1
       },
       {
-        "Coconut": 2
+        "coconut": 2
       },
       {
-        "White sugar": 2
+        "white sugar": 2
       }
     ],
     "Source": "Bakery",
@@ -6428,23 +6426,23 @@
   },
   {
     "image": "images/plum-smoothie.png",
-    "Name": "Plum smoothie",
+    "Name": "plum smoothie",
     "Level": "102",
     "Max. price": "522",
     "Time": 2100,
     "XP": "62",
     "Needs": [
       {
-        "Plum": 3
+        "plum": 3
       },
       {
-        "Grapes": 1
+        "grapes": 1
       },
       {
-        "Mint": 1
+        "mint": 1
       },
       {
-        "Honey": 1
+        "honey": 1
       }
     ],
     "Source": "Smoothie Mixer",
@@ -6452,23 +6450,23 @@
   },
   {
     "image": "images/dried-fruit.png",
-    "Name": "Dried fruit",
+    "Name": "dried fruit",
     "Level": "102",
     "Max. price": "266",
     "Time": 10800,
     "XP": "32",
     "Needs": [
       {
-        "Grapes": 1
+        "grapes": 1
       },
       {
-        "Raspberry": 1
+        "raspberry": 1
       },
       {
-        "Strawberry": 1
+        "strawberry": 1
       },
       {
-        "Orange": 1
+        "orange": 1
       }
     ],
     "Source": "Preservation Station",
@@ -6476,23 +6474,23 @@
   },
   {
     "image": "images/mint-fudge.png",
-    "Name": "Mint fudge",
+    "Name": "mint fudge",
     "Level": "102",
     "Max. price": "522",
     "Time": 9000,
     "XP": "62",
     "Needs": [
       {
-        "Butter": 2
+        "butter": 2
       },
       {
-        "Cacao": 2
+        "cacao": 2
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       },
       {
-        "Mint": 3
+        "mint": 3
       }
     ],
     "Source": "Fudge Shop",
@@ -6500,17 +6498,17 @@
   },
   {
     "image": "images/coconut-ice-cream.png",
-    "Name": "Coconut ice cream",
+    "Name": "coconut ice cream",
     "Level": "102",
     "Max. price": "320",
     "Time": 900,
     "XP": "38",
     "Needs": [
       {
-        "Coconut": 2
+        "coconut": 2
       },
       {
-        "Syrup": 1
+        "syrup": 1
       }
     ],
     "Source": "Ice Cream Maker",
@@ -6518,23 +6516,23 @@
   },
   {
     "image": "images/samosa.png",
-    "Name": "Samosa",
+    "Name": "samosa",
     "Level": "103",
     "Max. price": "223",
     "Time": 4500,
     "XP": "27",
     "Needs": [
       {
-        "Chickpea": 2
+        "chickpea": 2
       },
       {
-        "Wheat": 4
+        "wheat": 4
       },
       {
-        "Chili Pepper": 1
+        "chili pepper": 1
       },
       {
-        "Potato": 3
+        "potato": 3
       }
     ],
     "Source": "Deep Fryer",
@@ -6542,17 +6540,17 @@
   },
   {
     "image": "images/plain-yogurt.png",
-    "Name": "Plain yogurt",
+    "Name": "plain yogurt",
     "Level": "103",
     "Max. price": "234",
     "Time": 7200,
     "XP": "28",
     "Needs": [
       {
-        "Milk": 3
+        "milk": 3
       },
       {
-        "Cream": 2
+        "cream": 2
       }
     ],
     "Source": "Yogurt Maker",
@@ -6560,20 +6558,20 @@
   },
   {
     "image": "images/mushroom-soup.png",
-    "Name": "Mushroom soup",
+    "Name": "mushroom soup",
     "Level": "104",
     "Max. price": "176",
     "Time": 4800,
     "XP": "21",
     "Needs": [
       {
-        "Mushroom": 3
+        "mushroom": 3
       },
       {
-        "Milk": 1
+        "milk": 1
       },
       {
-        "Onion": 2
+        "onion": 2
       }
     ],
     "Source": "Soup Kitchen",
@@ -6581,23 +6579,23 @@
   },
   {
     "image": "images/chili-fudge.png",
-    "Name": "Chili fudge",
+    "Name": "chili fudge",
     "Level": "104",
     "Max. price": "540",
     "Time": 10200,
     "XP": "64",
     "Needs": [
       {
-        "Butter": 2
+        "butter": 2
       },
       {
-        "Cacao": 2
+        "cacao": 2
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       },
       {
-        "Chili pepper": 3
+        "chili pepper": 3
       }
     ],
     "Source": "Fudge Shop",
@@ -6605,23 +6603,23 @@
   },
   {
     "image": "images/tropical-smoothie.png",
-    "Name": "Tropical smoothie",
+    "Name": "tropical smoothie",
     "Level": "104",
     "Max. price": "475",
     "Time": 2400,
     "XP": "57",
     "Needs": [
       {
-        "Coconut": 1
+        "coconut": 1
       },
       {
-        "Banana": 1
+        "banana": 1
       },
       {
-        "Passion fruit": 2
+        "passion fruit": 2
       },
       {
-        "Mango": 2
+        "mango": 2
       }
     ],
     "Source": "Smoothie Mixer",
@@ -6629,7 +6627,7 @@
   },
   {
     "image": "images/guava.png",
-    "Name": "Guava",
+    "Name": "guava",
     "Level": "104",
     "Max. price": "111",
     "Time": 122400,
@@ -6640,14 +6638,14 @@
   },
   {
     "image": "images/guava-juice.png",
-    "Name": "Guava juice",
+    "Name": "guava juice",
     "Level": "104",
     "Max. price": "252",
     "Time": 3300,
     "XP": "30",
     "Needs": [
       {
-        "Guava": 2
+        "guava": 2
       }
     ],
     "Source": "Juice Press",
@@ -6655,20 +6653,20 @@
   },
   {
     "image": "images/guava-compote.png",
-    "Name": "Guava compote",
+    "Name": "guava compote",
     "Level": "104",
     "Max. price": "421",
     "Time": 15600,
     "XP": "50",
     "Needs": [
       {
-        "Guava": 2
+        "guava": 2
       },
       {
-        "Lemon": 1
+        "lemon": 1
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       }
     ],
     "Source": "Preservation Station",
@@ -6676,17 +6674,17 @@
   },
   {
     "image": "images/strawberry-yogurt.png",
-    "Name": "Strawberry yogurt",
+    "Name": "strawberry yogurt",
     "Level": "105",
     "Max. price": "529",
     "Time": 2400,
     "XP": "63",
     "Needs": [
       {
-        "Plain yogurt": 1
+        "plain yogurt": 1
       },
       {
-        "Strawberry jam": 1
+        "strawberry jam": 1
       }
     ],
     "Source": "Yogurt Maker",
@@ -6694,23 +6692,23 @@
   },
   {
     "image": "images/veggie-bouquet.png",
-    "Name": "Veggie bouquet",
+    "Name": "veggie bouquet",
     "Level": "106",
     "Max. price": "352",
     "Time": 900,
     "XP": "42",
     "Needs": [
       {
-        "Broccoli": 3
+        "broccoli": 3
       },
       {
-        "Tomato": 3
+        "tomato": 3
       },
       {
-        "Mushroom": 3
+        "mushroom": 3
       },
       {
-        "Cotton fabric": 1
+        "cotton fabric": 1
       }
     ],
     "Source": "Flower Shop",
@@ -6718,20 +6716,20 @@
   },
   {
     "image": "images/chickpea-stew.png",
-    "Name": "Chickpea stew",
+    "Name": "chickpea stew",
     "Level": "106",
     "Max. price": "284",
     "Time": 5400,
     "XP": "34",
     "Needs": [
       {
-        "Coconut": 1
+        "coconut": 1
       },
       {
-        "Tomato": 2
+        "tomato": 2
       },
       {
-        "Chickpea": 3
+        "chickpea": 3
       }
     ],
     "Source": "Stew Pot",
@@ -6739,23 +6737,23 @@
   },
   {
     "image": "images/fruit-sorbet.png",
-    "Name": "Fruit sorbet",
+    "Name": "fruit sorbet",
     "Level": "106",
     "Max. price": "518",
     "Time": 3600,
     "XP": "62",
     "Needs": [
       {
-        "Guava": 1
+        "guava": 1
       },
       {
-        "Passion fruit": 1
+        "passion fruit": 1
       },
       {
-        "Mango": 2
+        "mango": 2
       },
       {
-        "White sugar": 3
+        "white sugar": 3
       }
     ],
     "Source": "Ice Cream Maker",
@@ -6763,7 +6761,7 @@
   },
   {
     "image": "images/pomegranate.png",
-    "Name": "Pomegranate",
+    "Name": "pomegranate",
     "Level": "107",
     "Max. price": "111",
     "Time": 97200,
@@ -6774,17 +6772,17 @@
   },
   {
     "image": "images/pomegranate-tea.png",
-    "Name": "Pomegranate tea",
+    "Name": "pomegranate tea",
     "Level": "107",
     "Max. price": "313",
     "Time": 2040,
     "XP": "37",
     "Needs": [
       {
-        "Pomegranate": 1
+        "pomegranate": 1
       },
       {
-        "Tea leaf": 4
+        "tea leaf": 4
       }
     ],
     "Source": "Tea Stand",
@@ -6792,23 +6790,23 @@
   },
   {
     "image": "images/lemon-fudge.png",
-    "Name": "Lemon fudge",
+    "Name": "lemon fudge",
     "Level": "108",
     "Max. price": "590",
     "Time": 6600,
     "XP": "70",
     "Needs": [
       {
-        "Butter": 2
+        "butter": 2
       },
       {
-        "Lemon": 2
+        "lemon": 2
       },
       {
-        "White sugar": 2
+        "white sugar": 2
       },
       {
-        "Milk": 3
+        "milk": 3
       }
     ],
     "Source": "Fudge Shop",
@@ -6816,23 +6814,23 @@
   },
   {
     "image": "images/pomegranate-cake.png",
-    "Name": "Pomegranate cake",
+    "Name": "pomegranate cake",
     "Level": "108",
     "Max. price": "316",
     "Time": 9600,
     "XP": "38",
     "Needs": [
       {
-        "Pomegranate": 1
+        "pomegranate": 1
       },
       {
-        "Egg": 2
+        "egg": 2
       },
       {
-        "Cream": 2
+        "cream": 2
       },
       {
-        "Wheat": 6
+        "wheat": 6
       }
     ],
     "Source": "Cake Oven",
@@ -6840,20 +6838,20 @@
   },
   {
     "image": "images/hummus-wrap.png",
-    "Name": "Hummus wrap",
+    "Name": "hummus wrap",
     "Level": "109",
     "Max. price": "374",
     "Time": 1800,
     "XP": "45",
     "Needs": [
       {
-        "Bread": 2
+        "bread": 2
       },
       {
-        "Lettuce": 1
+        "lettuce": 1
       },
       {
-        "Hummus": 1
+        "hummus": 1
       }
     ],
     "Source": "Sandwich Bar",
@@ -6861,23 +6859,23 @@
   },
   {
     "image": "images/tropical-yogurt.png",
-    "Name": "Tropical yogurt",
+    "Name": "tropical yogurt",
     "Level": "109",
     "Max. price": "457",
     "Time": 3600,
     "XP": "54",
     "Needs": [
       {
-        "Plain yogurt": 1
+        "plain yogurt": 1
       },
       {
-        "Raspberry": 4
+        "raspberry": 4
       },
       {
-        "Passion fruit": 1
+        "passion fruit": 1
       },
       {
-        "Mango": 2
+        "mango": 2
       }
     ],
     "Source": "Yogurt Maker",
@@ -6885,23 +6883,23 @@
   },
   {
     "image": "images/chili-stew.png",
-    "Name": "Chili stew",
+    "Name": "chili stew",
     "Level": "109",
     "Max. price": "370",
     "Time": 7200,
     "XP": "44",
     "Needs": [
       {
-        "Chili Pepper": 3
+        "chili pepper": 3
       },
       {
-        "Bacon": 2
+        "bacon": 2
       },
       {
-        "Onion": 2
+        "onion": 2
       },
       {
-        "Cream": 1
+        "cream": 1
       }
     ],
     "Source": "Stew Pot",
@@ -6909,23 +6907,23 @@
   },
   {
     "image": "images/plain-cupcake.png",
-    "Name": "Plain cupcake",
+    "Name": "plain cupcake",
     "Level": "109",
     "Max. price": "280",
     "Time": 2400,
     "XP": "34",
     "Needs": [
       {
-        "Milk": 2
+        "milk": 2
       },
       {
-        "White sugar": 3
+        "white sugar": 3
       },
       {
-        "Egg": 1
+        "egg": 1
       },
       {
-        "Wheat": 5
+        "wheat": 5
       }
     ],
     "Source": "Cupcake Maker",
@@ -6933,20 +6931,20 @@
   },
   {
     "image": "images/guava-cupcake.png",
-    "Name": "Guava cupcake",
+    "Name": "guava cupcake",
     "Level": "109",
     "Max. price": "583",
     "Time": 4200,
     "XP": "70",
     "Needs": [
       {
-        "Plain cupcake": 1
+        "plain cupcake": 1
       },
       {
-        "Guava": 2
+        "guava": 2
       },
       {
-        "Cream": 1
+        "cream": 1
       }
     ],
     "Source": "Cupcake Maker",
@@ -6954,20 +6952,20 @@
   },
   {
     "image": "images/rice-ball.png",
-    "Name": "Rice ball",
+    "Name": "rice ball",
     "Level": "110",
     "Max. price": "464",
     "Time": 2700,
     "XP": "55",
     "Needs": [
       {
-        "Rice": 20
+        "rice": 20
       },
       {
-        "Sesame": 1
+        "sesame": 1
       },
       {
-        "Plum": 1
+        "plum": 1
       }
     ],
     "Source": "Sushi Bar",
@@ -6975,23 +6973,23 @@
   },
   {
     "image": "images/peanut-fudge.png",
-    "Name": "Peanut fudge",
+    "Name": "peanut fudge",
     "Level": "111",
     "Max. price": "1141",
     "Time": 5400,
     "XP": "136",
     "Needs": [
       {
-        "Butter": 2
+        "butter": 2
       },
       {
-        "Cacao": 2
+        "cacao": 2
       },
       {
-        "White sugar": 1
+        "white sugar": 1
       },
       {
-        "Peanuts": 2
+        "peanuts": 2
       }
     ],
     "Source": "Fudge Shop",
@@ -6999,20 +6997,20 @@
   },
   {
     "image": "images/tropical-cupcake.png",
-    "Name": "Tropical cupcake",
+    "Name": "tropical cupcake",
     "Level": "112",
     "Max. price": "572",
     "Time": 5400,
     "XP": "68",
     "Needs": [
       {
-        "Plain cupcake": 1
+        "plain cupcake": 1
       },
       {
-        "Pineapple": 3
+        "pineapple": 3
       },
       {
-        "Coconut": 2
+        "coconut": 2
       }
     ],
     "Source": "Cupcake Maker",
@@ -7020,23 +7018,23 @@
   },
   {
     "image": "images/winter-stew.png",
-    "Name": "Winter stew",
+    "Name": "winter stew",
     "Level": "112",
     "Max. price": "295",
     "Time": 8400,
     "XP": "7",
     "Needs": [
       {
-        "Bacon": 1
+        "bacon": 1
       },
       {
-        "Potato": 3
+        "potato": 3
       },
       {
-        "Onion": 2
+        "onion": 2
       },
       {
-        "Mushroom": 2
+        "mushroom": 2
       }
     ],
     "Source": "Stew Pot",
@@ -7044,23 +7042,23 @@
   },
   {
     "image": "images/cookie-cupcake.png",
-    "Name": "Cookie cupcake",
+    "Name": "cookie cupcake",
     "Level": "114",
     "Max. price": "712",
     "Time": 7200,
     "XP": "85",
     "Needs": [
       {
-        "Plain cupcake": 1
+        "plain cupcake": 1
       },
       {
-        "Cream": 2
+        "cream": 2
       },
       {
-        "Cookie": 2
+        "cookie": 2
       },
       {
-        "Cacao": 1
+        "cacao": 1
       }
     ],
     "Source": "Cupcake Maker",
@@ -7068,20 +7066,20 @@
   },
   {
     "image": "images/plain-waffles.png",
-    "Name": "Plain waffles",
+    "Name": "plain waffles",
     "Level": "114",
     "Max. price": "198",
     "Time": 1500,
     "XP": "24",
     "Needs": [
       {
-        "White sugar": 2
+        "white sugar": 2
       },
       {
-        "Egg": 3
+        "egg": 3
       },
       {
-        "Wheat": 5
+        "wheat": 5
       }
     ],
     "Source": "Waffle Maker",
@@ -7089,23 +7087,23 @@
   },
   {
     "image": "images/berry-waffles.png",
-    "Name": "Berry waffles",
+    "Name": "berry waffles",
     "Level": "114",
     "Max. price": "604",
     "Time": 2100,
     "XP": "72",
     "Needs": [
       {
-        "Plain waffles": 1
+        "plain waffles": 1
       },
       {
-        "Syrup": 1
+        "syrup": 1
       },
       {
-        "Raspberry": 3
+        "raspberry": 3
       },
       {
-        "Blackberry": 2
+        "blackberry": 2
       }
     ],
     "Source": "Waffle Maker",
@@ -7113,23 +7111,23 @@
   },
   {
     "image": "images/orange-salad.png",
-    "Name": "Orange salad",
+    "Name": "orange salad",
     "Level": "117",
     "Max. price": "558",
     "Time": 2700,
     "XP": "66",
     "Needs": [
       {
-        "Cheese": 1
+        "cheese": 1
       },
       {
-        "Lettuce": 3
+        "lettuce": 3
       },
       {
-        "Pomegranate": 1
+        "pomegranate": 1
       },
       {
-        "Orange": 2
+        "orange": 2
       }
     ],
     "Source": "Salad Bar",
@@ -7137,23 +7135,23 @@
   },
   {
     "image": "images/chocolate-waffles.png",
-    "Name": "Chocolate waffles",
+    "Name": "chocolate waffles",
     "Level": "117",
     "Max. price": "637",
     "Time": 2400,
     "XP": "76",
     "Needs": [
       {
-        "Plain waffles": 1
+        "plain waffles": 1
       },
       {
-        "Cacao": 2
+        "cacao": 2
       },
       {
-        "Strawberry": 3
+        "strawberry": 3
       },
       {
-        "Banana": 1
+        "banana": 1
       }
     ],
     "Source": "Waffle Maker",
@@ -7161,23 +7159,23 @@
   },
   {
     "image": "images/breakfast-waffles.png",
-    "Name": "Breakfast waffles",
+    "Name": "breakfast waffles",
     "Level": "119",
     "Max. price": "424",
     "Time": 2700,
     "XP": "51",
     "Needs": [
       {
-        "Plain waffles": 1
+        "plain waffles": 1
       },
       {
-        "Bacon": 2
+        "bacon": 2
       },
       {
-        "Egg": 1
+        "egg": 1
       },
       {
-        "Asparagus": 2
+        "asparagus": 2
       }
     ],
     "Source": "Waffle Maker",
@@ -7185,14 +7183,14 @@
   },
   {
     "image": "images/oats.png",
-    "Name": "Oats",
+    "Name": "oats",
     "Level": "119",
     "Max. price": "7",
     "Time": 420,
     "XP": "1",
     "Needs": [
       {
-        "Oats": 1
+        "oats": 1
       }
     ],
     "Source": "Field",
@@ -7200,23 +7198,23 @@
   },
   {
     "image": "images/breakfast-bowl.png",
-    "Name": "Breakfast Bowl",
+    "Name": "breakfast bowl",
     "Level": "119",
     "Max. price": "604",
     "Time": 3600,
     "XP": "54",
     "Needs": [
       {
-        "Plain yogurt": 1
+        "plain yogurt": 1
       },
       {
-        "Oats": 4
+        "oats": 4
       },
       {
-        "Honey": 1
+        "honey": 1
       },
       {
-        "Blackberry": 2
+        "blackberry": 2
       }
     ],
     "Source": "Yogurt Maker",
@@ -7224,23 +7222,23 @@
   },
   {
     "image": "images/vanilla-milkshake.png",
-    "Name": "Vanilla Milkshake",
+    "Name": "vanilla milkshake",
     "Level": "124",
     "Max. price": "673",
     "Time": 2700,
     "XP": "80",
     "Needs": [
       {
-        "Vanilla Ice Cream": 1
+        "vanilla ice cream": 1
       },
       {
-        "Cookie": 2
+        "cookie": 2
       },
       {
-        "Toffee": 1
+        "toffee": 1
       },
       {
-        "Syrup": 1
+        "syrup": 1
       }
     ],
     "Source": "Milkshake Bar",
@@ -7248,17 +7246,17 @@
   },
   {
     "image": "images/mocha-milkshake.png",
-    "Name": "Mocha Milkshake",
+    "Name": "mocha milkshake",
     "Level": "125",
     "Max. price": "856",
     "Time": 1800,
     "XP": "125",
     "Needs": [
       {
-        "Chocolate Ice Cream": 1
+        "chocolate ice cream": 1
       },
       {
-        "Espresso": 2
+        "espresso": 2
       }
     ],
     "Source": "Milkshake Bar",
@@ -7266,20 +7264,20 @@
   },
   {
     "image": "images/fruity-milkshake.png",
-    "Name": "Fruity Milkshake",
+    "Name": "fruity milkshake",
     "Level": "126",
     "Max. price": "759",
     "Time": 2100,
     "XP": "90",
     "Needs": [
       {
-        "Peach Ice Cream": 1
+        "peach ice cream": 1
       },
       {
-        "Orange": 2
+        "orange": 2
       },
       {
-        "Lemon": 1
+        "lemon": 1
       }
     ],
     "Source": "Milkshake Bar",
