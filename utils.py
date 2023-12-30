@@ -79,6 +79,35 @@ def tree_to_list(tree):
     add_node(tree)
     return result
 
+def make_requirement_tree(name,storage,count=1):
+    """
+    name: name of the item to make
+    storage: a dict of items in storage must be a copy of the storage dict so that it can be modified without affecting the original storage dict
+    count: number of items to make
+    """
+    
+    node = find_by_name(name)
+
+    if storage[name]>=count:
+        storage[name]-=count
+        return None
+    else:
+        count-=storage[name]
+        storage[name]=0
+    result = {
+        'name':node["Name"],
+        'quantity':count,
+        'children':[]
+    }
+    for child in node['Needs']:
+        for child_name,quantity in child.items():
+            if (child_name==name):
+                continue
+            child = make_requirement_tree(child_name,storage,quantity*count)
+            if child:
+                result['children'].append(child)
+    return result
+
 def visualize_tree(tree):
     dot = graphviz.Digraph(comment='Pancake')
     dot.attr(label=f'Recipe for {tree["Count"]} {tree["Name"]}')
