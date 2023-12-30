@@ -1,6 +1,6 @@
 import json
-from heapq import heappush, heappop
-
+import graphviz
+import re
 with open('goods.json', 'r') as f:
     rows = json.load(f)
 
@@ -27,7 +27,7 @@ def make_sources():
             }
         ]
 
-    for _ in range(9):
+    for _ in range(2):
         sources['Field'].append( {
                 'status':'idle',
                 'product':None,
@@ -36,6 +36,15 @@ def make_sources():
             })
     return sources
 
+def make_storage(level=None):
+    storage = {}
+    for row in rows:
+        # regex take only first digits
+        row_level = re.findall(r'\d+', row['Level'])
+        if level and level < int(row_level[0]):
+            continue
+        storage[row['Name']] = 0
+    return storage
 
 def find_by_name(name):
     for row in rows:
@@ -43,7 +52,7 @@ def find_by_name(name):
             return row
     return None
 
-def find_needed_for_tree(name,count=1):
+def make_need_tree(name, count=1):
     row = find_by_name(name)
     if row is None:
         raise Exception(f'Could not find {name}')
@@ -55,91 +64,33 @@ def find_needed_for_tree(name,count=1):
         for key, value in need.items():
             if (key==name):
                 continue
-            result['Needs'].append(find_needed_for_tree(key, value*count))
+            result['Needs'].append(make_need_tree(key, value*count))
     return result
 
-def _find_needed_for_list(name,count=1,):
+def tree_to_list(tree):
     result = []
-    row = find_by_name(name)
-    if row is None:
-        raise Exception(f'Could not find {name}')
-    result.append({
-        'Name':name,
-        'Count':count,
-    })
-    needs = row['Needs'].copy()
-    for need in needs:
-        for key, value in need.items():
-            if (key==name):
-                continue
-            result += _find_needed_for_list(key, value*count,)
+    def add_node(node):
+        result.append({
+            'Name':node['Name'],
+            'Count':node['Count'],
+        })
+        for child in node['Needs']:
+            add_node(child)
+    add_node(tree)
     return result
 
-def find_needed_for_list(name,count=1):
-    return _find_needed_for_list(name,count)[1:]
-
-def find_needed_for_lists(names):
-    result = []
-    for name in names:
-        result += find_needed_for_list(name)
-    temp = []
-    for item in result:
-        for _ in range(item['Count']):
-            temp.append(item['Name'])
-    return temp
-
-def find(name):
-    return find_needed_for_tree(name,1)
-
-def process(tasks,storage,sources):
-    tasks = tasks.copy()
-    storage = storage.copy()
-    sources = sources.copy()
-    time_queue = [0]
-    while len(time_queue) > 0:
-        time = heappop(time_queue)
-        for source_name in sources:
-            for i,s in enumerate(sources[source_name]):
-                if s['end_time'] == time:
-                    if source_name=='Field':
-                        storage[s['product']] += 2
-                    else:
-                        storage[s['product']] += 1
-                    s['status'] = 'idle'
-                    s['product'] = None
-                    s['start_time'] = None
-                    s['end_time'] = None
-        for i,task in enumerate(tasks.copy()):
-            task = find_by_name(task)
-
-            if_have_enough_materials = True
-            for need in task['Needs']:
-                key,value = list(need.items())[0]
-                if storage[key] < value:
-                    if_have_enough_materials = False
-                    break
-            if not if_have_enough_materials:
-                continue
-            if_have_enough_sources = False
-            source = task['Source']
-            for s in sources[source]:
-                if s['status'] == 'idle':
-                    if_have_enough_sources = True
-                    break
-            if not if_have_enough_sources:
-                continue
-            s['status'] = 'busy'
-            s['product'] = task['Name']
-            s['start_time'] = time
-            s['end_time'] = time + task['Time']
-            for need in task['Needs']:
-                key,value = list(need.items())[0]
-                storage[key] -= value
-            if s['end_time'] not in time_queue:
-                heappush(time_queue,s['end_time'])
-            tasks.remove(task['Name'])
-    return {
-        "time":time,
-        "storage":storage,
-        "remaining_tasks":tasks,
-    }
+def visualize_tree(tree):
+    dot = graphviz.Digraph(comment='Pancake')
+    dot.attr(label=f'Recipe for {tree["Count"]} {tree["Name"]}')
+    dot.attr(fontsize='20')
+    dot.attr(fontname='Helvetica')
+    dot.attr(rankdir='LR')
+    dot.attr(nodesep='0.5')
+    dot.attr(ranksep='1')
+    def add_node(node):
+        dot.node(name=node['Name'],label=f'{node["Name"]}',  image=node['image'], shape='none', labelloc='b', )
+        for child in node['Needs']:
+            dot.edge( child['Name'],node['Name'], label=f'{child["Count"]}')
+            add_node(child)
+    add_node(tree)
+    return dot
