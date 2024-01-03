@@ -12,7 +12,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "50-101"
+    "Per boat crate": "50-101",
+    "output_amount": 1
   },
   {
     "image": "images/egg.png",
@@ -27,7 +28,8 @@
       }
     ],
     "Source": "Chicken",
-    "Per boat crate": "15-24"
+    "Per boat crate": "15-24",
+    "output_amount": 1
   },
   {
     "image": "images/corn.png",
@@ -42,7 +44,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "50-87"
+    "Per boat crate": "50-87",
+    "output_amount": 1
   },
   {
     "image": "images/bread.png",
@@ -57,7 +60,8 @@
       }
     ],
     "Source": "Bakery",
-    "Per boat crate": "14-26"
+    "Per boat crate": "14-26",
+    "output_amount": 1
   },
   {
     "image": "images/chicken-feed.png",
@@ -75,7 +79,8 @@
       }
     ],
     "Source": "Feed Mill",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 3
   },
   {
     "image": "images/soybean.png",
@@ -90,7 +95,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "24-48"
+    "Per boat crate": "24-48",
+    "output_amount": 1
   },
   {
     "image": "images/cow-feed.png",
@@ -108,7 +114,8 @@
       }
     ],
     "Source": "Feed Mill",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 3
   },
   {
     "image": "images/milk.png",
@@ -123,7 +130,8 @@
       }
     ],
     "Source": "Cow",
-    "Per boat crate": "8-16"
+    "Per boat crate": "8-16",
+    "output_amount": 1
   },
   {
     "image": "images/cream.png",
@@ -138,7 +146,8 @@
       }
     ],
     "Source": "Dairy",
-    "Per boat crate": "8-12"
+    "Per boat crate": "8-12",
+    "output_amount": 1
   },
   {
     "image": "images/sugarcane.png",
@@ -153,7 +162,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "14-31"
+    "Per boat crate": "14-31",
+    "output_amount": 1
   },
   {
     "image": "images/corn-bread.png",
@@ -171,7 +181,8 @@
       }
     ],
     "Source": "Bakery",
-    "Per boat crate": "4-8"
+    "Per boat crate": "4-8",
+    "output_amount": 1
   },
   {
     "image": "images/brown-sugar.png",
@@ -186,7 +197,8 @@
       }
     ],
     "Source": "Sugar Mill",
-    "Per boat crate": "8-13"
+    "Per boat crate": "8-13",
+    "output_amount": 1
   },
   {
     "image": "images/popcorn.png",
@@ -201,7 +213,8 @@
       }
     ],
     "Source": "Popcorn Pot",
-    "Per boat crate": "10-19"
+    "Per boat crate": "10-19",
+    "output_amount": 1
   },
   {
     "image": "images/carrot.png",
@@ -216,7 +229,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "30-49"
+    "Per boat crate": "30-49",
+    "output_amount": 1
   },
   {
     "image": "images/butter.png",
@@ -231,7 +245,8 @@
       }
     ],
     "Source": "Dairy",
-    "Per boat crate": "4-7"
+    "Per boat crate": "4-7",
+    "output_amount": 1
   },
   {
     "image": "images/pancake.png",
@@ -249,7 +264,8 @@
       }
     ],
     "Source": "BBQ Grill",
-    "Per boat crate": "3-4"
+    "Per boat crate": "3-4",
+    "output_amount": 1
   },
   {
     "image": "images/pig-feed.png",
@@ -267,7 +283,8 @@
       }
     ],
     "Source": "Feed Mill",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 3
   },
   {
     "image": "images/bacon.png",
@@ -282,7 +299,8 @@
       }
     ],
     "Source": "Pig",
-    "Per boat crate": "4-9"
+    "Per boat crate": "4-9",
+    "output_amount": 1
   },
   {
     "image": "images/cookie.png",
@@ -303,7 +321,8 @@
       }
     ],
     "Source": "Bakery",
-    "Per boat crate": "2-5"
+    "Per boat crate": "2-5",
+    "output_amount": 1
   },
   {
     "image": "images/bacon-and-eggs.png",
@@ -321,7 +340,8 @@
       }
     ],
     "Source": "BBQ Grill",
-    "Per boat crate": "2-4"
+    "Per boat crate": "2-4",
+    "output_amount": 1
   },
   {
     "image": "images/cheese.png",
@@ -336,7 +356,8 @@
       }
     ],
     "Source": "Dairy",
-    "Per boat crate": "3-5"
+    "Per boat crate": "3-5",
+    "output_amount": 1
   },
   {
     "image": "images/indigo.png",
@@ -351,7 +372,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "8-19"
+    "Per boat crate": "8-19",
+    "output_amount": 1
   },
   {
     "image": "images/white-sugar.png",
@@ -366,7 +388,8 @@
       }
     ],
     "Source": "Sugar Mill",
-    "Per boat crate": "4-13"
+    "Per boat crate": "4-13",
+    "output_amount": 1
   },
   {
     "image": "images/carrot-pie.png",
@@ -387,7 +410,8 @@
       }
     ],
     "Source": "Pie Oven",
-    "Per boat crate": "4-7"
+    "Per boat crate": "4-7",
+    "output_amount": 1
   },
   {
     "image": "images/pumpkin.png",
@@ -402,7 +426,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "9-16"
+    "Per boat crate": "9-16",
+    "output_amount": 1
   },
   {
     "image": "images/pumpkin-pie.png",
@@ -423,7 +448,8 @@
       }
     ],
     "Source": "Pie Oven",
-    "Per boat crate": "3-4"
+    "Per boat crate": "3-4",
+    "output_amount": 1
   },
   {
     "image": "images/apple.png",
@@ -434,7 +460,8 @@
     "XP": "7",
     "Needs": [],
     "Source": "Apple tree",
-    "Per boat crate": "8-14"
+    "Per boat crate": "8-14",
+    "output_amount": 1
   },
   {
     "image": "images/sheep-feed.png",
@@ -452,7 +479,8 @@
       }
     ],
     "Source": "Feed Mill",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 3
   },
   {
     "image": "images/wool.png",
@@ -467,7 +495,8 @@
       }
     ],
     "Source": "Sheep",
-    "Per boat crate": "5-9"
+    "Per boat crate": "5-9",
+    "output_amount": 1
   },
   {
     "image": "images/buttered-popcorn.png",
@@ -485,7 +514,8 @@
       }
     ],
     "Source": "Popcorn Pot",
-    "Per boat crate": "2-5"
+    "Per boat crate": "2-5",
+    "output_amount": 1
   },
   {
     "image": "images/sweater.png",
@@ -500,7 +530,8 @@
       }
     ],
     "Source": "Loom",
-    "Per boat crate": "3-4"
+    "Per boat crate": "3-4",
+    "output_amount": 1
   },
   {
     "image": "images/cotton.png",
@@ -515,7 +546,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "10-16"
+    "Per boat crate": "10-16",
+    "output_amount": 1
   },
   {
     "image": "images/bacon-pie.png",
@@ -536,7 +568,8 @@
       }
     ],
     "Source": "Pie Oven",
-    "Per boat crate": "1-3"
+    "Per boat crate": "1-3",
+    "output_amount": 1
   },
   {
     "image": "images/syrup.png",
@@ -551,7 +584,8 @@
       }
     ],
     "Source": "Sugar Mill",
-    "Per boat crate": "2-4"
+    "Per boat crate": "2-4",
+    "output_amount": 1
   },
   {
     "image": "images/cotton-fabric.png",
@@ -566,7 +600,8 @@
       }
     ],
     "Source": "Loom",
-    "Per boat crate": "3-5"
+    "Per boat crate": "3-5",
+    "output_amount": 1
   },
   {
     "image": "images/hamburger.png",
@@ -584,7 +619,8 @@
       }
     ],
     "Source": "BBQ Grill",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/raspberry.png",
@@ -595,7 +631,8 @@
     "XP": "9",
     "Needs": [],
     "Source": "Raspberry bush",
-    "Per boat crate": "6-11"
+    "Per boat crate": "6-11",
+    "output_amount": 1
   },
   {
     "image": "images/raspberry-muffin.png",
@@ -616,7 +653,8 @@
       }
     ],
     "Source": "Bakery",
-    "Per boat crate": "2-4"
+    "Per boat crate": "2-4",
+    "output_amount": 1
   },
   {
     "image": "images/blue-woolly-hat.png",
@@ -634,7 +672,8 @@
       }
     ],
     "Source": "Loom",
-    "Per boat crate": "3-5"
+    "Per boat crate": "3-5",
+    "output_amount": 1
   },
   {
     "image": "images/cotton-shirt.png",
@@ -649,7 +688,8 @@
       }
     ],
     "Source": "Sewing Machine",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/blue-sweater.png",
@@ -667,7 +707,8 @@
       }
     ],
     "Source": "Loom",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/carrot-cake.png",
@@ -688,7 +729,8 @@
       }
     ],
     "Source": "Cake Oven",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/wooly-chaps.png",
@@ -706,7 +748,8 @@
       }
     ],
     "Source": "Sewing Machine",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/cherry.png",
@@ -717,7 +760,8 @@
     "XP": "13",
     "Needs": [],
     "Source": "Cherry tree",
-    "Per boat crate": "4-7"
+    "Per boat crate": "4-7",
+    "output_amount": 1
   },
   {
     "image": "images/cream-cake.png",
@@ -738,7 +782,8 @@
       }
     ],
     "Source": "Cake Oven",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/red-berry-cake.png",
@@ -762,7 +807,8 @@
       }
     ],
     "Source": "Cake Oven",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/cheesecake.png",
@@ -780,7 +826,8 @@
       }
     ],
     "Source": "Cake Oven",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/silver-ore.png",
@@ -791,7 +838,8 @@
     "XP": "5",
     "Needs": [],
     "Source": "Mine",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/gold-ore.png",
@@ -802,7 +850,8 @@
     "XP": "6",
     "Needs": [],
     "Source": "Mine",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/platinum-ore.png",
@@ -813,7 +862,8 @@
     "XP": "7",
     "Needs": [],
     "Source": "Mine",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/silver-bar.png",
@@ -828,7 +878,8 @@
       }
     ],
     "Source": "Smelter",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/chili-pepper.png",
@@ -843,7 +894,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "3-5"
+    "Per boat crate": "3-5",
+    "output_amount": 1
   },
   {
     "image": "images/chili-popcorn.png",
@@ -861,7 +913,8 @@
       }
     ],
     "Source": "Popcorn Pot",
-    "Per boat crate": "3-5"
+    "Per boat crate": "3-5",
+    "output_amount": 1
   },
   {
     "image": "images/gold-bar.png",
@@ -876,7 +929,8 @@
       }
     ],
     "Source": "Smelter",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/platinum-bar.png",
@@ -891,7 +945,8 @@
       }
     ],
     "Source": "Smelter",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/violet-dress.png",
@@ -912,7 +967,8 @@
       }
     ],
     "Source": "Sewing Machine",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/blackberry.png",
@@ -923,7 +979,8 @@
     "XP": "16",
     "Needs": [],
     "Source": "Blackberry bush",
-    "Per boat crate": "4-6"
+    "Per boat crate": "4-6",
+    "output_amount": 1
   },
   {
     "image": "images/blackberry-muffin.png",
@@ -944,7 +1001,8 @@
       }
     ],
     "Source": "Bakery",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/carrot-juice.png",
@@ -959,7 +1017,8 @@
       }
     ],
     "Source": "Juice Press",
-    "Per boat crate": "6-11"
+    "Per boat crate": "6-11",
+    "output_amount": 1
   },
   {
     "image": "images/fish-fillet.png",
@@ -974,7 +1033,8 @@
       }
     ],
     "Source": "Fish",
-    "Per boat crate": "6-9"
+    "Per boat crate": "6-9",
+    "output_amount": 1
   },
   {
     "image": "images/fish-burger.png",
@@ -995,7 +1055,8 @@
       }
     ],
     "Source": "BBQ Grill",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/apple-pie.png",
@@ -1019,7 +1080,8 @@
       }
     ],
     "Source": "Pie Oven",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/fish-pie.png",
@@ -1040,7 +1102,8 @@
       }
     ],
     "Source": "Pie Oven",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/apple-juice.png",
@@ -1055,7 +1118,8 @@
       }
     ],
     "Source": "Juice Press",
-    "Per boat crate": "3-7"
+    "Per boat crate": "3-7",
+    "output_amount": 1
   },
   {
     "image": "images/vanilla-ice-cream.png",
@@ -1076,7 +1140,8 @@
       }
     ],
     "Source": "Ice Cream Maker",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/tomato.png",
@@ -1091,7 +1156,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "6-12"
+    "Per boat crate": "6-12",
+    "output_amount": 1
   },
   {
     "image": "images/roasted-tomatoes.png",
@@ -1106,7 +1172,8 @@
       }
     ],
     "Source": "BBQ Grill",
-    "Per boat crate": "3-5"
+    "Per boat crate": "3-5",
+    "output_amount": 1
   },
   {
     "image": "images/cherry-juice.png",
@@ -1121,7 +1188,8 @@
       }
     ],
     "Source": "Juice Press",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/fishing-net.png",
@@ -1132,7 +1200,8 @@
     "XP": "7",
     "Needs": [],
     "Source": "Net Maker",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/tomato-juice.png",
@@ -1147,7 +1216,8 @@
       }
     ],
     "Source": "Juice Press",
-    "Per boat crate": "2-4"
+    "Per boat crate": "2-4",
+    "output_amount": 1
   },
   {
     "image": "images/berry-juice.png",
@@ -1165,7 +1235,8 @@
       }
     ],
     "Source": "Juice Press",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/goat-feed.png",
@@ -1186,7 +1257,8 @@
       }
     ],
     "Source": "Feed Mill",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 3
   },
   {
     "image": "images/goat-milk.png",
@@ -1201,7 +1273,8 @@
       }
     ],
     "Source": "Goat",
-    "Per boat crate": "5-8"
+    "Per boat crate": "5-8",
+    "output_amount": 1
   },
   {
     "image": "images/goat-cheese.png",
@@ -1216,7 +1289,8 @@
       }
     ],
     "Source": "Dairy",
-    "Per boat crate": "2-5"
+    "Per boat crate": "2-5",
+    "output_amount": 1
   },
   {
     "image": "images/pizza.png",
@@ -1237,7 +1311,8 @@
       }
     ],
     "Source": "Bakery",
-    "Per boat crate": "2-4"
+    "Per boat crate": "2-4",
+    "output_amount": 1
   },
   {
     "image": "images/coal.png",
@@ -1248,7 +1323,8 @@
     "XP": "3",
     "Needs": [],
     "Source": "Mine",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/refined-coal.png",
@@ -1263,7 +1339,8 @@
       }
     ],
     "Source": "Smelter",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/cherry-popsicle.png",
@@ -1281,7 +1358,8 @@
       }
     ],
     "Source": "Ice Cream Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/strawberry.png",
@@ -1296,7 +1374,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "3-10"
+    "Per boat crate": "3-10",
+    "output_amount": 1
   },
   {
     "image": "images/feta-pie.png",
@@ -1317,7 +1396,8 @@
       }
     ],
     "Source": "Pie Oven",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/iron-ore.png",
@@ -1328,7 +1408,8 @@
     "XP": "4",
     "Needs": [],
     "Source": "Mine",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/iron-bar.png",
@@ -1343,7 +1424,8 @@
       }
     ],
     "Source": "Smelter",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/strawberry-ice-cream.png",
@@ -1367,7 +1449,8 @@
       }
     ],
     "Source": "Ice Cream Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/wheat-bundle.png",
@@ -1382,7 +1465,8 @@
       }
     ],
     "Source": "Feed Mill",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/meat-bucket.png",
@@ -1400,7 +1484,8 @@
       }
     ],
     "Source": "Feed Mill",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/potato.png",
@@ -1415,7 +1500,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "6-14"
+    "Per boat crate": "6-14",
+    "output_amount": 1
   },
   {
     "image": "images/strawberry-cake.png",
@@ -1439,7 +1525,8 @@
       }
     ],
     "Source": "Cake Oven",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/baked-potato.png",
@@ -1463,7 +1550,8 @@
       }
     ],
     "Source": "BBQ Grill",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/apple-jam.png",
@@ -1478,7 +1566,8 @@
       }
     ],
     "Source": "Jam Maker",
-    "Per boat crate": "2-4"
+    "Per boat crate": "2-4",
+    "output_amount": 1
   },
   {
     "image": "images/chocolate-cake.png",
@@ -1499,7 +1588,8 @@
       }
     ],
     "Source": "Cake Oven",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/casserole.png",
@@ -1523,7 +1613,8 @@
       }
     ],
     "Source": "Pie Oven",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/cacao.png",
@@ -1534,7 +1625,8 @@
     "XP": "16",
     "Needs": [],
     "Source": "Cacao tree",
-    "Per boat crate": "4-6"
+    "Per boat crate": "4-6",
+    "output_amount": 1
   },
   {
     "image": "images/raspberry-jam.png",
@@ -1549,7 +1641,8 @@
       }
     ],
     "Source": "Jam Maker",
-    "Per boat crate": "1-3"
+    "Per boat crate": "1-3",
+    "output_amount": 1
   },
   {
     "image": "images/spicy-pizza.png",
@@ -1573,7 +1666,8 @@
       }
     ],
     "Source": "Bakery",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/blackberry-jam.png",
@@ -1588,7 +1682,8 @@
       }
     ],
     "Source": "Jam Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/potato-feta-cake.png",
@@ -1609,7 +1704,8 @@
       }
     ],
     "Source": "Cake Oven",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/cherry-jam.png",
@@ -1624,7 +1720,8 @@
       }
     ],
     "Source": "Jam Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/bracelet.png",
@@ -1642,7 +1739,8 @@
       }
     ],
     "Source": "Jeweler",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/potato-bread.png",
@@ -1666,7 +1764,8 @@
       }
     ],
     "Source": "Bakery",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/shepherd-s-pie.png",
@@ -1690,7 +1789,8 @@
       }
     ],
     "Source": "Pie Oven",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/chocolate-ice-cream.png",
@@ -1714,7 +1814,8 @@
       }
     ],
     "Source": "Ice Cream Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/honeycomb.png",
@@ -1725,7 +1826,8 @@
     "XP": "8",
     "Needs": [],
     "Source": "Beehive tree",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/necklace.png",
@@ -1746,7 +1848,8 @@
       }
     ],
     "Source": "Jeweler",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/honey.png",
@@ -1761,7 +1864,8 @@
       }
     ],
     "Source": "Honey Extractor",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/honey-popcorn.png",
@@ -1779,7 +1883,8 @@
       }
     ],
     "Source": "Popcorn Pot",
-    "Per boat crate": "3-5"
+    "Per boat crate": "3-5",
+    "output_amount": 1
   },
   {
     "image": "images/diamond-ring.png",
@@ -1800,7 +1905,8 @@
       }
     ],
     "Source": "Jeweler",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/fish-and-chips.png",
@@ -1818,7 +1924,8 @@
       }
     ],
     "Source": "BBQ Grill",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/iron-bracelet.png",
@@ -1839,7 +1946,8 @@
       }
     ],
     "Source": "Jeweler",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/coffee-bean.png",
@@ -1850,7 +1958,8 @@
     "XP": "12",
     "Needs": [],
     "Source": "Coffee bush",
-    "Per boat crate": "4-8"
+    "Per boat crate": "4-8",
+    "output_amount": 1
   },
   {
     "image": "images/espresso.png",
@@ -1868,7 +1977,8 @@
       }
     ],
     "Source": "Coffee Kiosk",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/honey-apple-cake.png",
@@ -1892,7 +2002,8 @@
       }
     ],
     "Source": "Cake Oven",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/caffe-latte.png",
@@ -1913,7 +2024,8 @@
       }
     ],
     "Source": "Coffee Kiosk",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/chocolate-popcorn.png",
@@ -1931,7 +2043,8 @@
       }
     ],
     "Source": "Popcorn Pot",
-    "Per boat crate": "2-4"
+    "Per boat crate": "2-4",
+    "output_amount": 1
   },
   {
     "image": "images/lobster-trap.png",
@@ -1942,7 +2055,8 @@
     "XP": "5",
     "Needs": [],
     "Source": "Net Maker",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/lobster-tail.png",
@@ -1953,7 +2067,8 @@
     "XP": "24",
     "Needs": [],
     "Source": "Lobster Pool",
-    "Per boat crate": "2-4"
+    "Per boat crate": "2-4",
+    "output_amount": 1
   },
   {
     "image": "images/frutti-di-mare-pizza.png",
@@ -1977,7 +2092,8 @@
       }
     ],
     "Source": "Bakery",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/caffe-mocha.png",
@@ -1998,7 +2114,8 @@
       }
     ],
     "Source": "Coffee Kiosk",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/raspberry-mocha.png",
@@ -2022,7 +2139,8 @@
       }
     ],
     "Source": "Coffee Kiosk",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/lobster-soup.png",
@@ -2046,7 +2164,8 @@
       }
     ],
     "Source": "Soup Kitchen",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/hot-chocolate.png",
@@ -2070,7 +2189,8 @@
       }
     ],
     "Source": "Coffee Kiosk",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/tomato-soup.png",
@@ -2094,7 +2214,8 @@
       }
     ],
     "Source": "Soup Kitchen",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/red-scarf.png",
@@ -2112,7 +2233,8 @@
       }
     ],
     "Source": "Loom",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/lobster-skewer.png",
@@ -2133,7 +2255,8 @@
       }
     ],
     "Source": "BBQ Grill",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/beeswax.png",
@@ -2148,7 +2271,8 @@
       }
     ],
     "Source": "Honey Extractor",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/strawberry-candle.png",
@@ -2166,7 +2290,8 @@
       }
     ],
     "Source": "Candle Maker",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/rustic-bouquet.png",
@@ -2187,7 +2312,8 @@
       }
     ],
     "Source": "Flower Shop",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/pumpkin-soup.png",
@@ -2211,7 +2337,8 @@
       }
     ],
     "Source": "Soup Kitchen",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/asparagus.png",
@@ -2226,7 +2353,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "6-12"
+    "Per boat crate": "6-12",
+    "output_amount": 1
   },
   {
     "image": "images/asparagus-quiche.png",
@@ -2250,7 +2378,8 @@
       }
     ],
     "Source": "Pie Oven",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/strawberry-jam.png",
@@ -2265,7 +2394,8 @@
       }
     ],
     "Source": "Jam Maker",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/duck-trap.png",
@@ -2276,7 +2406,8 @@
     "XP": "3",
     "Needs": [],
     "Source": "Net Maker",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/duck-feather.png",
@@ -2287,7 +2418,8 @@
     "XP": "17",
     "Needs": [],
     "Source": "Duck Salon",
-    "Per boat crate": "3-6"
+    "Per boat crate": "3-6",
+    "output_amount": 1
   },
   {
     "image": "images/sesame.png",
@@ -2302,7 +2434,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "16-25"
+    "Per boat crate": "16-25",
+    "output_amount": 1
   },
   {
     "image": "images/sesame-ice-cream.png",
@@ -2323,7 +2456,8 @@
       }
     ],
     "Source": "Ice Cream Maker",
-    "Per boat crate": "2-5"
+    "Per boat crate": "2-5",
+    "output_amount": 1
   },
   {
     "image": "images/caramel-apple.png",
@@ -2341,7 +2475,8 @@
       }
     ],
     "Source": "Candy Machine",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/pillow.png",
@@ -2359,7 +2494,8 @@
       }
     ],
     "Source": "Sewing Machine",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/asparagus-soup.png",
@@ -2377,7 +2513,8 @@
       }
     ],
     "Source": "Soup Kitchen",
-    "Per boat crate": "1-3"
+    "Per boat crate": "1-3",
+    "output_amount": 1
   },
   {
     "image": "images/toffee.png",
@@ -2398,7 +2535,8 @@
       }
     ],
     "Source": "Candy Machine",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/raspberry-candle.png",
@@ -2416,7 +2554,8 @@
       }
     ],
     "Source": "Candle Maker",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/pineapple.png",
@@ -2431,7 +2570,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "20-31"
+    "Per boat crate": "20-31",
+    "output_amount": 1
   },
   {
     "image": "images/pineapple-juice.png",
@@ -2446,7 +2586,8 @@
       }
     ],
     "Source": "Juice Press",
-    "Per boat crate": "5-8"
+    "Per boat crate": "5-8",
+    "output_amount": 1
   },
   {
     "image": "images/fish-soup.png",
@@ -2470,7 +2611,8 @@
       }
     ],
     "Source": "Soup Kitchen",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/lily.png",
@@ -2485,7 +2627,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "12-20"
+    "Per boat crate": "12-20",
+    "output_amount": 1
   },
   {
     "image": "images/soy-sauce.png",
@@ -2503,7 +2646,8 @@
       }
     ],
     "Source": "Sauce Maker",
-    "Per boat crate": "2-4"
+    "Per boat crate": "2-4",
+    "output_amount": 1
   },
   {
     "image": "images/chocolate.png",
@@ -2524,7 +2668,8 @@
       }
     ],
     "Source": "Candy Machine",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/fancy-cake.png",
@@ -2548,7 +2693,8 @@
       }
     ],
     "Source": "Cake Oven",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/rice.png",
@@ -2563,7 +2709,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "19-32"
+    "Per boat crate": "19-32",
+    "output_amount": 1
   },
   {
     "image": "images/sushi-roll.png",
@@ -2584,7 +2731,8 @@
       }
     ],
     "Source": "Sushi Bar",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/olive.png",
@@ -2595,7 +2743,8 @@
     "XP": "17",
     "Needs": [],
     "Source": "Olive tree",
-    "Per boat crate": "4-6"
+    "Per boat crate": "4-6",
+    "output_amount": 1
   },
   {
     "image": "images/lollipop.png",
@@ -2616,7 +2765,8 @@
       }
     ],
     "Source": "Candy Machine",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/lettuce.png",
@@ -2631,7 +2781,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "9-14"
+    "Per boat crate": "9-14",
+    "output_amount": 1
   },
   {
     "image": "images/feta-salad.png",
@@ -2655,7 +2806,8 @@
       }
     ],
     "Source": "Salad Bar",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/lobster-sushi.png",
@@ -2676,7 +2828,8 @@
       }
     ],
     "Source": "Sushi Bar",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/blanket.png",
@@ -2697,7 +2850,8 @@
       }
     ],
     "Source": "Sewing Machine",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/jelly-beans.png",
@@ -2718,7 +2872,8 @@
       }
     ],
     "Source": "Candy Machine",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/olive-oil.png",
@@ -2733,7 +2888,8 @@
       }
     ],
     "Source": "Sauce Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/garlic.png",
@@ -2748,7 +2904,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "20-32"
+    "Per boat crate": "20-32",
+    "output_amount": 1
   },
   {
     "image": "images/garlic-bread.png",
@@ -2769,7 +2926,8 @@
       }
     ],
     "Source": "BBQ Grill",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/veggie-bagel.png",
@@ -2793,7 +2951,8 @@
       }
     ],
     "Source": "Sandwich Bar",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/mayonnaise.png",
@@ -2811,7 +2970,8 @@
       }
     ],
     "Source": "Sauce Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/blt-salad.png",
@@ -2835,7 +2995,8 @@
       }
     ],
     "Source": "Salad Bar",
-    "Per boat crate": "1-3"
+    "Per boat crate": "1-3",
+    "output_amount": 1
   },
   {
     "image": "images/caramel-latte.png",
@@ -2856,7 +3017,8 @@
       }
     ],
     "Source": "Coffee Kiosk",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/peanuts.png",
@@ -2867,7 +3029,8 @@
     "XP": "43",
     "Needs": [],
     "Source": "Squirrel House",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/sunflower.png",
@@ -2882,7 +3045,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "12-19"
+    "Per boat crate": "12-19",
+    "output_amount": 1
   },
   {
     "image": "images/egg-sushi.png",
@@ -2906,7 +3070,8 @@
       }
     ],
     "Source": "Sushi Bar",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/honey-peanuts.png",
@@ -2924,7 +3089,8 @@
       }
     ],
     "Source": "Candy Machine",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/seafood-salad.png",
@@ -2948,7 +3114,8 @@
       }
     ],
     "Source": "Salad Bar",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/berry-smoothie.png",
@@ -2969,7 +3136,8 @@
       }
     ],
     "Source": "Smoothie Mixer",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/snack-mix.png",
@@ -2990,7 +3158,8 @@
       }
     ],
     "Source": "Popcorn Pot",
-    "Per boat crate": "5-7"
+    "Per boat crate": "5-7",
+    "output_amount": 1
   },
   {
     "image": "images/bright-bouquet.png",
@@ -3014,7 +3183,8 @@
       }
     ],
     "Source": "Flower Shop",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/bacon-toast.png",
@@ -3038,7 +3208,8 @@
       }
     ],
     "Source": "Sandwich Bar",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/pineapple-cake.png",
@@ -3062,7 +3233,8 @@
       }
     ],
     "Source": "Cake Oven",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/chocolate-pie.png",
@@ -3086,7 +3258,8 @@
       }
     ],
     "Source": "Pie Oven",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/cabbage.png",
@@ -3101,7 +3274,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "12-31"
+    "Per boat crate": "12-31",
+    "output_amount": 1
   },
   {
     "image": "images/cabbage-soup.png",
@@ -3125,7 +3299,8 @@
       }
     ],
     "Source": "Soup Kitchen",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/lemon.png",
@@ -3136,7 +3311,8 @@
     "XP": "18",
     "Needs": [],
     "Source": "Lemon tree",
-    "Per boat crate": "4-6"
+    "Per boat crate": "4-6",
+    "output_amount": 1
   },
   {
     "image": "images/lemon-curd.png",
@@ -3160,7 +3336,8 @@
       }
     ],
     "Source": "Sauce Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/olive-dip.png",
@@ -3184,7 +3361,8 @@
       }
     ],
     "Source": "Sauce Maker",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/egg-sandwich.png",
@@ -3208,7 +3386,8 @@
       }
     ],
     "Source": "Sandwich Bar",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/green-smoothie.png",
@@ -3229,7 +3408,8 @@
       }
     ],
     "Source": "Smoothie Mixer",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/fresh-pasta.png",
@@ -3247,7 +3427,8 @@
       }
     ],
     "Source": "Pasta Maker",
-    "Per boat crate": "8-12"
+    "Per boat crate": "8-12",
+    "output_amount": 1
   },
   {
     "image": "images/pasta-salad.png",
@@ -3271,7 +3452,8 @@
       }
     ],
     "Source": "Salad Bar",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/lemon-pie.png",
@@ -3292,7 +3474,8 @@
       }
     ],
     "Source": "Pie Oven",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/grilled-asparagus.png",
@@ -3313,7 +3496,8 @@
       }
     ],
     "Source": "BBQ Grill",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/onion.png",
@@ -3328,7 +3512,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "8-9"
+    "Per boat crate": "8-9",
+    "output_amount": 1
   },
   {
     "image": "images/grilled-onion.png",
@@ -3346,7 +3531,8 @@
       }
     ],
     "Source": "BBQ Grill",
-    "Per boat crate": "3"
+    "Per boat crate": "3",
+    "output_amount": 1
   },
   {
     "image": "images/lemon-cake.png",
@@ -3370,7 +3556,8 @@
       }
     ],
     "Source": "Cake Oven",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/peanut-butter-milkshake.png",
@@ -3394,7 +3581,8 @@
       }
     ],
     "Source": "Ice Cream Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/tomato-sauce.png",
@@ -3415,7 +3603,8 @@
       }
     ],
     "Source": "Sauce Maker",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/honey-toast.png",
@@ -3439,7 +3628,8 @@
       }
     ],
     "Source": "Sandwich Bar",
-    "Per boat crate": "3-4"
+    "Per boat crate": "3-4",
+    "output_amount": 1
   },
   {
     "image": "images/fried-rice.png",
@@ -3457,7 +3647,8 @@
       }
     ],
     "Source": "Wok Kitchen",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/yogurt-smoothie.png",
@@ -3481,7 +3672,8 @@
       }
     ],
     "Source": "Smoothie Mixer",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/cloche-hat.png",
@@ -3499,7 +3691,8 @@
       }
     ],
     "Source": "Hat Maker",
-    "Per boat crate": "1-4"
+    "Per boat crate": "1-4",
+    "output_amount": 1
   },
   {
     "image": "images/cucumber.png",
@@ -3514,7 +3707,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "21-31"
+    "Per boat crate": "21-31",
+    "output_amount": 1
   },
   {
     "image": "images/cucumber-smoothie.png",
@@ -3535,7 +3729,8 @@
       }
     ],
     "Source": "Smoothie Mixer",
-    "Per boat crate": "2-4"
+    "Per boat crate": "2-4",
+    "output_amount": 1
   },
   {
     "image": "images/orange.png",
@@ -3546,7 +3741,8 @@
     "XP": "19",
     "Needs": [],
     "Source": "Orange tree",
-    "Per boat crate": "4-6"
+    "Per boat crate": "4-6",
+    "output_amount": 1
   },
   {
     "image": "images/flower-shawl.png",
@@ -3567,7 +3763,8 @@
       }
     ],
     "Source": "Loom",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/orange-juice.png",
@@ -3582,7 +3779,8 @@
       }
     ],
     "Source": "Juice Press",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/peanut-butter-and-jelly-sandwich.png",
@@ -3603,7 +3801,8 @@
       }
     ],
     "Source": "Sandwich Bar",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/onion-soup.png",
@@ -3624,7 +3823,8 @@
       }
     ],
     "Source": "Soup Kitchen",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/lemon-candle.png",
@@ -3642,7 +3842,8 @@
       }
     ],
     "Source": "Candle Maker",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/top-hat.png",
@@ -3663,7 +3864,8 @@
       }
     ],
     "Source": "Hat Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/gnocchi.png",
@@ -3687,7 +3889,8 @@
       }
     ],
     "Source": "Pasta Kitchen",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/beetroot.png",
@@ -3702,7 +3905,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "20-31"
+    "Per boat crate": "20-31",
+    "output_amount": 1
   },
   {
     "image": "images/winter-veggies.png",
@@ -3726,7 +3930,8 @@
       }
     ],
     "Source": "BBQ Grill",
-    "Per boat crate": "2-4"
+    "Per boat crate": "2-4",
+    "output_amount": 1
   },
   {
     "image": "images/rice-noodles.png",
@@ -3741,7 +3946,8 @@
       }
     ],
     "Source": "Pasta Maker",
-    "Per boat crate": "4-6"
+    "Per boat crate": "4-6",
+    "output_amount": 1
   },
   {
     "image": "images/noodle-soup.png",
@@ -3765,7 +3971,8 @@
       }
     ],
     "Source": "Soup Kitchen",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/gracious-bouquet.png",
@@ -3789,7 +3996,8 @@
       }
     ],
     "Source": "Flower Shop",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/bell-pepper.png",
@@ -3804,7 +4012,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "10-14"
+    "Per boat crate": "10-14",
+    "output_amount": 1
   },
   {
     "image": "images/marmalade.png",
@@ -3819,7 +4028,8 @@
       }
     ],
     "Source": "Jam Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/sun-hat.png",
@@ -3843,7 +4053,8 @@
       }
     ],
     "Source": "Hat Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/veggie-lasagna.png",
@@ -3867,7 +4078,8 @@
       }
     ],
     "Source": "Pasta Kitchen",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/veggie-platter.png",
@@ -3891,7 +4103,8 @@
       }
     ],
     "Source": "Salad Bar",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/hot-dog.png",
@@ -3912,7 +4125,8 @@
       }
     ],
     "Source": "Hot Dog Stand",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/coleslaw.png",
@@ -3933,7 +4147,8 @@
       }
     ],
     "Source": "Salad Bar",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/cotton-candy.png",
@@ -3951,7 +4166,8 @@
       }
     ],
     "Source": "Candy Machine",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/peach.png",
@@ -3962,7 +4178,8 @@
     "XP": "20",
     "Needs": [],
     "Source": "Peach tree",
-    "Per boat crate": "4-6"
+    "Per boat crate": "4-6",
+    "output_amount": 1
   },
   {
     "image": "images/peach-tart.png",
@@ -3986,7 +4203,8 @@
       }
     ],
     "Source": "Pie Oven",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/tofu-dog.png",
@@ -4007,7 +4225,8 @@
       }
     ],
     "Source": "Hot Dog Stand",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/big-sushi-roll.png",
@@ -4031,7 +4250,8 @@
       }
     ],
     "Source": "Sushi Bar",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/beetroot-salad.png",
@@ -4049,7 +4269,8 @@
       }
     ],
     "Source": "Salad Bar",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/plain-donut.png",
@@ -4073,7 +4294,8 @@
       }
     ],
     "Source": "Donut Maker",
-    "Per boat crate": "3-4"
+    "Per boat crate": "3-4",
+    "output_amount": 1
   },
   {
     "image": "images/salsa.png",
@@ -4094,7 +4316,8 @@
       }
     ],
     "Source": "Sauce Maker",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/taco.png",
@@ -4115,7 +4338,8 @@
       }
     ],
     "Source": "Taco Kitchen",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/colourful-omelet.png",
@@ -4139,7 +4363,8 @@
       }
     ],
     "Source": "Omelet Station",
-    "Per boat crate": "2-4"
+    "Per boat crate": "2-4",
+    "output_amount": 1
   },
   {
     "image": "images/spring-omelet.png",
@@ -4160,7 +4385,8 @@
       }
     ],
     "Source": "Omelet Station",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/summer-rolls.png",
@@ -4184,7 +4410,8 @@
       }
     ],
     "Source": "Salad Bar",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/orange-sorbet.png",
@@ -4202,7 +4429,8 @@
       }
     ],
     "Source": "Ice Cream Maker",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/corn-dog.png",
@@ -4223,7 +4451,8 @@
       }
     ],
     "Source": "Hot Dog Stand",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/potato-soup.png",
@@ -4244,7 +4473,8 @@
       }
     ],
     "Source": "Soup Kitchen",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/ginger.png",
@@ -4259,7 +4489,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "11-16"
+    "Per boat crate": "11-16",
+    "output_amount": 1
   },
   {
     "image": "images/sesame-brittle.png",
@@ -4280,7 +4511,8 @@
       }
     ],
     "Source": "Candy Machine",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/affogato.png",
@@ -4298,7 +4530,8 @@
       }
     ],
     "Source": "Ice Cream Maker",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/fish-taco.png",
@@ -4322,7 +4555,8 @@
       }
     ],
     "Source": "Taco Kitchen",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/peach-jam.png",
@@ -4337,7 +4571,8 @@
       }
     ],
     "Source": "Jam Maker",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/lobster-pasta.png",
@@ -4361,7 +4596,8 @@
       }
     ],
     "Source": "Pasta Kitchen",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/cucumber-sandwich.png",
@@ -4382,7 +4618,8 @@
       }
     ],
     "Source": "Sandwich Bar",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/spicy-fish.png",
@@ -4406,7 +4643,8 @@
       }
     ],
     "Source": "Wok Kitchen",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/sprinkled-donut.png",
@@ -4424,7 +4662,8 @@
       }
     ],
     "Source": "Donut Maker",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/cheese-omelet.png",
@@ -4448,7 +4687,8 @@
       }
     ],
     "Source": "Omelet Station",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/tea-leaf.png",
@@ -4463,7 +4703,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "8-11"
+    "Per boat crate": "8-11",
+    "output_amount": 1
   },
   {
     "image": "images/green-tea.png",
@@ -4478,7 +4719,8 @@
       }
     ],
     "Source": "Tea Stand",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/onion-dog.png",
@@ -4502,7 +4744,8 @@
       }
     ],
     "Source": "Hot Dog Stand",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/stuffed-peppers.png",
@@ -4526,7 +4769,8 @@
       }
     ],
     "Source": "BBQ Grill",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/milk-tea.png",
@@ -4544,7 +4788,8 @@
       }
     ],
     "Source": "Tea Stand",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/bell-pepper-soup.png",
@@ -4568,7 +4813,8 @@
       }
     ],
     "Source": "Soup Kitchen",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/chocolate-fondue.png",
@@ -4586,7 +4832,8 @@
       }
     ],
     "Source": "Fondue Pot",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/peony.png",
@@ -4601,7 +4848,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "10-14"
+    "Per boat crate": "10-14",
+    "output_amount": 1
   },
   {
     "image": "images/quesadilla.png",
@@ -4622,7 +4870,8 @@
       }
     ],
     "Source": "Taco Kitchen",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/fruit-salad.png",
@@ -4646,7 +4895,8 @@
       }
     ],
     "Source": "Salad Bar",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/crunchy-donut.png",
@@ -4667,7 +4917,8 @@
       }
     ],
     "Source": "Donut Maker",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/pasta-carbonara.png",
@@ -4691,7 +4942,8 @@
       }
     ],
     "Source": "Pasta Kitchen",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/peach-ice-cream.png",
@@ -4712,7 +4964,8 @@
       }
     ],
     "Source": "Ice Cream Maker",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/honey-tea.png",
@@ -4730,7 +4983,8 @@
       }
     ],
     "Source": "Tea Stand",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/broccoli.png",
@@ -4745,7 +4999,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "16-24"
+    "Per boat crate": "16-24",
+    "output_amount": 1
   },
   {
     "image": "images/broccoli-pasta.png",
@@ -4766,7 +5021,8 @@
       }
     ],
     "Source": "Pasta Kitchen",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/rice-omelet.png",
@@ -4777,7 +5033,8 @@
     "XP": "68",
     "Needs": [],
     "Source": "Omelet Station",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/summer-salad.png",
@@ -4801,7 +5058,8 @@
       }
     ],
     "Source": "Salad Bar",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/grapes.png",
@@ -4816,7 +5074,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "11-15"
+    "Per boat crate": "11-15",
+    "output_amount": 1
   },
   {
     "image": "images/grape-juice.png",
@@ -4831,7 +5090,8 @@
       }
     ],
     "Source": "Juice Press",
-    "Per boat crate": "2-6"
+    "Per boat crate": "2-6",
+    "output_amount": 1
   },
   {
     "image": "images/onion-melt.png",
@@ -4852,7 +5112,8 @@
       }
     ],
     "Source": "Sandwich Bar",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/honey-soap.png",
@@ -4873,7 +5134,8 @@
       }
     ],
     "Source": "Bath Kiosk",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/lemon-lotion.png",
@@ -4891,7 +5153,8 @@
       }
     ],
     "Source": "Bath Kiosk",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/colorful-candles.png",
@@ -4912,7 +5175,8 @@
       }
     ],
     "Source": "Candle Maker",
-    "Per boat crate": "3-4"
+    "Per boat crate": "3-4",
+    "output_amount": 1
   },
   {
     "image": "images/mint.png",
@@ -4927,7 +5191,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "11-16"
+    "Per boat crate": "11-16",
+    "output_amount": 1
   },
   {
     "image": "images/grape-jam.png",
@@ -4942,7 +5207,8 @@
       }
     ],
     "Source": "Jam Maker",
-    "Per boat crate": "3-4"
+    "Per boat crate": "3-4",
+    "output_amount": 1
   },
   {
     "image": "images/mint-ice-cream.png",
@@ -4966,7 +5232,8 @@
       }
     ],
     "Source": "Ice Cream Maker",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/flower-crown.png",
@@ -4984,7 +5251,8 @@
       }
     ],
     "Source": "Hat Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/lemon-tea.png",
@@ -5002,7 +5270,8 @@
       }
     ],
     "Source": "Tea Stand",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/bacon-fondue.png",
@@ -5026,7 +5295,8 @@
       }
     ],
     "Source": "Fondue Pot",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/peanut-noodles.png",
@@ -5050,7 +5320,8 @@
       }
     ],
     "Source": "Wok Kitchen",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/gingerbread-cookie.png",
@@ -5074,7 +5345,8 @@
       }
     ],
     "Source": "Bakery",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/cream-donut.png",
@@ -5095,7 +5367,8 @@
       }
     ],
     "Source": "Donut Maker",
-    "Per boat crate": "3"
+    "Per boat crate": "3",
+    "output_amount": 1
   },
   {
     "image": "images/nachos.png",
@@ -5116,7 +5389,8 @@
       }
     ],
     "Source": "Taco Kitchen",
-    "Per boat crate": "1-3"
+    "Per boat crate": "1-3",
+    "output_amount": 1
   },
   {
     "image": "images/spicy-pasta.png",
@@ -5140,7 +5414,8 @@
       }
     ],
     "Source": "Pasta Kitchen",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/broccoli-soup.png",
@@ -5161,7 +5436,8 @@
       }
     ],
     "Source": "Soup Kitchen",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/bacon-fries.png",
@@ -5185,7 +5461,8 @@
       }
     ],
     "Source": "Deep Fryer",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/potato-omelet.png",
@@ -5196,7 +5473,8 @@
     "XP": "32",
     "Needs": [],
     "Source": "Omelet Station",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/mixed-smoothie.png",
@@ -5217,7 +5495,8 @@
       }
     ],
     "Source": "Smoothie Mixer",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/banana.png",
@@ -5228,7 +5507,8 @@
     "XP": "20",
     "Needs": [],
     "Source": "Banana tree",
-    "Per boat crate": "4-6"
+    "Per boat crate": "4-6",
+    "output_amount": 1
   },
   {
     "image": "images/iced-banana-latte.png",
@@ -5249,7 +5529,8 @@
       }
     ],
     "Source": "Coffee Kiosk",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/apple-ginger-tea.png",
@@ -5270,7 +5551,8 @@
       }
     ],
     "Source": "Tea Stand",
-    "Per boat crate": "4"
+    "Per boat crate": "4",
+    "output_amount": 1
   },
   {
     "image": "images/bacon-donut.png",
@@ -5291,7 +5573,8 @@
       }
     ],
     "Source": "Donut Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/passion-fruit.png",
@@ -5306,7 +5589,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "16-24"
+    "Per boat crate": "16-24",
+    "output_amount": 1
   },
   {
     "image": "images/passion-fruit-juice.png",
@@ -5321,7 +5605,8 @@
       }
     ],
     "Source": "Juice Press",
-    "Per boat crate": "7-9"
+    "Per boat crate": "7-9",
+    "output_amount": 1
   },
   {
     "image": "images/orange-tea.png",
@@ -5339,7 +5624,8 @@
       }
     ],
     "Source": "Tea Stand",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/fruit-cake.png",
@@ -5363,7 +5649,8 @@
       }
     ],
     "Source": "Cake Oven",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/mushroom.png",
@@ -5378,7 +5665,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "33-50"
+    "Per boat crate": "33-50",
+    "output_amount": 1
   },
   {
     "image": "images/mushroom-salad.png",
@@ -5402,7 +5690,8 @@
       }
     ],
     "Source": "Salad Bar",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/tofu-stir-fry.png",
@@ -5426,7 +5715,8 @@
       }
     ],
     "Source": "Wok Kitchen",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/candy-bouquet.png",
@@ -5447,7 +5737,8 @@
       }
     ],
     "Source": "Flower Shop",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/eggplant.png",
@@ -5462,7 +5753,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "22-32"
+    "Per boat crate": "22-32",
+    "output_amount": 1
   },
   {
     "image": "images/grilled-eggplant.png",
@@ -5480,7 +5772,8 @@
       }
     ],
     "Source": "BBQ Grill",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/banana-bread.png",
@@ -5504,7 +5797,8 @@
       }
     ],
     "Source": "Bakery",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/cheese-fondue.png",
@@ -5528,7 +5822,8 @@
       }
     ],
     "Source": "Fondue Pot",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/hand-pies.png",
@@ -5549,7 +5844,8 @@
       }
     ],
     "Source": "Deep Fryer",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/pickles.png",
@@ -5570,7 +5866,8 @@
       }
     ],
     "Source": "Preservation Station",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/watermelon.png",
@@ -5585,7 +5882,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "8-12"
+    "Per boat crate": "8-12",
+    "output_amount": 1
   },
   {
     "image": "images/iced-tea.png",
@@ -5603,7 +5901,8 @@
       }
     ],
     "Source": "Tea Stand",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/goat-cheese-toast.png",
@@ -5624,7 +5923,8 @@
       }
     ],
     "Source": "Sandwich Bar",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/watermelon-juice.png",
@@ -5639,7 +5939,8 @@
       }
     ],
     "Source": "Juice Press",
-    "Per boat crate": "4-5"
+    "Per boat crate": "4-5",
+    "output_amount": 1
   },
   {
     "image": "images/birthday-bouquet.png",
@@ -5663,7 +5964,8 @@
       }
     ],
     "Source": "Flower Shop",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/passion-fruit-pie.png",
@@ -5684,7 +5986,8 @@
       }
     ],
     "Source": "Pie Oven",
-    "Per boat crate": "4-5"
+    "Per boat crate": "4-5",
+    "output_amount": 1
   },
   {
     "image": "images/soft-bouquet.png",
@@ -5705,7 +6008,8 @@
       }
     ],
     "Source": "Flower Shop",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/black-sesame-smoothie.png",
@@ -5726,7 +6030,8 @@
       }
     ],
     "Source": "Smoothie Mixer",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/exfoliating-soap.png",
@@ -5747,7 +6052,8 @@
       }
     ],
     "Source": "Bath Kiosk",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/filled-donut.png",
@@ -5765,7 +6071,8 @@
       }
     ],
     "Source": "Donut Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/plum.png",
@@ -5776,7 +6083,8 @@
     "XP": "16",
     "Needs": [],
     "Source": "Plum tree",
-    "Per boat crate": "4-6"
+    "Per boat crate": "4-6",
+    "output_amount": 1
   },
   {
     "image": "images/banana-pancakes.png",
@@ -5800,7 +6108,8 @@
       }
     ],
     "Source": "BBQ Grill",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/plum-jam.png",
@@ -5815,7 +6124,8 @@
       }
     ],
     "Source": "Jam Maker",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/clay.png",
@@ -5830,7 +6140,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "12-19"
+    "Per boat crate": "12-19",
+    "output_amount": 1
   },
   {
     "image": "images/tea-pot.png",
@@ -5851,7 +6162,8 @@
       }
     ],
     "Source": "Pottery Studio",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/floral-candle.png",
@@ -5875,7 +6187,8 @@
       }
     ],
     "Source": "Candle Maker",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/chocolate-roll.png",
@@ -5899,7 +6212,8 @@
       }
     ],
     "Source": "Cake Oven",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/canned-fish.png",
@@ -5920,7 +6234,8 @@
       }
     ],
     "Source": "Preservation Station",
-    "Per boat crate": "??"
+    "Per boat crate": "??",
+    "output_amount": 1
   },
   {
     "image": "images/chickpea.png",
@@ -5935,7 +6250,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "16-24"
+    "Per boat crate": "16-24",
+    "output_amount": 1
   },
   {
     "image": "images/hummus.png",
@@ -5956,7 +6272,8 @@
       }
     ],
     "Source": "Sauce Maker",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/banana-split.png",
@@ -5977,7 +6294,8 @@
       }
     ],
     "Source": "Ice Cream Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/fish-skewer.png",
@@ -6001,7 +6319,8 @@
       }
     ],
     "Source": "BBQ Grill",
-    "Per boat crate": "2-8"
+    "Per boat crate": "2-8",
+    "output_amount": 1
   },
   {
     "image": "images/passion-fruit-jam.png",
@@ -6016,7 +6335,8 @@
       }
     ],
     "Source": "Jam Maker",
-    "Per boat crate": "4"
+    "Per boat crate": "4",
+    "output_amount": 1
   },
   {
     "image": "images/potted-plant.png",
@@ -6034,7 +6354,8 @@
       }
     ],
     "Source": "Pottery Studio",
-    "Per boat crate": "3-4"
+    "Per boat crate": "3-4",
+    "output_amount": 1
   },
   {
     "image": "images/mint-tea.png",
@@ -6055,7 +6376,8 @@
       }
     ],
     "Source": "Tea Stand",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/mushroom-pot-pie.png",
@@ -6079,7 +6401,8 @@
       }
     ],
     "Source": "Pie Oven",
-    "Per boat crate": "1-3"
+    "Per boat crate": "1-3",
+    "output_amount": 1
   },
   {
     "image": "images/mango.png",
@@ -6090,7 +6413,8 @@
     "XP": "20",
     "Needs": [],
     "Source": "Mango tree",
-    "Per boat crate": "4-6"
+    "Per boat crate": "4-6",
+    "output_amount": 1
   },
   {
     "image": "images/mango-juice.png",
@@ -6105,7 +6429,8 @@
       }
     ],
     "Source": "Juice Press",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/flower-pendant.png",
@@ -6126,7 +6451,8 @@
       }
     ],
     "Source": "Jeweler",
-    "Per boat crate": "N/A"
+    "Per boat crate": "N/A",
+    "output_amount": 1
   },
   {
     "image": "images/chili-poppers.png",
@@ -6150,7 +6476,8 @@
       }
     ],
     "Source": "Deep Fryer",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/falafel.png",
@@ -6174,7 +6501,8 @@
       }
     ],
     "Source": "Deep Fryer",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/kimchi.png",
@@ -6198,7 +6526,8 @@
       }
     ],
     "Source": "Preservation Station",
-    "Per boat crate": "??"
+    "Per boat crate": "??",
+    "output_amount": 1
   },
   {
     "image": "images/eggplant-parmesan.png",
@@ -6219,7 +6548,8 @@
       }
     ],
     "Source": "Pie Oven",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/honey-face-mask.png",
@@ -6240,7 +6570,8 @@
       }
     ],
     "Source": "Bath Kiosk",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/clay-mug.png",
@@ -6261,7 +6592,8 @@
       }
     ],
     "Source": "Pottery Studio",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/rich-fudge.png",
@@ -6282,7 +6614,8 @@
       }
     ],
     "Source": "Fudge Shop",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/cocoa-smoothie.png",
@@ -6303,7 +6636,8 @@
       }
     ],
     "Source": "Smoothie Mixer",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/fried-candy-bar.png",
@@ -6324,7 +6658,8 @@
       }
     ],
     "Source": "Deep Fryer",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/tart-dressing.png",
@@ -6345,7 +6680,8 @@
       }
     ],
     "Source": "Sauce Maker",
-    "Per boat crate": "2-4"
+    "Per boat crate": "2-4",
+    "output_amount": 1
   },
   {
     "image": "images/tropical-fondue.png",
@@ -6369,7 +6705,8 @@
       }
     ],
     "Source": "Fondue Pot",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/mushroom-pasta.png",
@@ -6390,7 +6727,8 @@
       }
     ],
     "Source": "Pasta Kitchen",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/coconut.png",
@@ -6401,7 +6739,8 @@
     "XP": "21",
     "Needs": [],
     "Source": "Coconut tree",
-    "Per boat crate": "4-5"
+    "Per boat crate": "4-5",
+    "output_amount": 1
   },
   {
     "image": "images/macaroon.png",
@@ -6422,7 +6761,8 @@
       }
     ],
     "Source": "Bakery",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/plum-smoothie.png",
@@ -6446,7 +6786,8 @@
       }
     ],
     "Source": "Smoothie Mixer",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/dried-fruit.png",
@@ -6470,7 +6811,8 @@
       }
     ],
     "Source": "Preservation Station",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/mint-fudge.png",
@@ -6494,7 +6836,8 @@
       }
     ],
     "Source": "Fudge Shop",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/coconut-ice-cream.png",
@@ -6512,7 +6855,8 @@
       }
     ],
     "Source": "Ice Cream Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/samosa.png",
@@ -6536,7 +6880,8 @@
       }
     ],
     "Source": "Deep Fryer",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/plain-yogurt.png",
@@ -6554,7 +6899,8 @@
       }
     ],
     "Source": "Yogurt Maker",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/mushroom-soup.png",
@@ -6575,7 +6921,8 @@
       }
     ],
     "Source": "Soup Kitchen",
-    "Per boat crate": "2-4"
+    "Per boat crate": "2-4",
+    "output_amount": 1
   },
   {
     "image": "images/chili-fudge.png",
@@ -6599,7 +6946,8 @@
       }
     ],
     "Source": "Fudge Shop",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/tropical-smoothie.png",
@@ -6623,7 +6971,8 @@
       }
     ],
     "Source": "Smoothie Mixer",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/guava.png",
@@ -6634,7 +6983,8 @@
     "XP": "22",
     "Needs": [],
     "Source": "Guava Tree",
-    "Per boat crate": "3-4"
+    "Per boat crate": "3-4",
+    "output_amount": 1
   },
   {
     "image": "images/guava-juice.png",
@@ -6649,7 +6999,8 @@
       }
     ],
     "Source": "Juice Press",
-    "Per boat crate": "2-3"
+    "Per boat crate": "2-3",
+    "output_amount": 1
   },
   {
     "image": "images/guava-compote.png",
@@ -6670,7 +7021,8 @@
       }
     ],
     "Source": "Preservation Station",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/strawberry-yogurt.png",
@@ -6688,7 +7040,8 @@
       }
     ],
     "Source": "Yogurt Maker",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/veggie-bouquet.png",
@@ -6712,7 +7065,8 @@
       }
     ],
     "Source": "Flower Shop",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/chickpea-stew.png",
@@ -6733,7 +7087,8 @@
       }
     ],
     "Source": "Stew Pot",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/fruit-sorbet.png",
@@ -6757,7 +7112,8 @@
       }
     ],
     "Source": "Ice Cream Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/pomegranate.png",
@@ -6768,7 +7124,8 @@
     "XP": "22",
     "Needs": [],
     "Source": "Pomegranate tree",
-    "Per boat crate": "4-6"
+    "Per boat crate": "4-6",
+    "output_amount": 1
   },
   {
     "image": "images/pomegranate-tea.png",
@@ -6786,7 +7143,8 @@
       }
     ],
     "Source": "Tea Stand",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/lemon-fudge.png",
@@ -6810,7 +7168,8 @@
       }
     ],
     "Source": "Fudge Shop",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/pomegranate-cake.png",
@@ -6834,7 +7193,8 @@
       }
     ],
     "Source": "Cake Oven",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/hummus-wrap.png",
@@ -6855,7 +7215,8 @@
       }
     ],
     "Source": "Sandwich Bar",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/tropical-yogurt.png",
@@ -6879,7 +7240,8 @@
       }
     ],
     "Source": "Yogurt Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/chili-stew.png",
@@ -6903,7 +7265,8 @@
       }
     ],
     "Source": "Stew Pot",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/plain-cupcake.png",
@@ -6927,7 +7290,8 @@
       }
     ],
     "Source": "Cupcake Maker",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/guava-cupcake.png",
@@ -6948,7 +7312,8 @@
       }
     ],
     "Source": "Cupcake Maker",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/rice-ball.png",
@@ -6969,7 +7334,8 @@
       }
     ],
     "Source": "Sushi Bar",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/peanut-fudge.png",
@@ -6993,7 +7359,8 @@
       }
     ],
     "Source": "Fudge Shop",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/tropical-cupcake.png",
@@ -7014,7 +7381,8 @@
       }
     ],
     "Source": "Cupcake Maker",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/winter-stew.png",
@@ -7038,7 +7406,8 @@
       }
     ],
     "Source": "Stew Pot",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/cookie-cupcake.png",
@@ -7062,7 +7431,8 @@
       }
     ],
     "Source": "Cupcake Maker",
-    "Per boat crate": "1-2"
+    "Per boat crate": "1-2",
+    "output_amount": 1
   },
   {
     "image": "images/plain-waffles.png",
@@ -7083,7 +7453,8 @@
       }
     ],
     "Source": "Waffle Maker",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/berry-waffles.png",
@@ -7107,7 +7478,8 @@
       }
     ],
     "Source": "Waffle Maker",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/orange-salad.png",
@@ -7131,7 +7503,8 @@
       }
     ],
     "Source": "Salad Bar",
-    "Per boat crate": "2"
+    "Per boat crate": "2",
+    "output_amount": 1
   },
   {
     "image": "images/chocolate-waffles.png",
@@ -7155,7 +7528,8 @@
       }
     ],
     "Source": "Waffle Maker",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/breakfast-waffles.png",
@@ -7179,7 +7553,8 @@
       }
     ],
     "Source": "Waffle Maker",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/oats.png",
@@ -7194,7 +7569,8 @@
       }
     ],
     "Source": "Field",
-    "Per boat crate": "76-??"
+    "Per boat crate": "76-??",
+    "output_amount": 1
   },
   {
     "image": "images/breakfast-bowl.png",
@@ -7218,7 +7594,8 @@
       }
     ],
     "Source": "Yogurt Maker",
-    "Per boat crate": "?"
+    "Per boat crate": "?",
+    "output_amount": 1
   },
   {
     "image": "images/vanilla-milkshake.png",
@@ -7242,7 +7619,8 @@
       }
     ],
     "Source": "Milkshake Bar",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/mocha-milkshake.png",
@@ -7260,7 +7638,8 @@
       }
     ],
     "Source": "Milkshake Bar",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   },
   {
     "image": "images/fruity-milkshake.png",
@@ -7281,6 +7660,7 @@
       }
     ],
     "Source": "Milkshake Bar",
-    "Per boat crate": "1"
+    "Per boat crate": "1",
+    "output_amount": 1
   }
 ]

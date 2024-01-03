@@ -60,6 +60,11 @@ def make_need_tree(name, count=1):
     needs = result['Needs'].copy()
     result['Needs'] = []
     result['Count'] = count
+    if row['Name'].endswith('feed'):
+        temp = count // 3
+        if count % 3 != 0:
+            temp+=1
+        count = temp
     for need in needs:
         for key, value in need.items():
             if (key==name):
@@ -79,34 +84,6 @@ def tree_to_list(tree):
     add_node(tree)
     return result
 
-def make_requirement_tree(name,storage,count=1):
-    """
-    name: name of the item to make
-    storage: a dict of items in storage must be a copy of the storage dict so that it can be modified without affecting the original storage dict
-    count: number of items to make
-    """
-    
-    node = find_by_name(name)
-
-    if storage[name]>=count:
-        storage[name]-=count
-        return None
-    else:
-        count-=storage[name]
-        storage[name]=0
-    result = {
-        'name':node["Name"],
-        'quantity':count,
-        'children':[]
-    }
-    for child in node['Needs']:
-        for child_name,quantity in child.items():
-            if (child_name==name):
-                continue
-            child = make_requirement_tree(child_name,storage,quantity*count)
-            if child:
-                result['children'].append(child)
-    return result
 
 def visualize_tree(tree):
     dot = graphviz.Digraph(comment='Pancake')
@@ -126,28 +103,39 @@ def visualize_tree(tree):
 
 
 
-def make_task_list(req_tree):
-    count = 0
-    def _make_task_list(tree):
-        nonlocal count
+def make_task_list(name,storage,count=1):
+    id_count = 0
+    storage = storage.copy()
+    def _make_task_list(name,count=1):
+        nonlocal id_count
         tasks = []
-        node_info = find_by_name(tree['name'])
-        for _ in range(tree['quantity']):
-            count+=1
-            task = {
-                'id':count,
-                'name':tree['name'],
-                'dependencies':[], # id of dependencies tasks
-                'duration':node_info['Time'],
-                'source':node_info['Source'],
-                'machine_id': None
-            }
-            tasks.append(task)
-            for child in tree['children']:
-                temp = _make_task_list(child)
+        node = find_by_name(name)
+        if storage[node['Name']] >= count:
+            storage[node['Name']] -= count
+            return []
+
+        task_count = count//node['output_amount']+ (1 if count%node['output_amount']!=0 else 0)
+        task_dependencies = []
+        for need in node['Needs']:
+            for key, value in need.items():
+                if (key==name):
+                    continue
+                temp = _make_task_list(key,value*task_count)
                 tasks.extend(temp)
                 # add dependencies
-                task['dependencies'].extend([t['id'] for t in temp])
-                # task['dependencies'].extend([t['id'] for t in temp[:child['quantity']]])
+                task_dependencies.extend([t['id'] for t in temp])
+        for _ in range(task_count):
+            id_count+=1
+            task = {
+                'id':id_count,
+                'name':node['Name'],
+                'dependencies':[], # id of dependencies tasks
+                'duration':node['Time'],
+                'source':node['Source'],
+                'machine_id': None,
+                'dependencies':task_dependencies,
+            }
+            tasks.append(task)
         return tasks
-    return _make_task_list(req_tree)
+    
+    return _make_task_list(name,count)
