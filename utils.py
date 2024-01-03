@@ -123,3 +123,31 @@ def visualize_tree(tree):
             add_node(child)
     add_node(tree)
     return dot
+
+
+
+def make_task_list(req_tree):
+    count = 0
+    def _make_task_list(tree):
+        nonlocal count
+        tasks = []
+        node_info = find_by_name(tree['name'])
+        for _ in range(tree['quantity']):
+            count+=1
+            task = {
+                'id':count,
+                'name':tree['name'],
+                'dependencies':[], # id of dependencies tasks
+                'duration':node_info['Time'],
+                'source':node_info['Source'],
+                'machine_id': None
+            }
+            tasks.append(task)
+            for child in tree['children']:
+                temp = _make_task_list(child)
+                tasks.extend(temp)
+                # add dependencies
+                task['dependencies'].extend([t['id'] for t in temp])
+                # task['dependencies'].extend([t['id'] for t in temp[:child['quantity']]])
+        return tasks
+    return _make_task_list(req_tree)
