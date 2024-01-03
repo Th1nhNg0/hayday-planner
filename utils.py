@@ -1,6 +1,8 @@
 import json
 import graphviz
 import re
+import random
+import copy
 with open('goods.json', 'r') as f:
     rows = json.load(f)
 
@@ -103,10 +105,10 @@ def visualize_tree(tree):
 
 
 
-def make_task_list(name,storage,count=1):
+def make_task_list(names,storage):
     id_count = 0
     storage = storage.copy()
-    def _make_task_list(name,count=1):
+    def _make_task_list(name,count=1,target=False,depth=1):
         nonlocal id_count
         tasks = []
         node = find_by_name(name)
@@ -120,7 +122,7 @@ def make_task_list(name,storage,count=1):
             for key, value in need.items():
                 if (key==name):
                     continue
-                temp = _make_task_list(key,value*task_count)
+                temp = _make_task_list(key,value*task_count,depth=depth+1)
                 tasks.extend(temp)
                 # add dependencies
                 task_dependencies.extend([t['id'] for t in temp])
@@ -134,8 +136,49 @@ def make_task_list(name,storage,count=1):
                 'source':node['Source'],
                 'machine_id': None,
                 'dependencies':task_dependencies,
+                'target':target,
+                'order':depth,
             }
             tasks.append(task)
         return tasks
     
-    return _make_task_list(name,count)
+    tasks = []
+    for name in names:
+        tasks.extend(_make_task_list(name,target=True))
+    return tasks
+
+def merge_lists_shuffle(*lists):
+    indexes = []
+    for list in lists:
+        # tuple (index,value)
+        indexes.extend([(i,value) for i,value in enumerate(list)])
+    random.shuffle(indexes)
+    # sort by index
+    indexes.sort(key=lambda x:x[0])
+    # return list of value
+    return [value for index,value in indexes]
+
+
+
+def calc_start_end_time(tasks,machines):
+    machine_queue={}
+    for key in machines.keys():
+        for machine_id in machines[key]:
+            machine_queue[machine_id]=[]
+
+    for task in tasks:
+        start_time = 0
+        if len(machine_queue[task['machine_id']]):
+            start_time=machine_queue[task['machine_id']][-1]['end_time']
+        else:
+            start_time=0
+        if len(task['dependencies']):
+            for dependency_task_id in task['dependencies']:
+                dependency_task = [t for t in tasks if t['id']==dependency_task_id][0]
+                dependency_task_end_time = dependency_task['end_time']
+                if dependency_task_end_time>start_time:
+                    start_time=dependency_task_end_time
+        task['start_time']=start_time
+        task['end_time']=start_time+task['duration']
+        machine_queue[task['machine_id']].append(task)
+    return tasks
