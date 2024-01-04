@@ -108,7 +108,7 @@ def visualize_tree(tree):
 def make_task_list(names,storage):
     id_count = 0
     storage = storage.copy()
-    def _make_task_list(name,count=1,target=False,depth=1):
+    def _make_task_list(name,root,count=1,target=False,depth=1):
         nonlocal id_count
         tasks = []
         node = find_by_name(name)
@@ -122,7 +122,7 @@ def make_task_list(names,storage):
             for key, value in need.items():
                 if (key==name):
                     continue
-                temp = _make_task_list(key,value*task_count,depth=depth+1)
+                temp = _make_task_list(key,root,value*task_count,depth=depth+1)
                 tasks.extend(temp)
                 # add dependencies
                 task_dependencies.extend([t['id'] for t in temp])
@@ -138,13 +138,14 @@ def make_task_list(names,storage):
                 'dependencies':task_dependencies,
                 'target':target,
                 'order':depth,
+                'root':root
             }
             tasks.append(task)
         return tasks
     
     tasks = []
     for name in names:
-        tasks.extend(_make_task_list(name,target=True))
+        tasks.extend(_make_task_list(name,target=True,root=f'{name}_{id_count}'))
     return tasks
 
 def merge_lists_shuffle(*lists):
