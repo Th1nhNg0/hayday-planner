@@ -105,10 +105,10 @@ def visualize_tree(tree):
 
 
 
-def make_task_list(names,storage):
+def make_task_dict(names,storage):
     id_count = 0
     storage = storage.copy()
-    def _make_task_list(name,root,count=1,target=False,depth=1):
+    def _make_task_list(name,count=1,depth=1,root_id=None):
         nonlocal id_count
         tasks = []
         node = find_by_name(name)
@@ -122,7 +122,7 @@ def make_task_list(names,storage):
             for key, value in need.items():
                 if (key==name):
                     continue
-                temp = _make_task_list(key,root,value*task_count,depth=depth+1)
+                temp = _make_task_list(name=key,count=value*task_count,depth=depth+1,root_id=root_id)
                 tasks.extend(temp)
                 # add dependencies
                 task_dependencies.extend([t['id'] for t in temp])
@@ -134,32 +134,19 @@ def make_task_list(names,storage):
                 'dependencies':[], # id of dependencies tasks
                 'duration':node['Time'],
                 'source':node['Source'],
-                'machine_id': None,
                 'dependencies':task_dependencies,
-                'target':target,
-                'order':depth,
-                'root':root
+                'depth':depth,
+                'root_id':root_id
             }
             tasks.append(task)
         return tasks
-    
     tasks = []
-    for name in names:
-        tasks.extend(_make_task_list(name,target=True,root=f'{name}_{id_count}'))
-    return tasks
-
-def merge_lists_shuffle(*lists):
-    indexes = []
-    for list in lists:
-        # tuple (index,value)
-        indexes.extend([(i,value) for i,value in enumerate(list)])
-    random.shuffle(indexes)
-    # sort by index
-    indexes.sort(key=lambda x:x[0])
-    # return list of value
-    return [value for index,value in indexes]
-
-
+    for i,name in enumerate(names):
+        tasks.extend(_make_task_list(name,root_id=i))
+    task_dict={}
+    for task in tasks:
+        task_dict[task['id']]=task
+    return task_dict
 
 def calc_start_end_time(tasks,machines):
     machine_queue={}
