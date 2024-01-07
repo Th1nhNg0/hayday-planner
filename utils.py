@@ -136,7 +136,8 @@ def make_task_dict(names,storage):
                 'source':node['Source'],
                 'dependencies':task_dependencies,
                 'depth':depth,
-                'root_id':root_id
+                'root_id':root_id,
+                'image':node['image'],
             }
             tasks.append(task)
         return tasks
